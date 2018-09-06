@@ -1,0 +1,1988 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="8/13/2018 7:38:17 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="81_64_MSDN"
+  DTS:CreatorName="81_64_msdn\usager"
+  DTS:DTSID="{1A3D73BD-DCB1-478E-8B4A-03D6A3C2472C}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="13.0.2165.0"
+  DTS:LocaleID="3084"
+  DTS:ObjectName="Pkg_src_stg"
+  DTS:PackageType="5"
+  DTS:VersionBuild="25"
+  DTS:VersionGUID="{9C1DDB25-4680-4583-B7FA-93CC96D1A0C6}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[81_64_MSDN]"
+      DTS:CreationName="ADO.NET:SQL"
+      DTS:DTSID="{539DE96D-FD7E-45AB-9C35-ACEE39C51596}"
+      DTS:ObjectName="81_64_MSDN">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectionString="Data Source=81_64_MSDN;Integrated Security=SSPI;Connect Timeout=30;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats 1]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{8E97A3BF-2753-4E26-9D29-221EB980F795}"
+      DTS:ObjectName="Gestionnaire de connexions de fichiers plats 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="3084"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:ColumnNamesInFirstDataRow="True"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\usager\Documents\Visual Studio 2015\Projects\pkg_src_stg\projet_Session_assets\NorthwindDailyInventoryLevelsOneWeek.csv">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Day"
+              DTS:DTSID="{E8FE9E89-22E7-4981-9CF8-509B98A2183A}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{0AB85533-7121-4C74-8D8F-988D62AB03A6}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="SupplierID"
+              DTS:DTSID="{F330AA95-E338-41DB-906C-0B007BF0021B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitsInStock"
+              DTS:DTSID="{F2F7A2D2-96D2-445D-8B56-50D41E283FB8}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:MaximumWidth="50"
+              DTS:DataType="129"
+              DTS:TextQualified="True"
+              DTS:ObjectName="UnitsOnOrder"
+              DTS:DTSID="{26FD04E9-1833-4B04-8362-479B7A6725FC}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\DF src vers stage inventory"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{C7FAD019-ECFF-48E1-9F62-591E9EA5B6D0}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF src vers stage inventory"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF src vers stage inventory\Colonne dérivée"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Colonne dérivée;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;0"
+              description="Crée de nouvelles valeurs de colonne en appliquant des expressions aux colonnes d'entrée de transformation. Créez de nouvelles colonnes ou remplacez celles qui existent déjà. Par exemple, concaténez les valeurs de la colonne 'prénom' et de la colonne 'nom' pour créer une colonne 'nom complet'."
+              name="Colonne dérivée"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+                  description="Entrée de la transformation de colonnes dérivées"
+                  name="Entrée de colonne dérivée">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[Day]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Day"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Day]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">(DT_I8)#{Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Day]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)Day</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[ProductID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductID"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">(DT_I8)#{Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)ProductID</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[SupplierID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SupplierID"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">(DT_I8)#{Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)SupplierID</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[UnitsInStock]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="UnitsInStock"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsInStock]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">(DT_I8)#{Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsInStock]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)UnitsInStock</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée].Columns[UnitsOnOrder]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="UnitsOnOrder"
+                      errorOrTruncationOperation="Calcul"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsOnOrder]"
+                      truncationRowDisposition="FailComponent"
+                      usageType="readWrite">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression de colonne dérivée"
+                          name="Expression">(DT_I8)#{Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsOnOrder]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expression claire de colonne dérivée"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_I8)UnitsOnOrder</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie de colonne dérivée]"
+                  description="Sortie par défaut de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  name="Sortie de colonne dérivée"
+                  synchronousInputId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée]"
+                  description="Sortie d'erreur de la transformation de colonnes dérivées"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de colonne dérivée"
+                  synchronousInputId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie d'erreur de colonne dérivée].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF src vers stage inventory\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[Inventory]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage inventory\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{4990A5D0-E256-4B88-846E-115DF386999B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[81_64_MSDN.session_stg]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Day]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="Day"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Day]"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Day]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ProductID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierID]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="SupplierID"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[UnitsInStock]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="UnitsInStock"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitsInStock]"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsInStock]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[UnitsOnOrder]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="UnitsOnOrder"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitsOnOrder]"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsOnOrder]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Day]"
+                      dataType="i2"
+                      name="Day" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      dataType="i2"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      dataType="i2"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitsInStock]"
+                      dataType="i2"
+                      name="UnitsInStock" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[UnitsOnOrder]"
+                      dataType="i2"
+                      name="UnitsOnOrder" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage inventory\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF src vers stage inventory\Source du fichier plat"
+              componentClassID="Microsoft.FlatFileSource"
+              contactInfo="Source du fichier plat;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;1"
+              description="Source du fichier plat"
+              localeId="3084"
+              name="Source du fichier plat"
+              usesDispositions="true"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Spécifie si les colonnes dont la longueur est zéro sont traitées comme des valeurs NULL."
+                  name="RetainNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom d'une colonne de sortie contenant le nom du fichier. Si aucun nom n'est spécifié, aucune colonne de sortie contenant le nom du fichier ne sera générée."
+                  name="FileNameColumnName"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage inventory\Source du fichier plat.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats 1]"
+                  connectionManagerRefId="Package.ConnectionManagers[Gestionnaire de connexions de fichiers plats 1]"
+                  name="FlatFileConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat]"
+                  name="Sortie de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Day]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Day]"
+                      length="50"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[Day]"
+                      name="Day"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductID]"
+                      length="50"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[SupplierID]"
+                      length="50"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[SupplierID]"
+                      name="SupplierID"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsInStock]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitsInStock]"
+                      length="50"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsInStock]"
+                      name="UnitsInStock"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsOnOrder]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitsOnOrder]"
+                      length="50"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].Columns[UnitsOnOrder]"
+                      name="UnitsOnOrder"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si la colonne utilise les routines d'analyse les plus rapides, avec des paramètres régionaux neutres."
+                          name="FastParse">false</property>
+                        <property
+                          dataType="System.Boolean"
+                          description="Indique si les données sont au format binaire."
+                          name="UseBinaryFormat">false</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[Day]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="Day" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[ProductID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[SupplierID]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitsInStock]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="UnitsInStock" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat].ExternalColumns[UnitsOnOrder]"
+                      codePage="1252"
+                      dataType="str"
+                      length="50"
+                      name="UnitsOnOrder" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source de fichier plat">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      codePage="1252"
+                      dataType="text"
+                      description="Colonne de sortie d'erreur de source de fichier plat"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[Colonne de sortie d'erreur de source de fichier plat]"
+                      name="Colonne de sortie d'erreur de source de fichier plat" />
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie d'erreur de source de fichier plat].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF src vers stage inventory.Paths[Sortie de colonne dérivée]"
+              endId="Package\DF src vers stage inventory\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de colonne dérivée"
+              startId="Package\DF src vers stage inventory\Colonne dérivée.Outputs[Sortie de colonne dérivée]" />
+            <path
+              refId="Package\DF src vers stage inventory.Paths[Sortie de source de fichier plat]"
+              endId="Package\DF src vers stage inventory\Colonne dérivée.Inputs[Entrée de colonne dérivée]"
+              name="Sortie de source de fichier plat"
+              startId="Package\DF src vers stage inventory\Source du fichier plat.Outputs[Sortie de source de fichier plat]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF src vers stage products"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{2FE78A58-DB48-4203-B202-0FBB79E08077}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF src vers stage products"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF src vers stage products\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[Products]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">3</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage products\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{4990A5D0-E256-4B88-846E-115DF386999B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[81_64_MSDN.session_stg]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ProductName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="ProductName"
+                      externalMetadataColumnId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductName]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      externalMetadataColumnId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CompanyName]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[CategoryName]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="CategoryName"
+                      externalMetadataColumnId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryName]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CategoryName]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Discontinued]"
+                      cachedDataType="bool"
+                      cachedName="Discontinued"
+                      externalMetadataColumnId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Discontinued]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Discontinued]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="40"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CategoryName]"
+                      dataType="wstr"
+                      length="15"
+                      name="CategoryName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Discontinued]"
+                      dataType="bool"
+                      name="Discontinued" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage products\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage products\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage products\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF src vers stage products\Source OLE DB"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+              description="Source OLE DB"
+              name="Source OLE DB"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset"></property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor">SELECT        Products.ProductID, Products.ProductName, Suppliers.CompanyName, Categories.CategoryName, Products.Discontinued
+FROM            Products INNER JOIN
+                         Categories ON Products.CategoryID = Categories.CategoryID INNER JOIN
+                         Suppliers ON Products.SupplierID = Suppliers.SupplierID</property>
+                <property
+                  dataType="System.String"
+                  description="Variable contenant la commande SQL à exécuter."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">2</property>
+                <property
+                  dataType="System.String"
+                  description="Mappages entre les paramètres de la commande SQL et les variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage products\Source OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{7D64F72B-A7D3-4ACD-A955-BAB2603130CE}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[81_64_MSDN.northwind]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB]"
+                  name="Sortie de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ProductName]"
+                      length="40"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ProductName]"
+                      name="ProductName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      length="40"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CategoryName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CategoryName]"
+                      length="15"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CategoryName]"
+                      name="CategoryName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Discontinued]"
+                      dataType="bool"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Discontinued]"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Discontinued]"
+                      name="Discontinued"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ProductName]"
+                      dataType="wstr"
+                      length="40"
+                      name="ProductName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CategoryName]"
+                      dataType="wstr"
+                      length="15"
+                      name="CategoryName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Discontinued]"
+                      dataType="bool"
+                      name="Discontinued" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ProductName]"
+                      name="ProductName" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
+                      name="CompanyName" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CategoryName]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CategoryName]"
+                      name="CategoryName" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Discontinued]"
+                      dataType="bool"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Discontinued]"
+                      name="Discontinued" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF src vers stage products.Paths[Sortie de source OLE DB]"
+              endId="Package\DF src vers stage products\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de source OLE DB"
+              startId="Package\DF src vers stage products\Source OLE DB.Outputs[Sortie de source OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\DF src vers stage suppliers"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tâche de flux de données"
+      DTS:DTSID="{3E1D3AE8-4A6E-4573-A61D-35605B9E1BCA}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="DF src vers stage suppliers"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\DF src vers stage suppliers\Destination OLE DB"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destination OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;4"
+              description="Destination OLE DB"
+              name="Destination OLE DB"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[suppliers]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les valeurs fournies pour les colonnes d'identité seront copiées à la destination. Si la valeur est définie à False, les valeurs des colonnes d'identité seront générées automatiquement à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indique si les colonnes contenant la valeur NULL auront cette valeur NULL copiée à la destination. Si la valeur est définie à False, les colonnes contenant la valeur NULL auront leurs valeurs par défaut insérées à la destination. Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie les options à utiliser avec le chargement rapide.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie quand les validations sont émises pendant l'insertion des données.  Une valeur égale à 0 spécifie qu'une validation sera émise à la fin de l'insertion des données.  Ne s'applique que si le chargement rapide est activé."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage suppliers\Destination OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{4990A5D0-E256-4B88-846E-115DF386999B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[81_64_MSDN.session_stg]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+                  errorOrTruncationOperation="Insérer"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrée de destination OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[SupplierID]"
+                      cachedDataType="i4"
+                      cachedName="SupplierID"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[SupplierID]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[CompanyName]"
+                      cachedDataType="wstr"
+                      cachedLength="40"
+                      cachedName="CompanyName"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CompanyName]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ContactName]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactName"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ContactName]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactName]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[ContactTitle]"
+                      cachedDataType="wstr"
+                      cachedLength="30"
+                      cachedName="ContactTitle"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ContactTitle]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactTitle]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[City]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="City"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[City]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[City]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Region]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Region"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]" />
+                    <inputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].Columns[Country]"
+                      cachedDataType="wstr"
+                      cachedLength="15"
+                      cachedName="Country"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Country]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[SupplierID]"
+                      dataType="i4"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      name="Country" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage suppliers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de destination OLE DB"
+                  synchronousInputId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage suppliers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage suppliers\Destination OLE DB.Outputs[Sortie d'erreur de destination OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\DF src vers stage suppliers\Source OLE DB"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Source OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Tous droits réservés; http://www.microsoft.com/sql/support;7"
+              description="Source OLE DB"
+              name="Source OLE DB"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Nombre de secondes avant l'expiration d'une commande.  Une valeur égale à 0 indique un délai d'expiration infini."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowset">[dbo].[Suppliers]</property>
+                <property
+                  dataType="System.String"
+                  description="Spécifie la variable contenant le nom de l'objet de base de données utilisé pour ouvrir un ensemble de lignes."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Commande SQL à exécuter."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable contenant la commande SQL à exécuter."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie la page de codes de la colonne à utiliser lorsque les informations de page de codes ne sont pas disponibles à partir de la source de données."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Force l'utilisation de la valeur de propriété DefaultCodePage lors de la description des données caractères."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Spécifie le mode utilisé pour accéder à la base de données."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Mappages entre les paramètres de la commande SQL et les variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\DF src vers stage suppliers\Source OLE DB.Connections[OleDbConnection]"
+                  connectionManagerID="{7D64F72B-A7D3-4ACD-A955-BAB2603130CE}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[81_64_MSDN.northwind]"
+                  description="Connexion OLE DB en cours d'exécution utilisée pour accéder à la base de données."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB]"
+                  name="Sortie de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[SupplierID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierID]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[SupplierID]"
+                      name="SupplierID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      length="40"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[CompanyName]"
+                      name="CompanyName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactName]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ContactName]"
+                      length="30"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactName]"
+                      name="ContactName"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactTitle]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ContactTitle]"
+                      length="30"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[ContactTitle]"
+                      name="ContactTitle"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Address]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Address]"
+                      length="60"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Address]"
+                      name="Address"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[City]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[City]"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[City]"
+                      name="City"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Region]"
+                      name="Region"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[PostalCode]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[PostalCode]"
+                      length="10"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[PostalCode]"
+                      name="PostalCode"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Country]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Country]"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Country]"
+                      name="Country"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Phone]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Phone]"
+                      length="24"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Phone]"
+                      name="Phone"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Fax]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Fax]"
+                      length="24"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[Fax]"
+                      name="Fax"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[HomePage]"
+                      dataType="nText"
+                      errorOrTruncationOperation="Conversion"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[HomePage]"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].Columns[HomePage]"
+                      name="HomePage"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[SupplierID]"
+                      dataType="i4"
+                      name="SupplierID" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      name="CompanyName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactName" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      name="ContactTitle" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      name="Address" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[City]"
+                      dataType="wstr"
+                      length="15"
+                      name="City" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      name="Region" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      name="PostalCode" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      name="Country" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      name="Phone" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      name="Fax" />
+                    <externalMetadataColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB].ExternalColumns[HomePage]"
+                      dataType="nText"
+                      name="HomePage" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB]"
+                  isErrorOut="true"
+                  name="Sortie d'erreur de source OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierID]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[SupplierID]"
+                      name="SupplierID" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
+                      dataType="wstr"
+                      length="40"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[CompanyName]"
+                      name="CompanyName" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactName]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactName]"
+                      name="ContactName" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactTitle]"
+                      dataType="wstr"
+                      length="30"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ContactTitle]"
+                      name="ContactTitle" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Address]"
+                      dataType="wstr"
+                      length="60"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Address]"
+                      name="Address" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[City]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[City]"
+                      name="City" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Region]"
+                      name="Region" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[PostalCode]"
+                      dataType="wstr"
+                      length="10"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[PostalCode]"
+                      name="PostalCode" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Country]"
+                      dataType="wstr"
+                      length="15"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Country]"
+                      name="Country" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Phone]"
+                      dataType="wstr"
+                      length="24"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Phone]"
+                      name="Phone" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Fax]"
+                      dataType="wstr"
+                      length="24"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[Fax]"
+                      name="Fax" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[HomePage]"
+                      dataType="nText"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[HomePage]"
+                      name="HomePage" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie d'erreur de source OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\DF src vers stage suppliers.Paths[Sortie de source OLE DB]"
+              endId="Package\DF src vers stage suppliers\Destination OLE DB.Inputs[Entrée de destination OLE DB]"
+              name="Sortie de source OLE DB"
+              startId="Package\DF src vers stage suppliers\Source OLE DB.Outputs[Sortie de source OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\SQL-Truncate des tables de staging"
+      DTS:CreationName="Microsoft.DbMaintenanceTSQLExecuteTask"
+      DTS:Description="Exécuter la tâche de l'instruction T-SQL"
+      DTS:DTSID="{F95FB97D-673C-44E7-941C-F96E38F192C5}"
+      DTS:ExecutableType="Microsoft.DbMaintenanceTSQLExecuteTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SQL-Truncate des tables de staging"
+      DTS:TaskContact="Execute T-SQL Statement Task; Microsoft Corporation; Microsoft SQL Server v9; © 2004 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{539DE96D-FD7E-45AB-9C35-ACEE39C51596}"
+          SQLTask:SqlStatementSource="use session_stg;&#xA;if exists (select * from sysobjects where name='Products' and xtype='U')&#xA;begin &#xA;truncate table Products;&#xA;drop table Products;&#xA;CREATE TABLE [dbo].[Products](&#xA;&#x9;[ProductID] [int] NOT NULL,&#xA;&#x9;[ProductName] [nvarchar](40) NOT NULL,&#xA;&#x9;[CompanyName] [nvarchar](40) NOT NULL,&#xA;&#x9;[CategoryName] [nvarchar](15) NOT NULL,&#xA;&#x9;[Discontinued] [bit] NOT NULL&#xA;) ON [PRIMARY];&#xA;end&#xA;else&#xA;begin&#xA;CREATE TABLE [dbo].[Products](&#xA;&#x9;[ProductID] [int] NOT NULL,&#xA;&#x9;[ProductName] [nvarchar](40) NOT NULL,&#xA;&#x9;[CompanyName] [nvarchar](40) NOT NULL,&#xA;&#x9;[CategoryName] [nvarchar](15) NOT NULL,&#xA;&#x9;[Discontinued] [bit] NOT NULL&#xA;) ON [PRIMARY];&#xA;end&#xA;if exists (select * from sysobjects where name='Inventory' and xtype='U')&#xA;begin &#xA;truncate table Inventory;&#xA;drop table Inventory;&#xA;CREATE TABLE [dbo].[inventory](&#xA;&#x9;[Day] [smallint] NULL,&#xA;&#x9;[ProductID] [smallint] NULL,&#xA;&#x9;[SupplierID] [smallint] NULL,&#xA;&#x9;[UnitsInStock] [smallint] NULL,&#xA;&#x9;[UnitsOnOrder] [smallint] NULL&#xA;) ON [PRIMARY];&#xA;end&#xA;else&#xA;begin&#xA;CREATE TABLE [dbo].[inventory](&#xA;&#x9;[Day] [smallint] NULL,&#xA;&#x9;[ProductID] [smallint] NULL,&#xA;&#x9;[SupplierID] [smallint] NULL,&#xA;&#x9;[UnitsInStock] [smallint] NULL,&#xA;&#x9;[UnitsOnOrder] [smallint] NULL&#xA;) ON [PRIMARY];&#xA;end&#xA;if exists (select * from sysobjects where name='Suppliers' and xtype='U')&#xA;begin &#xA;truncate table Suppliers;&#xA;drop table Suppliers;&#xA;CREATE TABLE [dbo].[suppliers](&#xA;&#x9;[SupplierID] [int] NULL,&#xA;&#x9;[CompanyName] [nvarchar](40) NULL,&#xA;&#x9;[ContactName] [nvarchar](30) NULL,&#xA;&#x9;[ContactTitle] [nvarchar](30) NULL,&#xA;&#x9;[City] [nvarchar](15) NULL,&#xA;&#x9;[Region] [nvarchar](15) NULL,&#xA;&#x9;[Country] [nvarchar](15) NULL&#xA;) ON [PRIMARY];&#xA;end&#xA;else&#xA;begin&#xA;CREATE TABLE [dbo].[suppliers](&#xA;&#x9;[SupplierID] [int] NULL,&#xA;&#x9;[CompanyName] [nvarchar](40) NULL,&#xA;&#x9;[ContactName] [nvarchar](30) NULL,&#xA;&#x9;[ContactTitle] [nvarchar](30) NULL,&#xA;&#x9;[City] [nvarchar](15) NULL,&#xA;&#x9;[Region] [nvarchar](15) NULL,&#xA;&#x9;[Country] [nvarchar](15) NULL&#xA;) ON [PRIMARY]&#xA;end"
+          SQLTask:ServerVersion="9"
+          SQLTask:ExtendedLogging="True"
+          SQLTask:LocalConnectionForLogging=""
+          SQLTask:TaskName=""
+          SQLTask:IgnoreDatabasesInNotOnlineState="False" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte]"
+      DTS:CreationName=""
+      DTS:DTSID="{6FCF1BA8-5CA2-46D8-85B5-C104CF625E7A}"
+      DTS:From="Package\SQL-Truncate des tables de staging"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte"
+      DTS:To="Package\DF src vers stage inventory" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{223DD530-842C-4D50-8F49-5139376B58D7}"
+      DTS:From="Package\SQL-Truncate des tables de staging"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 1"
+      DTS:To="Package\DF src vers stage products" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Contrainte 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{8607EE2B-766C-4AE2-92F8-C0DA41FF2C30}"
+      DTS:From="Package\SQL-Truncate des tables de staging"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Contrainte 2"
+      DTS:To="Package\DF src vers stage suppliers" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--Cette section CDATA contient des informations sur la disposition du package. Elle comprend des informations telles que les coordonnées (x,y), la largeur et la hauteur.-->
+<!--Si vous modifiez manuellement cette section et commettez une erreur, vous pouvez la supprimer. -->
+<!--Le package pourra toujours se charger normalement, mais les informations de disposition précédente seront perdues et le concepteur réorganisera automatiquement les éléments sur l'aire de conception.-->
+<Objects
+  Version="8">
+  <!--Chaque nœud ci-dessous contiendra des propriétés qui n'affectent pas le comportement d'exécution.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="207,42"
+          Id="Package\DF src vers stage inventory"
+          TopLeft="23,126" />
+        <NodeLayout
+          Size="204,42"
+          Id="Package\DF src vers stage products"
+          TopLeft="329,128" />
+        <NodeLayout
+          Size="205,42"
+          Id="Package\DF src vers stage suppliers"
+          TopLeft="591,127" />
+        <NodeLayout
+          Size="246,42"
+          Id="Package\SQL-Truncate des tables de staging"
+          TopLeft="275,47" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte]"
+          TopLeft="358.333333333333,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-231.833333333333,37"
+              Start="0,0"
+              End="-231.833333333333,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.9434571890145" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.9434571890145"
+                    Point2="0,14.9434571890145"
+                    Point3="-4,14.9434571890145" />
+                  <mssgle:LineSegment
+                    End="-227.833333333333,14.9434571890145" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-227.833333333333,14.9434571890145"
+                    Point2="-231.833333333333,14.9434571890145"
+                    Point3="-231.833333333333,18.9434571890145" />
+                  <mssgle:LineSegment
+                    End="-231.833333333333,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 1]"
+          TopLeft="434.333333333333,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,39"
+              Start="0,0"
+              End="0,31.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Contrainte 2]"
+          TopLeft="457.5,89">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="236,38"
+              Start="0,0"
+              End="236,30.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.93833780160858" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.93833780160858"
+                    Point2="0,12.9383378016086"
+                    Point3="4,12.9383378016086" />
+                  <mssgle:LineSegment
+                    End="232,12.9383378016086" />
+                  <mssgle:CubicBezierSegment
+                    Point1="232,12.9383378016086"
+                    Point2="236,12.9383378016086"
+                    Point3="236,16.9383378016086" />
+                  <mssgle:LineSegment
+                    End="236,30.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\DF src vers stage inventory">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="171,42"
+          Id="Package\DF src vers stage inventory\Destination OLE DB"
+          TopLeft="231,239" />
+        <NodeLayout
+          Size="179,42"
+          Id="Package\DF src vers stage inventory\Source du fichier plat"
+          TopLeft="223.5,30.5" />
+        <NodeLayout
+          Size="155,42"
+          Id="Package\DF src vers stage inventory\Colonne dérivée"
+          TopLeft="389,138" />
+        <EdgeLayout
+          Id="Package\DF src vers stage inventory.Paths[Sortie de source de fichier plat]"
+          TopLeft="313,72.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="153.5,65.5"
+              Start="0,0"
+              End="153.5,58">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.75"
+                    Point2="0,32.75"
+                    Point3="4,32.75" />
+                  <mssgle:LineSegment
+                    End="149.5,32.75" />
+                  <mssgle:CubicBezierSegment
+                    Point1="149.5,32.75"
+                    Point2="153.5,32.75"
+                    Point3="153.5,36.75" />
+                  <mssgle:LineSegment
+                    End="153.5,58" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\DF src vers stage inventory.Paths[Sortie de colonne dérivée]"
+          TopLeft="466.5,180">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-150,59"
+              Start="0,0"
+              End="-150,51.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.5"
+                    Point2="0,29.5"
+                    Point3="-4,29.5" />
+                  <mssgle:LineSegment
+                    End="-146,29.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-146,29.5"
+                    Point2="-150,29.5"
+                    Point3="-150,33.5" />
+                  <mssgle:LineSegment
+                    End="-150,51.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF src vers stage inventory\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF src vers stage products">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="171,42"
+          Id="Package\DF src vers stage products\Destination OLE DB"
+          TopLeft="214,192" />
+        <NodeLayout
+          Size="150,42"
+          Id="Package\DF src vers stage products\Source OLE DB"
+          TopLeft="227,83" />
+        <EdgeLayout
+          Id="Package\DF src vers stage products.Paths[Sortie de source OLE DB]"
+          TopLeft="300.75,125">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,67"
+              Start="0,0"
+              End="0,59.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF src vers stage products\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF src vers stage products\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\DF src vers stage suppliers">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        <NodeLayout
+          Size="150,42"
+          Id="Package\DF src vers stage suppliers\Source OLE DB"
+          TopLeft="214,49" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\DF src vers stage suppliers\Destination OLE DB"
+          TopLeft="211,157" />
+        <EdgeLayout
+          Id="Package\DF src vers stage suppliers.Paths[Sortie de source OLE DB]"
+          TopLeft="292.75,91">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66"
+              Start="0,0"
+              End="0,58.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,58.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF src vers stage suppliers\Destination OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\DF src vers stage suppliers\Source OLE DB">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
