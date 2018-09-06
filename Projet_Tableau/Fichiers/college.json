@@ -1,0 +1,834 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD6QEAAMsu8BrCkAs75IjqCkxglq9HXcQzqp-fNCbxNqiZWKYbGzAK9rwufKATR4UL-RGrnaz9vp8L6fwinU7hLUibwE3eWM05gNNujq3qk24v2D2TvAdTY-E5Z9-PyVn029RlttSLP2KIcvpCK5gjWUHylIh2A9NVGN9rtDuKrD-O0ZQcVU8K7VCxan7YwLNQr1IYkZPlQXGPEpFDbgxaxHT-aM0mxZwDFI08TNMaQGaKCE1qX_TfxiybSHpNjynjLO7q4LGegI8OVuCTGh9vWZwvRdUZdxDWr02VovFPK4efo56xfj3QW_CrUEEVTqoEuBEYhsx0JJYvQ0Le2Yyco-xJyKZrH54PHUCAPOJC5-zDAogWqwa5OZ1NMC2pxn0IG_X-uGAEy543nxyMH_TN5Fxw3NdGumtUZ-d8espwT6ZMPpbKY0kTQfr4Dqt8aVovkwyqdovkl0qmD7zZwSs_qHUDXAXbBjbBZzjS3d_hEFXZKLQ3Oz9_19qwjr06K3YmQX6f2M33VsFdUCMWUfYHSE1knSPsTK0rSY3972tGIwWWbvG4Pq_ink-CajmRE2klHn5Fbi7yZDPQpy7DOwbiuvwiU7-8yEJr_Di5Hsym4P7YJd-iI9uiSU-u7t0LRgYwMivM3oBE_x0Y7_YRJ7Nm47Id-psSEC9-KocMrt09U4dADnDTD4UaFMK12RN7k4mnkd7ajBwEOkOpacDn",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4972657,
+               "lng" : -73.5790227
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49884103029149,
+                  "lng" : -73.57802516970848
+               },
+               "southwest" : {
+                  "lat" : 45.49614306970849,
+                  "lng" : -73.5807231302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "572402a01857058256e19b6e9cb9c048432a1dcb",
+         "name" : "Université Concordia",
+         "photos" : [
+            {
+               "height" : 720,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116149085917275098005/photos\"\u003eConcordia University\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8DKDGISHzCz1IvqHafK1M0GvFpQwRmWDm4WnM1Ao_ki7kFMobSkEfhkq5Co12tC5U1GrlHMdNG_DLsvtOr0lZMHJWoqvb1wXCupddmo6XiPyKMx8_5U62evbN0turvMZEhBS6JiSAKOUjXAWO-99tuUhGhRns59vmNzdLQjCvCrz9SDSrY8dSw",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJOdZtY2oayUwR8CdYQcbKhZ4",
+         "plus_code" : {
+            "compound_code" : "FCWC+W9 Montréal, Québec, Canada",
+            "global_code" : "87Q8FCWC+W9"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAvcMUyUFhVEKgY0E5duuuyhjnT0xJLPOLC-9oodMnMpfoIF6eTmEcbOeiVfKwa2BaxJtnA8imgfm4b79dXiWFSmXXqwaL-OahBAG2nvzvZGjbY47Ei8d5ylo7K50Vb99DEhDsHZ-NVT1SBz2NIswON1grGhTE32KLlrfBWLgXORkk7UMIHyqBkQ",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "1455 Boulevard de Maisonneuve Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4925817,
+               "lng" : -73.5768626
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49393068029149,
+                  "lng" : -73.57551361970849
+               },
+               "southwest" : {
+                  "lat" : 45.49123271970849,
+                  "lng" : -73.57821158029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "0b5f01f288c5e7e93ef5d55f29d28124fcd344f5",
+         "name" : "Collège Mother House",
+         "place_id" : "ChIJL1LDtG4ayUwRfZGS8BPD450",
+         "plus_code" : {
+            "compound_code" : "FCVF+27 Montréal, Québec, Canada",
+            "global_code" : "87Q8FCVF+27"
+         },
+         "reference" : "CmRSAAAAyoP0iaxfuvz5kRu7tUjzIE7EOXxRHIVbaw1PGv9fL8JOlyikecs0cp4JgW8MAmczoTWqo9CgoQ94a30Z37SAq71mOvyKMKUWZe_lMkUo72JoA-2hi9-dn0mYROBr_IV0EhBaVzp0UV3zS2TZ_uzcWEw9GhS9rcI3aAjU0j4G2JDAxSwZnnQ9og",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50478469999999,
+               "lng" : -73.57715109999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5056590302915,
+                  "lng" : -73.5733369
+               },
+               "southwest" : {
+                  "lat" : 45.5029610697085,
+                  "lng" : -73.57842249999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "e9edc4fd03e409ce6b7e19d19cbf244d79fc6d89",
+         "name" : "Université McGill",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114049531788298717046/photos\"\u003eGuilherme Duarte Garcia\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA3X2mK3cf0lJ3Eqxo4MH-BE0ynIL9JVeX1R0ofEDwn8EEMwWbkcd6QOOLLpjeiWiXlCfgw14LXaVr6QAuK1B6M6aSdwXgM3ErFZtFo1Cxi9m1wS25RedLEOMU6mIAuJatEhBAnUReEilU_shPHHMfQryAGhTHrKGSSC3moZz9odv6ZI9X8AcgIQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJNZYPUUYayUwRdK6kAJLa5N0",
+         "plus_code" : {
+            "compound_code" : "GC3F+W4 Montréal, Québec, Canada",
+            "global_code" : "87Q8GC3F+W4"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAhsqpBw_Src1lk4h9QZJcMBjrS-6TyEpLxWsxiMzI3mNoZsAc9Z1MtowyQeHw2XB6IpqIHyoMqukUc8pS2cvfUeSNh-WsjiMxUu98TelHOHpwc0NwvtEppdy0FNXyxkiUEhAK-8SpYSFkR9NbBMlXUfJXGhQ_tFyIDxW5SewNKjcMwF8tXdh1lg",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "845 Rue Sherbrooke Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49442759999999,
+               "lng" : -73.5852096
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4951863802915,
+                  "lng" : -73.5832401697085
+               },
+               "southwest" : {
+                  "lat" : 45.4924884197085,
+                  "lng" : -73.58593813029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "7aba207bd7eb9fe7aab850cd70eeda551c9d2ed1",
+         "name" : "Collège de Montréal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111955748220458292574/photos\"\u003eRobert Howard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASRBgqIDUqXHE2JL-UdYAepRFfTirKJ6o1bhn95VHyagsjz7HLu_CdOIHKCHfIC9AujvuHAzwbHLddHsQThaeDaYESpz39ZdHrs0cflCiPGxh0Mgii35WLayvkOmrzCTmEhATuCnwv3NSWybswRdvrL-hGhQt09WJ1-_CiVJo47YDl6c5jT40wQ",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJVYw5rRQayUwROpCjQOa2aUQ",
+         "plus_code" : {
+            "compound_code" : "FCV7+QW Montréal, Québec, Canada",
+            "global_code" : "87Q8FCV7+QW"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRRAAAAwShEUirJ5Yf94qxQd0tAu4b3O9Tq-lk90SgHGnx0FEriWO2sYtIcQjTKZe3aRC_rPbx1ZhHu3DOpkBzB2s9fh5VcG7BA4_jvMIJdcsdvGEl9P7ahs4U4N0P7cfvsihzsEhB6Scm78GkzdSY9Aoi8FIubGhTLl9uQbMfaUNeBM2FdtQca9RTn-w",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "school", "point_of_interest", "establishment" ],
+         "vicinity" : "1931 Rue Sherbrooke Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.550501,
+               "lng" : -73.553551
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.55184988029149,
+                  "lng" : -73.5528453
+               },
+               "southwest" : {
+                  "lat" : 45.5491519197085,
+                  "lng" : -73.55566809999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "88c9df102658985a6260a93274b710171fb6b8d9",
+         "name" : "Collège de Maisonneuve",
+         "photos" : [
+            {
+               "height" : 1078,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106844909818307928488/photos\"\u003eCollège de Maisonneuve\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdwQAGXwx2NR7AULjc3rHBX9ElkwXmtwJtLlJLGYOb-VaPL4juU4zNMhZu09HSFHsJQqGhHjEnfVXZFYgD802DL4cBOlpBFGIr5tt17W37nvWxiJok5DfEXnHBuqQEuh5EhBC5RJvJ6tgKbCsRo8UjlaTGhSe6ig3XlbCO6vaB9es2rqzEYQKsw",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ_e_LuvUbyUwRXP9-mQDzjwY",
+         "plus_code" : {
+            "compound_code" : "HC2W+6H Montréal, Québec, Canada",
+            "global_code" : "87Q8HC2W+6H"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAuj3IkuGDitJ0S3uAsWCpiOK-qUpzwqAviVMZ-jHJNujIneEZHKT75XryuCfDGeAjx-d7KBf9hNT-mLCc0nBuIegaOMcLB_WVUtb8rCNVPJK8MFO9f6DFmmGn-KIrgv3jEhCMJWlPeR5HIwB-7y0XrfzSGhTKN9PHBgfBbU0goEFv4bQX8V1wxQ",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "3800 Rue Sherbrooke Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5145953,
+               "lng" : -73.5663644
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5159853,
+                  "lng" : -73.56482791970849
+               },
+               "southwest" : {
+                  "lat" : 45.51302330000001,
+                  "lng" : -73.5675258802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "2fabf481c8d1a71b423e001338c3cfc18676ee5d",
+         "name" : "Cégep du Vieux Montréal",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105253989322661994736/photos\"\u003eThomas Audrin\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAAaYERUJKPFLK5ZKBc70CYRkqLo7l1yw15TQyBaFSjfXqJU5N4m4A3PAb13l6SwGC__Q0eypBnDcCaN_88resCWaFDSpB3ZvCMKov-0S2DwlFz9iSpvm2_N5JabJ6c7-9EhC8MkWVZtLwEIWU8yAMPsJeGhS1BU0ePJV_NlCEa4xINmD-1L6YJQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJq9yKUEsayUwRJ-pj94fxOZQ",
+         "plus_code" : {
+            "compound_code" : "GC7M+RF Montréal, Québec, Canada",
+            "global_code" : "87Q8GC7M+RF"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAQTslffN5Ih_QrA5wyvGAcgiC6kwWnQoXR2hBtVoKnFCeKBbiibfWVu1U_heWX-nZCYVAj1hfeS6_SLRpyP82_9MeogoDVuatCHvJO_W2R8Ys_-PwNujjUoyJLQkCttPPEhDadKNUjMjlXFErt7cAZ_Y4GhRCWoQAQbrWTiZ78XUFskRGMV7JvA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "255 Rue Ontario Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5380137,
+               "lng" : -73.49182039999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5434132,
+                  "lng" : -73.49036099999999
+               },
+               "southwest" : {
+                  "lat" : 45.5316904,
+                  "lng" : -73.4961986
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "1d8985168d1c4dfb0e7be7f9aa35ac92a3d3f856",
+         "name" : "Cégep Édouard-Montpetit",
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113507374439032113762/photos\"\u003eKarim Zniber\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASN5puTym_RlUQq9MQdhFIQujccvKaU9rpLs5a-y1nJ4VQU9NnZJD2faNee17xgmLiK0S-dS82woeiB0brjVfMuFy8RjitOKlee2EOQ7nXWCnm4LCDzYxolkl-gS8fGnQEhDuSs06EMQ5mv5aHdn287M2GhSUaZPG6QrX1p2f7EUjZxzHwfGjTQ",
+               "width" : 4096
+            }
+         ],
+         "place_id" : "ChIJuwOGPVobyUwRnYWJwmD9_Ts",
+         "plus_code" : {
+            "compound_code" : "GGQ5+67 Longueuil, Québec, Canada",
+            "global_code" : "87Q8GGQ5+67"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA1PU73LC1z2BUf9sfHEbgyocoz5P4gebfzi7XRadUJO9cjwJMExs-zDhooDF52oFaOo4wv0PSLaAbluh3IvxnMtmR1SFOIACAeY2DUEDanhvQPhBM1fXhwStsuLRPWVFYEhDtE0w1hbzyDWvDdzniL1CcGhT4YKPGIc6kJilcaKDg32EDAO-8fA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "school", "point_of_interest", "establishment" ],
+         "vicinity" : "945 Chemin de Chambly, Longueuil"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50438399999999,
+               "lng" : -73.6128829
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5050597302915,
+                  "lng" : -73.61195866970849
+               },
+               "southwest" : {
+                  "lat" : 45.5023617697085,
+                  "lng" : -73.61465663029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "1c00cebaeaa37b840cd987773a2b105883ce5aed",
+         "name" : "Polytechnique Montréal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 606,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102495128857624423796/photos\"\u003ePolytechnique Montréal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKj1Cn7apaVSiLrKbm5RZWpaXeqZoAdbo1tm65l_sQl5Gd4oldX5Yx4uNFqoP0Wt19QBGAsnB2gHvlpV_ORgUOXqn1CzvFCfDr3EojBnEw54JC3DQExCmo7LcU5MZee6nEhAEWuPRBaFrfMDGCD8z4HFHGhQK5wdi5BjynfynGOPE2wnlun9IKA",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJcU38qfIZyUwRPhOEVql8Jto",
+         "plus_code" : {
+            "compound_code" : "G93P+QR Montréal, Québec, Canada",
+            "global_code" : "87Q8G93P+QR"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAZaHqg3y-2pqnY9sYa_bx0DOFTbjkZatsoZTRT6KSRZXZe1_xOgoMEwAA33VH3JnlSYXFeHCRKxJcnwAHqL8OfiNQ64C0o8rw6ElGe7qRGswZBxqUIu_39YpdKj7q5nofEhChtBuXWHxdpxqkSVm9SFF_GhQvUOc0CDoRxhVH_tWEJ2YlUdRsCA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "2900 Boulevard Edouard-Montpetit, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5125995,
+               "lng" : -73.56059549999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5143773302915,
+                  "lng" : -73.55954839999998
+               },
+               "southwest" : {
+                  "lat" : 45.5116793697085,
+                  "lng" : -73.5637368
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "72a566b3c11f56e1fd159d4deb324fb3398547bd",
+         "name" : "Université du Québec à Montréal",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106907973676461781259/photos\"\u003eSam Totah\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAACzcXMa4_u-DrvcYZtECH4Z1Uojz1NOpvAfT1gvLZBe_14HEv3FrBWGFM279qlKGEGI0A0GLiIdUVYj2ErwpbVkwHbem5JtCr71db0cScWe7W53_fUXEfSZyV_JbCbtl9EhCQ2M6Lk758RafH9ptF9zLZGhRBkwp0McnDtxTCAQQZHvSmQQ77pQ",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJDW5a808ayUwRgFg-f63Zwh0",
+         "plus_code" : {
+            "compound_code" : "GC7Q+2Q Montréal, Québec, Canada",
+            "global_code" : "87Q8GC7Q+2Q"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA6Ns1v5Ol7iLo75uxE0l4FlNE5kF1iQXGtKGx7-PrFPMUJZesWYYHwnxsOZjwUNnevV4BNHC0XkkbROlCG9jWjKimOc6NpaNRYDou6O0PM-hDaLXUg6c3S7736ARJkPB2EhDvWpMXWPCSbKeiSbeg5o4yGhSlHtDC93r5NkGQqCPDWoibDzGZnw",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "405 Rue Sainte-Catherine Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4581111,
+               "lng" : -73.64028449999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4604428,
+                  "lng" : -73.63579815
+               },
+               "southwest" : {
+                  "lat" : 45.4553536,
+                  "lng" : -73.64177994999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "d2d95950689708ee5964601376a4dee5209f234b",
+         "name" : "Université Concordia",
+         "photos" : [
+            {
+               "height" : 1375,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118095277793784382579/photos\"\u003eJim Sandilands\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAJaxUgMT9_txqS6UQQ-0SG5_fEiDZ1u59yhsOqQe3VxJfP8Z5Ja3oEhd_AUo27dHfJBMSiWgPH7e2IbktBOjZGoFJ-2kBzWRcv7kbHxHIkvfr_C-wbEhuH_aN1VKFrUR3EhBGNf3t0QyvyPAHOuLBcce7GhTCIE89_MfExuwTENkrnphFZNIBWQ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJp3MoHy4XyUwRkr_5bwBScNw",
+         "plus_code" : {
+            "compound_code" : "F955+6V Montréal, Québec, Canada",
+            "global_code" : "87Q8F955+6V"
+         },
+         "rating" : 4.2,
+         "reference" : "CmRSAAAAJnpY566FxmzO-wLYmzMSge2T4IJMi888on38pV7ep0q6QRiQKTMJ34rahFYgn6hzzckl0fcOyB2CIKCaOQGHYJSJfpSZGHQvOj-VoE3vbSmZpgAYT284fhNJUlPU6O7HEhAuXEarduC1BeaA6gKqgMBZGhR1ttFHcsvpoRUTDuTxkJlvpiUHuA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "7141 Rue Sherbrooke Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5010463,
+               "lng" : -73.6231166
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5027392302915,
+                  "lng" : -73.62232915000001
+               },
+               "southwest" : {
+                  "lat" : 45.5000412697085,
+                  "lng" : -73.62547895
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "39e78bccc780231f279ebfcb31034e12baf08ee1",
+         "name" : "Collège privé Jean-de-Brébeuf",
+         "photos" : [
+            {
+               "height" : 1533,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107815987914589434019/photos\"\u003eXueChen Wang\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAP2NQnexurCmDJUO1aFRPXjSUp4-kXVRdzJKOJe27Vi5ncSGI3SYj2ZR6wWF_uKsftBy9Po1fLESsu3o1CPWINNSXBTWe4-updrUR44vk7dZ4bINIyq41ZlL9JRKL0KcYEhC56GVzFsQ6DwdOdTbxizm1GhTzoU1jkkV10-G40ttXd7oz9DGu1g",
+               "width" : 2052
+            }
+         ],
+         "place_id" : "ChIJyRYQ8uwZyUwRyTaNc2gxHPw",
+         "plus_code" : {
+            "compound_code" : "G92G+CQ Montréal, Québec, Canada",
+            "global_code" : "87Q8G92G+CQ"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAAajI3aF4lsUvjtDUU-YxqOowvafm2JHCfAnB2f8EksxiN0zHtApvNzfBjHlhmSdJakBhGUEpc10i_QZgZeIHNGCpNdVypd6dvGaRzJ0XlOo5eFFfW42b7u8-9zkMMkEVEhDx2xr6F0029dnFJCZVaZKJGhS2r3y8VRRYh8buKigA2UkIbw9h0w",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "school", "point_of_interest", "establishment" ],
+         "vicinity" : "3200 Chemin de la Côte-Sainte-Catherine, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49467610000001,
+               "lng" : -73.5622961
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49642128029151,
+                  "lng" : -73.56146931970849
+               },
+               "southwest" : {
+                  "lat" : 45.49372331970851,
+                  "lng" : -73.5641672802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "ad845f2a0e6e994c0a225835fe221f6243f49bde",
+         "name" : "École de technologie supérieure",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3744,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107206000425874238778/photos\"\u003eÉcole de technologie supérieure ÉTS\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAyktRa8597ONzatGqSWUdumo4yuWPEWxmQznHlwDNEEEMJMNSKNRExuZuuWuYcypqFp9zFXqZK9jct-0gqg6aSijnwP38psY0KBuRfoNau7NtsksTLnQRs4z_zJKKP0YbEhDk-bcrTB0fyZ--K77ZX03NGhTThravIMiK-Bdc0JHknZsKNdCKLw",
+               "width" : 5616
+            }
+         ],
+         "place_id" : "ChIJB5eDqmAayUwR9kVcpBmnMrc",
+         "plus_code" : {
+            "compound_code" : "FCVQ+V3 Montréal, Québec, Canada",
+            "global_code" : "87Q8FCVQ+V3"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAk3x2ZeExKSEbpYbr1ibWUrko7NieHSzvDI9jLiU6GPqFcxKB_7GLlrjLfVfA4feooW5FO0h8IUIXJxel3AryY7XlglfTW4mRofCGM3i1bnUsAhn_-Ba1HEhMNzOYHoyjEhBMuMVay6hyZZ4_BcSmTQ2OGhQrK2NZds4rpAToP01eoaK_ukgq_Q",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "1100 Rue Notre-Dame Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.489698,
+               "lng" : -73.587785
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4913702802915,
+                  "lng" : -73.58703461970849
+               },
+               "southwest" : {
+                  "lat" : 45.4886723197085,
+                  "lng" : -73.5897325802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "03565c63a9cb7eae7e1f295a1bc04399d5c18d93",
+         "name" : "Dawson College",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100002876571940386848/photos\"\u003eDaniel Roy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzJpoe5srPnSHDfJ4O1QwHBfrwSZj_i2TS0IF2K6gzGv79UBP2xjKi_2txdfNLnglP8ZclE8Knc2hVgBx5NgaCAOGX6LEEf3KEGYpnSQB-tPI5zWqxmxvjUTxsfNJ-gSfEhAPKd63rr-uduYl4u2oIkrwGhTztZaBIMezeLSJE4JnatPBpBN6ZQ",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJq-T-oxIayUwR4TfxLVjJJW0",
+         "plus_code" : {
+            "compound_code" : "FCQ6+VV Westmount, Québec, Canada",
+            "global_code" : "87Q8FCQ6+VV"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAbwBDpD6x8gSrnXZzCMCPIOfwJBFh1GHFxiwMBvOKqw6TnWFGFf0-i6q0pWd66i4VjhgpVYWA2W8gCQ6kmRt9uMUUv7N6ub_zA3AU_o15885CaKQZciwy2PbeAZqlSIi_EhDJlavsgyopK6IAs0gEeLifGhRd8XJGpIhkMQ41ju0R05KaorcADA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "3040 Rue Sherbrooke Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4915042,
+               "lng" : -73.58165389999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4929114302915,
+                  "lng" : -73.58040206970848
+               },
+               "southwest" : {
+                  "lat" : 45.4902134697085,
+                  "lng" : -73.5831000302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "cbe3ea86774300b16cea7d808093a6d2f6985e87",
+         "name" : "Collège LaSalle",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2268,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105316726674427753695/photos\"\u003eRob Thompson\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA7BKBcKB1qW0kF4KUnOTP14BPOsX3aqTvPCqD_L1a2z2WRf45bD5AbBtShzhVwlvgdI6SFQzYYOEN1FGXCEbUT-sURxz6V6e0bzUPmE-QF2kdX_CQbwG1kiyFEh0Lt9xfEhBKgSgiV3ETFOO4c8E1Q1PzGhTB7OX__HYIredC0-sZlfDmi0W4-g",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJaVZ-WWwayUwRONiAvXxJv40",
+         "plus_code" : {
+            "compound_code" : "FCR9+J8 Montréal, Québec, Canada",
+            "global_code" : "87Q8FCR9+J8"
+         },
+         "rating" : 2.7,
+         "reference" : "CmRSAAAAmbp5pQxs4PNxg9O7bu8Y8SWgYEDH0JfcQx5O-LACIhivLpzhZpGUnzxGWlgsw2e8Y-JS1ApMmffFy5J9AVzB3a5qAlNtyBrH6lyTnDU8yaB2N0LgPSQZvoIb_aTbfSR2EhBUlBjnR2YEiGEat2pNWvr-GhQHh54AL6-E4ZmuvZZpPL04x58g2Q",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "2000 Rue Sainte-Catherine Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4812462,
+               "lng" : -73.6115655
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4825951802915,
+                  "lng" : -73.61021651970849
+               },
+               "southwest" : {
+                  "lat" : 45.4798972197085,
+                  "lng" : -73.61291448029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "175f1e25e9f569ed96b8aba1b6d81998fd9b978f",
+         "name" : "Marianopolis College",
+         "photos" : [
+            {
+               "height" : 2298,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110676268457666668081/photos\"\u003eEvgheni Savinov\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-ziJcrVzWA2PvxMaUj5YrEQ59ITgPh_yJWvbA44XuU5447yajXoc-nkRB-0XHRnLT6F8d_bLeU-gdYF3ArQHy0h8nkV5YIJ_sr75VKqNBspha1e6GBO1q8e5b9Ti7YshEhBrBaxaJD-Y7GewsgIEVUtWGhRp8HaLn2MzOeyigsXmKNZG-tjh8A",
+               "width" : 3372
+            }
+         ],
+         "place_id" : "ChIJ7zK_nakQyUwR8qgRg7eegQo",
+         "plus_code" : {
+            "compound_code" : "F9JQ+F9 Westmount, Québec, Canada",
+            "global_code" : "87Q8F9JQ+F9"
+         },
+         "rating" : 3.5,
+         "reference" : "CmRRAAAA7kGt7Y70M7WngxSZ74trXMVG4o-PQ9atOcpjAWKlJT6nWup0M9nDKKQOfngfENyv0wG14q2kG70fiDnJeqNv1m_-0TRTFzGuO2KMZl8OJYJuP4HtC7dIkVotlUI4e6CnEhAj3ASOsHCj7PBmjFdgYo4IGhRw3-wwfeYT8DdwNynR987hnlF0pw",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "4873 Avenue Westmount, Westmount"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.55740249999999,
+               "lng" : -73.582329
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.55934394999999,
+                  "lng" : -73.57816480000001
+               },
+               "southwest" : {
+                  "lat" : 45.55515815,
+                  "lng" : -73.58661399999997
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "3fc6607802c984e4d6f0baf0ad61458dc854c1a9",
+         "name" : "Collège de Rosemont",
+         "photos" : [
+            {
+               "height" : 3648,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113435613086270362351/photos\"\u003eCollège de Rosemont\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAARvSY44adpkXnD-Yongds_Sbs6A2KNAo7Ia9rO3qwErak8Q-7Hg5FxtFp1rM-Dfb1PwBp1w1InAic2d4BAImvpymI4i_rsklyCuxgbjWgP_fSo0pwn68jFExatzh9q-zdEhAo9N_B0nLwZnm_7QeZBtgEGhQ1FKM-VyI5v2AF8V9o1-32Y_KgoQ",
+               "width" : 5472
+            }
+         ],
+         "place_id" : "ChIJz5sr4qweyUwR2SOqF-2aeRg",
+         "plus_code" : {
+            "compound_code" : "HC49+X3 Montréal, Québec, Canada",
+            "global_code" : "87Q8HC49+X3"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAW6p_OoQhjsPrkf04yqfsortNyN1vjEKPOAQjPk4vBO_tRlHPoAUzhQCicFkSkPUlpUS3vZmCnzXtEts1cLUczvJTQS1DHyAvfRpCSmwb9VTjmxZMVaYPkRftY18YW1EcEhB-zaczsfI0XBrluw2QKwljGhTbQKcGvhNMcvjzDCrT5ITZZDdtPA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "school", "point_of_interest", "establishment" ],
+         "vicinity" : "6400 16e Avenue, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5033628,
+               "lng" : -73.6207582
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5050962802915,
+                  "lng" : -73.61983995
+               },
+               "southwest" : {
+                  "lat" : 45.5023983197085,
+                  "lng" : -73.62351295000001
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "b60728850810fb3d2dace7e97c2431e2d980e7dd",
+         "name" : "HEC Montréal",
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110006241318590811208/photos\"\u003eHEC Montréal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5ZuQ0Q6Dl7YG6GuE6bDmOEA8nmfNTkF7_83Jgg_JxrDhotBPlBwPRTK4IyaYOhEW8l-rfIyZ6mO_mOL-UfGqhZlhfS1ALceBvBmaQjMsPvLNmBHzC--bwpWL13jVxRpLEhBQRAo81keP59CtqkdkH1rEGhR3lLnSVuscJ2tOQdeCKuQMY9P10g",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJsRqPzewZyUwRXTvbR1PpgOc",
+         "plus_code" : {
+            "compound_code" : "G93H+8M Montréal, Québec, Canada",
+            "global_code" : "87Q8G93H+8M"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAjN-NjjXDVBrL8NR06Ck1A_NGlFUiGncvKZ9PbQ8_jkUGaXeCH162vXYy_NYqv_cCkjbbcSp1AiYXlYjng629GHlnTX5WF8ou6rtRlNoBatsgc8hOEc6J0H_XModdrbq7EhBFwYdMBOv7vnS_IyrR30oBGhT1kvWjWHTVVswojgfu3Vv_vBPr6A",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "3000 Chemin de la Côte-Sainte-Catherine, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50561560000001,
+               "lng" : -73.61375919999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.51681584999999,
+                  "lng" : -73.60899774999999
+               },
+               "southwest" : {
+                  "lat" : 45.49005005000001,
+                  "lng" : -73.62209915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "627626cc9d8fe79ef308835d1e78a76a289c606e",
+         "name" : "Université de Montréal",
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115871707185347472712/photos\"\u003eMichel Handfield\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtfwB0DgLKvDJ3O1Kxf6pAUVc3XfJw3UkA-teUiy09txqDuwNb60HpgolZWpS1nMHHQUfXOJWKHq2dx1E2Q8Trc7vp1d_DYhZdd4onEm75pSJlqGrW-IaPhFaOWdvQS2EEhDfD_V-2hxUxhSk2b7E-0mRGhSUuRt-lxrJ9OLPhRQJ-CWerM00dA",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJOWZPqJoZyUwRMUWvDEYfKE4",
+         "plus_code" : {
+            "compound_code" : "G94P+6F Montréal, Québec, Canada",
+            "global_code" : "87Q8G94P+6F"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAcrxH8wJETDHNep7j6nKOAMKfrQFJ-CSyU-xtUIQwtq5YeyzKfvXb1DztR3ivt9fR75Tdganrd3AIX5-EDExoeadDcrm5MfOTDWg9pYpG2RYau5DY9PM6MN9zasKlQ3fWEhCyTW0cgnq4v9OT4yK4FTu-GhQ7_-ALnJlEom5Fp3A2oTIlHYgxEA",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "2900 Boulevard Edouard-Montpetit, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.51531,
+               "lng" : -73.675754
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52118634999999,
+                  "lng" : -73.66980400000001
+               },
+               "southwest" : {
+                  "lat" : 45.51102015,
+                  "lng" : -73.68129639999998
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "8b9bd2289b009e268b5f20be7f116e5bf35f40fa",
+         "name" : "Collège Vanier",
+         "photos" : [
+            {
+               "height" : 488,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102152293863364069384/photos\"\u003eD.J. Lin\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVLP5aeeut9crK6_9Fn_cBwln1nFNOd4g5W88d3wjzkMdz4Di9Td7PZWPuxgC4zuKb0sIpz0wAUha2pktbdmh__TgFcmmfvFA4UJEYYvmt3nHGSHUghKx6_cw8zLcKsNfEhC8sK4q1vpYhBuW0huq1IN_GhRIPj_YscqCbuTXnonB6T0Or_gLcA",
+               "width" : 650
+            }
+         ],
+         "place_id" : "ChIJoUzL-UAYyUwRK0cCOb4Sf84",
+         "plus_code" : {
+            "compound_code" : "G88F+4M Montréal, Québec, Canada",
+            "global_code" : "87Q8G88F+4M"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAIH0E0i4ipAh1fV36lR58DqdO7nDRnowweoq3DLfGpEQPaXQ7pu6DJuU0eodLnYHi_2g2pj1nhjUFO2aEW0o0o3KQuFcR5yE0HFz6_71gx5OrZrIV2dMnQ8U9CGSh-G12EhC-lGs5JFliBmh8EhVGeWpKGhSPr4IuDJDOMKQgapEK5ncbY-33sw",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "821 Avenue Sainte-Croix, Saint-Laurent"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.436553,
+               "lng" : -73.604996
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.43723438029149,
+                  "lng" : -73.6038730697085
+               },
+               "southwest" : {
+                  "lat" : 45.4345364197085,
+                  "lng" : -73.60657103029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "ae43388b638a86ffeb9a57649b673b7bca4e3c7f",
+         "name" : "Cégep André-Laurendeau",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1151,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100987444555924711927/photos\"\u003eCégep André-Laurendeau\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANRGfXiLZn8nKYoF1BosRsCEOwUR8CXlhH8TUUl-C_pAOhEfbe_OkFfeh6sB2Uf8LpI_m1hC2HSKCY3xp5s_3YNVzrBF22vKME5q4bgKWLXdtawXA4-xldJbBixnj5XEkEhAoRR8R4lq6HNnpqp6TY1VKGhQC9HrVBTdSsZCENA6jS6L0acxMiA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJoyhlRwURyUwR4Hx25LluWOc",
+         "plus_code" : {
+            "compound_code" : "C9PW+J2 Montréal, Québec, Canada",
+            "global_code" : "87Q8C9PW+J2"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAQKgkNTLyROG4LmCdRUVfZOINgnsIlyobLcYxDap_krX9G0kcMvkIyxNhBdTPovLvXFp2lUu3hbz3vVWvQ2u5tlM_4n58C0SZ9sROQWl0LM4fiLxqALB__fHrKQoQnj0YEhDRERHQ__xbtu9XuddP1cAVGhQi2vPKrJoGQ6itDsFbW86Y085B4A",
+         "scope" : "GOOGLE",
+         "types" : [ "university", "point_of_interest", "establishment" ],
+         "vicinity" : "1111 Rue Lapierre, LaSalle"
+      }
+   ],
+   "status" : "OK"
+}

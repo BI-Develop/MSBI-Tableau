@@ -1,0 +1,924 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD6gEAADDDDcSKCaRJkRI2J_56p9kswEs8Uv4COsfLvZTu4p94PGR-S7ICfNL2r3MgVqZr06cankUZOYyU6kRjAonaBrDwRfWakbrZKyDNOYY6D_k2wy8SUbVBmCnqNvphQsuBVWLXNowJFGqFVXzVIH5nFfCs7VIINkDV-jXeMs6hDr02h_R9H4cguf5M88OeuQo_Slc0IX_Mm57S4vNNl4ZzRlWsxdS5Ts3PxdzCOGls6c1F2kygRKJescqklfg6Fkam3wRv_IVaig8liqgXvvAjVmzvNh0fo9W1VPrsit9zxoX7-xOLdb73V5GpxecfnFKFemfewuQSj-q3LrLTvbsYqS2o8_bEpFWNztjCM0lGC4TcJ1f-EUgbmw9is1N7UTXefmar6-VRdnFULOfnw3-5EDbleBwPclEo5-66uE8AJs8I-eLi0VL3WmxFZ0qcivcZ0h1131rTodeIEwIr7lxcoWR5MqcYWlU9Wl4ofA-Djz-C-JtdqhI_TQ-CAawJSlq891waymGMp8VTM50T6Bu5zLiHNIc6CIrhi7sC-mIkLUT4a23xnBGztX55X5ud8wfEyaYc05TrP1Yr68jOKwlQlNQF31FtrwAIcAvBXJyhap0bNukcci6YifdOY_hktjzTx7YnB5FmCuozpB3DF7MrWlQSEDXd9wO34IGYSa5w2a-uUSQaFCT1TAQ4HlubMC6dZ-bLaxV7_dXX",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5297934,
+               "lng" : -73.60728589999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5311068302915,
+                  "lng" : -73.6059687197085
+               },
+               "southwest" : {
+                  "lat" : 45.5284088697085,
+                  "lng" : -73.60866668029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "57a6cb136fe3f2fd2f165c376810ceff57f6a45b",
+         "name" : "Galerie Lacerte art contemporain",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115034051844189171343/photos\"\u003eDanielle Lysaught\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA3wB5eVssDZvhGRpcmzWQQMSoUw0FhpjL2fxiu-VU-ChaN7sUPv2QlZL0hokgNR9inKLiJklZjmfc4NNLLvhQynGD-1Dp0ikeyBQsW1NK3xNcg_zQsn9FxqyA4Jyt6rRZEhA391Rp3Okp-s_y3acx1rFfGhSe5b63RsTbO5DQrs6m-zUsPtDnYQ",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJTYrut3EZyUwRNFp4He52I_4",
+         "plus_code" : {
+            "compound_code" : "G9HV+W3 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9HV+W3"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAA-3VXZlCn8Su2V6IcNqwXbFGunbfRnSd8iZ574iGBFF38sG0kG_77AT7NAvWrvIFpbjmQJXX-xLymZgq_QuSFsmvwuN_jD0pr4UNchoCpHKjR7NyHhfaSyieC3xpWTXMcEhAw_E-oh0Y0YolJvAZR6wzwGhQ1V1zuFZbgywEkd7EdW4ySBak_ag",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "6345 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.52987,
+               "lng" : -73.6074429
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5311806302915,
+                  "lng" : -73.60612821970849
+               },
+               "southwest" : {
+                  "lat" : 45.5284826697085,
+                  "lng" : -73.6088261802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "71928d97fe456141abcd198e6af25e7ae0326ccb",
+         "name" : "Yves Laroche Galerie d'Art",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 800,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115695445762342341123/photos\"\u003eYves Laroche Galerie d&#39;Art\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAPDN1CvCF27wOPunKfWloxO5nK2wsM-B3F3Ucmk6CCLoBLjIaGR3u-JLRO8CPuvfMhPzjU8TTAA-Mq6veUCLIZ3bG9i-NqqG-Ou5yITFCVUoFho2mm5RDgyGHOIYxjAtNEhBDJ9oeaqrTIBAcYnXbczYcGhSl4lczHsEaQ3WTtbvgjv8Ips8J4A",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJ4Z-Sx3EZyUwRV8OkVgdOyxE",
+         "plus_code" : {
+            "compound_code" : "G9HV+W2 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9HV+W2"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAn_PS8HJscyoXicaBvtPab3qawNEL6u65r0jtqDAPXimlQeAd3By31iYh5UDjlNlBoSoGEiWfzmc3PUt_NbU0abHhYjxc-QPkKKtloUOSwtFxi9GeH2GWDuplF7H2vELmEhAqoaWFfGlJZOVD3D6dV0z4GhQU-lKaAyYtI1aDCdxaC3WoUoZMyw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "clothing_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "6355 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5270543,
+               "lng" : -73.596918
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5285579302915,
+                  "lng" : -73.59590516970849
+               },
+               "southwest" : {
+                  "lat" : 45.5258599697085,
+                  "lng" : -73.59860313029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "cf4fd234efa241617df364c0c01bbc5e8c3c711a",
+         "name" : "Galerie Grizzly Montréal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 600,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106930728049694602407/photos\"\u003eGalerie Grizzly Montréal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAwswewhoPWV4E2LZeyw13WOKApf3XKss5eB7oxzdY8zWz08XreurqINoKFpKUjhdowBbUyzxvXS1HPgYQTGvlm7l51YW-xmSStUeqSDySHzkg-X9erRMRsqvu4znruZXSEhDWfw4G8j9aUTpaQxTsH-goGhR4Qc4vUHLYl2uZvcPHVGA4om2Wkw",
+               "width" : 600
+            }
+         ],
+         "place_id" : "ChIJjd3fLTMayUwRFo4jGEj_Xac",
+         "plus_code" : {
+            "compound_code" : "GCG3+R6 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG3+R6"
+         },
+         "reference" : "CmRSAAAA_Sq1ClEevb_fPOtKwasXQ2_sUbb7DFcEWZCKYL4UR-1NX-xuR8uEFS7A1ZDTcMLdIXu_0RojSxh0JlqzSw8iICjIj5PEhSI3uUouUtWCpfcyn8YSalxUS14T1uhO5MzBEhAl0-HhELdzfPQxeTYQGkW5GhRUpIxIMf5VcmIjT7FPd5UF-rvT5A",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "508-160 Rue Saint Viateur Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5270506,
+               "lng" : -73.5953186
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52828128029149,
+                  "lng" : -73.59408061970849
+               },
+               "southwest" : {
+                  "lat" : 45.5255833197085,
+                  "lng" : -73.5967785802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7ec14566ccf421e67cbbbba07eea66ca892a028a",
+         "name" : "Atelier Circulaire",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109950768226329146704/photos\"\u003eAtelier Circulaire\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA5KLcrmAB_1NWXcDbV6vlviZ0GFngdbJ1M2O_bK4qbCW4HNmotpy-PBTtijiQy-sTwGak6N7B_cd7Omoy-kp24HZWkr5R_JcabVGo2WJB8VdJ1Q44y7bppeVitjbpTYooEhA8GhZRJ3DznWMQ0mWf5JVqGhQA61DpcL9yDLOMeOEMitaY6YxABw",
+               "width" : 3872
+            }
+         ],
+         "place_id" : "ChIJq3cJj3wZyUwR_6ai8JxGUzA",
+         "plus_code" : {
+            "compound_code" : "GCG3+RV Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG3+RV"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAANTMwy_hBgf5qLUukQV-BpW5aXMao8LCtwWxKLFp3olLiZ9dhXxq-Ajialh1vweRovjlDI5cgmEKrOwK94ZTKqY7ms-qI96jm8T4lgTgDVqRyKwNoCAQPEs0xCX3SjM1NEhCBWeDfKVjsiaRL0MKe6Sp6GhSdPGggWXA3a-SqILghTiB8Cc9szg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "5445 Avenue de Gaspé, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5377314,
+               "lng" : -73.62625319999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5389897802915,
+                  "lng" : -73.62495711970848
+               },
+               "southwest" : {
+                  "lat" : 45.5362918197085,
+                  "lng" : -73.62765508029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "53bfd1286d8319cd3581ef218c6cc528a1f65cd7",
+         "name" : "La Cenne",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117664404519406106543/photos\"\u003eLa Cenne\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtjfUUlirWNgYWiazt7ybyVOjkLcvZfY-a2eiH5edciFFo9w5YB4vPvDWE24wIjDOGw4jByNYHHUw-SzKKI7_XgXQCuXswtXRFZMP4SdGObqCIFBDzvTQ3yzaVn-mLZqmEhDIiL3wKwEaDW3lvo_IGpMaGhSEvGvRvTuf2pNLM04tT2AUEzuiOA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJnzIWEhoZyUwRcRRqCMsv_Yc",
+         "plus_code" : {
+            "compound_code" : "G9QF+3F Montréal, Québec, Canada",
+            "global_code" : "87Q8G9QF+3F"
+         },
+         "rating" : 3.8,
+         "reference" : "CmRSAAAAfdNJbVbpHnUjEbrdn_FM6iXAccJLhaY1NahMlxpz5Z-K7CMnkzaZsM1c0Tp1Liz8_BZISN9pH6lTwpbFD0DD_2nd3hD_-6sKBEQUtGbTJYpdJz4Rlg6uuU45lXfY3at9EhAsOtdrywGIJgAbCksge8UnGhTduQ4O50b3Nf9v63DjmDS2RZYZCg",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "7755 Boulevard Saint-Laurent #300, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.525958,
+               "lng" : -73.595113
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5272711302915,
+                  "lng" : -73.59379741970849
+               },
+               "southwest" : {
+                  "lat" : 45.5245731697085,
+                  "lng" : -73.5964953802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "f7d05a77697d02bc3a91f2feabe5749842b8f4ab",
+         "name" : "Anne-Marie Chagnon",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2848,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105697220754714310441/photos\"\u003eAnne-Marie Chagnon\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfW0ktA34xh8AuqAcqTTc5QBQXjuUwlIhAtSRq2F0afYbQrGgWOYqF1IWpQIwOJWtiZijDEsbM4VXhj5BgRPvpg2CGuYDQb_eayxTD6CShsQGQhxLCsamOokj074R3AoPEhD9x9H0P9qGRppMAhbkfMmkGhSuyKRgiy2OLRogZbY6jp1APLAebg",
+               "width" : 4288
+            }
+         ],
+         "place_id" : "ChIJzVXGs30ZyUwRPtcL48ynHkA",
+         "plus_code" : {
+            "compound_code" : "GCG3+9X Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG3+9X"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRRAAAA9jGsh0IIQZKOMsY39DmowsRFA5L-GD_tMSulX4oDjyIVVt0O49qyO09k72zf2eYo78D7yBlG9cgRmTK1AhjSrCY__vcH1OLkkEfBaRB4DdfJWsgOG4DD4En7-LZ7Pgp_EhDFEKgsxfJ5WGAZUtLCJvw-GhTbRViHIbLFFLBLk9wyJ9EbJTp1zA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "jewelry_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "5333 Avenue Casgrain #502, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.533208,
+               "lng" : -73.597044
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5346254302915,
+                  "lng" : -73.59563266970849
+               },
+               "southwest" : {
+                  "lat" : 45.5319274697085,
+                  "lng" : -73.5983306302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e7c03f3e701cf06b14f5edc6c02b1d8cfd726816",
+         "name" : "Art Mûr",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117642579704351398189/photos\"\u003eArt Mûr\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUThqWcUBWHHRT8njJowgEtFN2UfVZAjojEJxwaQta8nKSh_5Dw7fb9q5Ajxq8A8BPCOBn_yJ5awaX5hKqmBJgaOje28hkFMg40NvJG8SbGmIy_B8fUlhgbT8OERdsb5PEhBJAxSVG2Zjoj9Jn3VnBtQxGhTCyMWelazSlssWt2bvcAUQdnBFKA",
+               "width" : 1152
+            }
+         ],
+         "place_id" : "ChIJV_F6N2QZyUwRs7xhPLGSo5M",
+         "plus_code" : {
+            "compound_code" : "GCM3+75 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCM3+75"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRSAAAAMjRgAo0RHRJLlW23UBoNFbExM9yt8D9oPMPGejwl0R8YUtwlkf6tLmB3Z1Y5FhrdM5GMQ9c0iBGkXu1WPqiJ348ERQJBmNlwGhMt8j8p9Ckax-JUE6wzm9Hl9uqMjomcEhB9kXrNVb03pYDl-L2rvCLyGhRY9as2KgwTO-wtIMwaajC_S2UP3w",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "5826 Rue Saint-Hubert, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.525116,
+               "lng" : -73.59788449999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5265495302915,
+                  "lng" : -73.59645641970849
+               },
+               "southwest" : {
+                  "lat" : 45.5238515697085,
+                  "lng" : -73.59915438029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "feabc7b6217b3a02f82cb23ca7221eca283d8243",
+         "name" : "Galerie Simon Blais",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 603,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101970972220382214121/photos\"\u003eCatherine Plaisance\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAqE5h-KFF5qUTu-9nE3XZTJ_YMX_mOzi594NrdemIwJgC2c72w_UgrroNbm8lBorQsjukT3bcjJmW3Ola1FkYdzpqqT06z0Spx2pvSpHKmq2GOx90n4O9ZJEfsuYPV7AWEhACSMpYstXoO9j_eQ8pfZdiGhQY3-vNEiIW-AI_4O2_43heuNtOFg",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJJSCQGXwZyUwRUoU4V761srk",
+         "plus_code" : {
+            "compound_code" : "GCG2+2R Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG2+2R"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAhzhjV7EBs3aqgOOOruCJzb-cmmWcEonPOtRtgRjkGvfTQkGK8PPPutp_N_e0h-3UxlESqy0rP72iWqc3nlUl2atl0F1C4KNdMu1wBSbi7jW9hASEsypSXAImTdzxnilyEhDUB81fBBOrEbxGnmwEnYXpGhRBp_5rf93VFEci5TjdeCqhHiRJDA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "5420 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5246032,
+               "lng" : -73.604557
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52597963029149,
+                  "lng" : -73.6032679697085
+               },
+               "southwest" : {
+                  "lat" : 45.5232816697085,
+                  "lng" : -73.6059659302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "225cbad196b415d73c50ed1fcec89fa7d1c648c1",
+         "name" : "Frame & Canvas",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 728,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112699172252505965188/photos\"\u003eFrame &amp; Canvas\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAArmFPAYrdYmSHNLU2dfZUdfUvYEuYHRxyJtxxpCAFlkLXeAUgcNWQTYf68RdY68Xo__jvKHu5uw1Q4j9w1DyczGsELQYhg0uG6yE1jxhMqfGId6n3Ph1h3r1UPOgkfq7hEhCC8DKH-tG9Xd3PqPptHyd2GhS5kwwODlceB5lRsM2KLrRtSxvwGA",
+               "width" : 1831
+            }
+         ],
+         "place_id" : "ChIJz_46lXkZyUwRyfdBNhk8_lE",
+         "plus_code" : {
+            "compound_code" : "G9FW+R5 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9FW+R5"
+         },
+         "rating" : 4.8,
+         "reference" : "CmRRAAAAeSABsqNTTKyrmJxI_Gll3XG6JHLNKbR1qQpozpv-dsdIIZG1CGt_mhp_befAR4Q2vB2EozYl6VQ8Y2WoAfMjDR21E8W5uqbxH0xcqQxFYNecVQGHsOGlkDUuYR84zTABEhAezxMKjNaDoycuA3wTQQ7PGhTb52SSTWUWpxdTJVv9CyXtwoIj2Q",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "220A Rue Bernard Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.52956469999999,
+               "lng" : -73.6185819
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53091218029149,
+                  "lng" : -73.61723386970849
+               },
+               "southwest" : {
+                  "lat" : 45.5282142197085,
+                  "lng" : -73.61993183029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "aab33453d412d0f10f99cc403339645e175b6e7d",
+         "name" : "Encadrement Baroque",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105547899667973915806/photos\"\u003eBaroque Picture Frames Encadrement Baroque\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKlBAgq63EQRmbG167bi4k51N0TDazdIaw9LFeiVd4MRMFGhn1gNplu_5jjdulfZ2GPkRVK8YX82tLufcTHhDuhbCtz77KjXYx7ymJOjolsB8-igjuExEGnJCFmx1ZjYnEhDpF7iankjMHiesq1BN9omTGhQZ5345G6J-YvQGoq7eRp_DaycZgA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJk_gd3XIZyUwRm1K3Suym1mA",
+         "plus_code" : {
+            "compound_code" : "G9HJ+RH Montréal, Québec, Canada",
+            "global_code" : "87Q8G9HJ+RH"
+         },
+         "rating" : 4,
+         "reference" : "CmRRAAAANoeJD7eXRS3XYdY_W-KRxUKU3_qK65MnP10rP_8SAGCjJNVAaQzG-mvYL9XJK_0R4ElO-j14g7syddFGL23HA2I38NKxso5RBjks4PL9uIktHapvPcdeL3vJmr61U7-tEhCOkcD0S9hPHNyX6_Ux4kIrGhTLG8C96yKOCjj0-dFpJl-cdkqYIQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "6929 Avenue du Parc, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5343858,
+               "lng" : -73.6198242
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5357742302915,
+                  "lng" : -73.61843936970848
+               },
+               "southwest" : {
+                  "lat" : 45.5330762697085,
+                  "lng" : -73.6211373302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "106c00d685aadd0f6a982ad0affc44c23722d358",
+         "name" : "Eastern Bloc",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 699,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114082530168805777155/photos\"\u003eEastern Bloc\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAfOtFGxgH84S62l33hzTponBV82ebiEJwqARX6PBk2NIPRtFrwiiz9s-P79fzGwWWRjqg8D3_PoH9D04uGQo1mLyoYZkP6SRM2tqDoNkVq218NEY2TFxjCLIXmYLtq4IMEhDJZTNngJCIrSjsl9oZcVU3GhRs1zOGgJqaNsiGLE16FM2AaI4yuQ",
+               "width" : 1050
+            }
+         ],
+         "place_id" : "ChIJIaq2JBIZyUwR9QHZXeKFrdI",
+         "plus_code" : {
+            "compound_code" : "G9MJ+Q3 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9MJ+Q3"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAGiBXAmoNbZjKGuFRk9Az_zPGhaGd4eiFSbP-DJd9T6o0Xm9VkdpDrQOrGQuiPSqV-VljAXjHdtVGtubeaBIz0VODT-R0pgU0DZxVbFnmmDPjkRsCq_ys4RNxUPUjzYSnEhBywuF9oSVaiEZBTX5zlXBVGhQcwHti6llUKv3pPnleYBX8WWFH2Q",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "7240 Rue Clark, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.53159139999999,
+               "lng" : -73.6071649
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53293618029149,
+                  "lng" : -73.60580701970848
+               },
+               "southwest" : {
+                  "lat" : 45.5302382197085,
+                  "lng" : -73.6085049802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "affb8bf715b58a6f7941a76d13101fbfb9d9bc1a",
+         "name" : "Mario Beaupré Encadreur",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 316,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106901089981987413241/photos\"\u003eMario Beaupré Encadreur\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAYRxyrW-sIzarym2al_HfLP8GnaakIzKL3ZtEueSNm6BuyOsWFsTsRGLSr_SMaQujGWwH60Kzu93w_DCk2F5ezufsD2oOX0QSF51Hn0SKpskcNzcYBuR2NYfRuPYmyxlmEhAjeVdyoZj-ouaF5jyuRkIGGhTeNR7wbT8YfgkUPV5L6jSiHVQQYg",
+               "width" : 476
+            }
+         ],
+         "place_id" : "ChIJ__s0PW4ZyUwRs0baZO2HdH4",
+         "plus_code" : {
+            "compound_code" : "G9JV+J4 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9JV+J4"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAmqBEhAZVb2Fc2J9VadTOnFgkqJ3SLnoOV1O9LnAFPhtw9Av92bR8aGwwsNeNe66Nkdvpz24V7sHKiSnOHvY5MFIoscaB4AhI2TFU4y-USTi80Qvspti7IhCS89iJZJ3NEhCUf5oYxkSGjV34lSJBhytwGhRHJWiNxObrfZV7pgluYYHXt2gQMQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "162 Rue Beaubien Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5207382,
+               "lng" : -73.5969715
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5220871802915,
+                  "lng" : -73.5956225197085
+               },
+               "southwest" : {
+                  "lat" : 45.5193892197085,
+                  "lng" : -73.59832048029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e6362a2ef6f76ce7189f8e5d2e9c01f2b382b8df",
+         "name" : "Articule",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "place_id" : "ChIJRYN7ln8ZyUwRpTN9szpn2Rs",
+         "plus_code" : {
+            "compound_code" : "GCC3+76 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCC3+76"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAN_GNa76TPaOgvpan87TQDuQTcVRibm4C7qe8Ir3IQc080ddPbnmfi_12CeeppKiRv28C3r8yZmwj9JDvFUu4-Lej0MrGGlQnsNNmbivkjF3IvII3gcAJfpT1tDgHB7kmEhDFPXxR2XRc9OqTpzHnTV7rGhStw_xMngBd7mD1znxuQyVtnknXHQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "262 Ave Fairmount O, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5418701,
+               "lng" : -73.6262325
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5431616302915,
+                  "lng" : -73.6249171197085
+               },
+               "southwest" : {
+                  "lat" : 45.5404636697085,
+                  "lng" : -73.62761508029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8f11bdbaecab48175806d033d1cfc45da0a79d81",
+         "name" : "Galerie D'Art Richelieu Inc",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 512,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117155137656751069223/photos\"\u003eGalerie D&#39;Art Richelieu Inc\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmkWz0RdHDjPiFyayRQCNhpoKRic7gAUot_b_ORw-wjyeScbRm3GtbihpcfMrYDTifnPxA8YMOLpowaEFkny30i1CBXEzcrK78avN9Nk7-2lT2vMngkLrF4pF--DRNyz_EhDkTXuvDwo8BMRZ-_ERJtG4GhT2Y4QX026AkF_S4PQ38Bomt4EQLw",
+               "width" : 427
+            }
+         ],
+         "place_id" : "ChIJkSQgBxcZyUwRQS26_g__7W0",
+         "plus_code" : {
+            "compound_code" : "G9RF+PG Montréal, Québec, Canada",
+            "global_code" : "87Q8G9RF+PG"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRRAAAAxULQMW-YrBpkKGW0KVMBsXjOKi2VLad4P7WdGcpp5paeivdsaYgBr5UPe4F20AXtz9FCyCb87sTGXgatmlKUNiPOaf2UxBOx0-Cl1OYrTrxTWFnUvd3N9w9yI7BoV9UgEhALTIOhToblUuwxO3G68qVOGhQzdOPGtChLP9QmHE_ZpwFpDVOrUQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "7903 Rue Saint-Denis, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.527482,
+               "lng" : -73.596265
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52871428029149,
+                  "lng" : -73.5950255697085
+               },
+               "southwest" : {
+                  "lat" : 45.5260163197085,
+                  "lng" : -73.5977235302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "8e73e2cc24b62ee8b6b6334b58e62c1e75e148fa",
+         "name" : "Centre CLARK",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114227449770923692518/photos\"\u003ePatrice Caron\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASlPusxA2OiIVsS1KgQbOLqOi5kyRel0XR0qt-E5L8alqcAWe6e9EeUjZOoApC-XU2tUU7p-JeeqnJvJL5wAA7QclqUdG5o6OCCgn7SOd17GO4WhF_dnyxu7LvpGUuQ38EhAGZgyFZKnCQ3uzmsmUoZqwGhSZMVi8aNoYoKEgX-0F2ckRPxHCog",
+               "width" : 2340
+            }
+         ],
+         "place_id" : "ChIJpXQYjHwZyUwRj9be1WBcQ0I",
+         "plus_code" : {
+            "compound_code" : "GCG3+XF Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG3+XF"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAnFfmAgCeb93PSEbgzYKPJ1u2zaTNJ4vlCZIHXbanyLCtQyBjDBHrxWAX2mjY_vpWFK0sj4xWGyUOI_JqxQeH7hEHG5AQqAV2KYlpdhIKCG9hMkenvdC5oceUiCQJl9b8EhAu-hQ_0gHcSh5QzJbclgSFGhTjmBhL79RU78YSa2Ycpruk_mXagw",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "point_of_interest", "establishment" ],
+         "vicinity" : "5455 Avenue de Gaspé #114, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5337774,
+               "lng" : -73.6188617
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5351724302915,
+                  "lng" : -73.61761241970849
+               },
+               "southwest" : {
+                  "lat" : 45.5324744697085,
+                  "lng" : -73.6203103802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e6aa32c5764da00c22acbcee24c525fb63707517",
+         "name" : "ArtToCanvas.com",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 710,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100028246397781683365/photos\"\u003eSilvie Masciotra\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxZTajdDFqptQXCKmspddxvMcKsEbij1nrsvWLTaHgQfuXGl3PEUPK1UA1DXoY7cS0vgdC0eTuRPMFQDnaR2GbbrOumP0kK29vlqCcmxTfrxmLMZ7-Ythfb-txHdo3lrfEhDItdsEFLrsKJy5-Wk0QLHzGhS13Rrm-eBdzadJLvsV6diqjrsVVg",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJMeZF20MayUwR9bA_ddgVOcI",
+         "plus_code" : {
+            "compound_code" : "G9MJ+GF Montréal, Québec, Canada",
+            "global_code" : "87Q8G9MJ+GF"
+         },
+         "rating" : 3.7,
+         "reference" : "CmRSAAAARph02h7pzSPXYWXP8b2HfBl2yuv0RwhR_Nr9CA4M0Eo2dth1vytGeeBBqmyZRCkmSAIEVpb3w6Ks2xutMjMovZ-1g848UXR601iVwitRAK0EpZ7BiOyHU3-W9cbo8R_iEhAIGPJRJdY00w2ZGL9yqHWbGhQq4a5xZ92NKR5KntRxw1ajIKQXEQ",
+         "scope" : "GOOGLE",
+         "types" : [ "art_gallery", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "70 Rue Jean-Talon Ouest, Montreal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5183237,
+               "lng" : -73.66270329999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5196726802915,
+                  "lng" : -73.66135431970849
+               },
+               "southwest" : {
+                  "lat" : 45.5169747197085,
+                  "lng" : -73.6640522802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2a8f024d567cc944c9e26a61db85024b868f8a8a",
+         "name" : "Trans Art Transport Inc",
+         "place_id" : "ChIJc-WNjU8YyUwR6NttW4_A_3Q",
+         "plus_code" : {
+            "compound_code" : "G89P+8W Montréal, Québec, Canada",
+            "global_code" : "87Q8G89P+8W"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAfDEV-vqB8L6uFlY7Q-oNxvOjR-DehY3lYeXFsDWZ1i58h6XtpVB6ubfXarx2BvYqWtDj15BMDRFl2Wc1J1flpgyR5U9CMhISJfke1LMVgtNCU5ghzyL10mSkpHnNVsnMEhDoTdo6mKjfd07TFkLBs9crGhS3cyDjwDFTr0RM1Q3RekhLJ7_qdw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "330 Bd Montpellier, Saint-Laurent"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.525578,
+               "lng" : -73.598688
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5269790802915,
+                  "lng" : -73.59729036970849
+               },
+               "southwest" : {
+                  "lat" : 45.5242811197085,
+                  "lng" : -73.5999883302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "b3af24a843cf991da609b424cdffe6c2f3f92e4d",
+         "name" : "Monastiraki",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 667,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115523338292959637474/photos\"\u003eMonastiraki\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAV9cT8Oamitcs8-fPYi_X7VKnaGSqJjAFx5YMzFK2ogme0TML9KTBXPQf6MhMQPHO2Sg670C7-rJY5Y13yH9JKRoAGJGUosma0AteC_1asry1X-l_06NsYfTthneNFnvsEhDGprihVjttOv92-ODD1PXMGhRHNpbkmV53s39f-8-prL2B6pYohA",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJ-Xc5CXwZyUwRHnHSYizWmT0",
+         "plus_code" : {
+            "compound_code" : "GCG2+6G Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG2+6G"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAKrWjrgF0k2BKhvfu1LVCTCZrzwttlofjA4g0ZbOsYup04DwZ7Zhvbfn9st6IBc5C0beTIamlyfZxwmguJqtnXicfouIBedBHAjvM3PvKXmNLVIPineOrH2bSgERbwtYREhBc39sKQKmh44ZLobU84vToGhTLifUESKCtxhNsNp2sWvWn8vzObA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "5478 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5472885,
+               "lng" : -73.660169
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5485436802915,
+                  "lng" : -73.65887836970849
+               },
+               "southwest" : {
+                  "lat" : 45.5458457197085,
+                  "lng" : -73.66157633029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "fceaa24b6ee5f0e5ed7f942468739aec760e0982",
+         "name" : "L'instant présent, Arts Santé Spiritualité",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106177680687890186469/photos\"\u003eSolution Virtuelle Inc.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAT5luqVK0uZ-cRmPLtF_ALsXoytokc5UKtnCinP4RhW-2-cZy2bx8TQxOPXAD5a7m-rXs3p9NE0D8VuSzRX0e5p2e7SMK6LS-6ZoXXUFO5bY1z9FsvoRScu7PNj8UFF--EhDiFtpc0t1vDXEAqzhQEYFVGhQ_A1UynFtzV50_siKN7qi4L-wE8w",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJ1x9jSpUYyUwRnkyjoxnmcJk",
+         "plus_code" : {
+            "compound_code" : "G8WQ+WW Montréal, Québec, Canada",
+            "global_code" : "87Q8G8WQ+WW"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAAw8ykreLShK8Qm6wdzZJucFgked-jqkYwE6Rt30XgXrKFNvT_GccZ4tywQQ2v812kJyO8nX8vj1pCwMoTmfG55vx88kUNadxzzK_SQXVT5jGjQvcwaAJ5cIMLobAVV7X-EhBHgsZStLwV3tTdOJNvXCyfGhSG8J8Q3wGgI0Ek-jvAJ3-NMpLhzg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "real_estate_agency",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "9823 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5217347,
+               "lng" : -73.5902167
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5231286302915,
+                  "lng" : -73.5888264197085
+               },
+               "southwest" : {
+                  "lat" : 45.5204306697085,
+                  "lng" : -73.5915243802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "e8813ca4b6affcf403ee602a11d0de783c22f264",
+         "name" : "Galerie Noël Guyomarc'h, bijoux et objets contemporains",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102860402752781745321/photos\"\u003eGalerie Noël Guyomarc&#39;h, bijoux et objets contemporains\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAJ0LmDVHMhsRRIuf5sdwlRb5Z5HXDjqgA5IqSljunK3c_hd-5yyoQFZYcevcGz2KZEv_CjV8mkxXuoiCySQqIZVUC5O96iuJfsLPT3mEXzevq3rztRjJ11FM-5vSqnWjfEhD3B__D5emLjWCw1PEPz1A4GhS27IsmwdALMVhWJPLWipMv0CR1Rg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJk3JxfNUbyUwRNu39-6_ux5I",
+         "plus_code" : {
+            "compound_code" : "GCC5+MW Montréal, Québec, Canada",
+            "global_code" : "87Q8GCC5+MW"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAAA2TC-z8P5M8pQF6zBU6-R7yTtSgqb2Xz1sstzulmNHgsMA_6nbWY5pp_ARh4sWhnmjjmZeuvlOf_TiPB1Sxtny74x-abVHOeZSVeEkv2KvHd7YpINZ6qzPNC2Tz-VGg8EhD0aSZDzFUk7qauqFMvWvlMGhTu8acqQ_3f-zrd2btR9blSxtoobw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "art_gallery",
+            "jewelry_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "4836 Boulevard Saint-Laurent, Montréal"
+      }
+   ],
+   "status" : "OK"
+}

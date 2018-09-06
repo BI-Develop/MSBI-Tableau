@@ -1,0 +1,843 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD4gEAAPMggDhS4wFn4IIwI8-jFA-OEndbJIAEN-DbA8tzJfFN7_nMjHP9SOgSFJkH1qv-4sGY0hsi8CrdCQiG2_Y7sKa8SChPvB4iWbyibC1aq0_v-8bCAB_2J7qlx-0aC4VKXff7UY05uxHUVsfXfzg5xGwoEKlqwuZLlBrNt-QfQRiGsNtlewRGgmfIkJrTmXCyFjKp_46fH-saaJDLSJoFI1rQj9FZyX6LtNDGRNHCtKOf5FSVKOXiSTeMal8Om2AxSZ9lk_tFUifU7QBxBtnfCIXcyaeri2XuT3QU71pcaSdlqGl9SSvnc85LC9EPjVOTnifSQvPlR3bSSBbb5bHJa9RmjnzliZT6xLHJu6Yc7lCLxOsLGkFlFmNYi162LLgzOwitCXLRfvwv4zsDEFrtQQtDmyhSRtYRLHii3HuJQqzwErDFAgBVBM7Ta77GT4mkV_icUx7pBYgdcOemc1GXQZYcW1U_ZhKk4oPR0Jw2xVOUGz3N7cRAZvJht7ZuPpAygskZ-c6E6hBUg6rKid1oFdEbzGLtg_qFn02y62PNKQjs3axrmUvU4kRHDC_CyJ6lIKdjNPIUgtD2Gj0IzwU_ZL_LIHQu78WK9gbKwOOWFsKg8YVUg715DaLEOZZNqNWnpDfI4oz449WhuZbQc0ARkqYSEKk-p6AC848UdF1L3G_MToUaFM08vAM-UWBkLYTGZPDVtC7_R9Gr",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.53234630000001,
+               "lng" : -73.620707
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5336952802915,
+                  "lng" : -73.61935801970849
+               },
+               "southwest" : {
+                  "lat" : 45.5309973197085,
+                  "lng" : -73.62205598029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "050a83230cd93a3189c334918278cc0331dc0af5",
+         "name" : "Thai Long Muay Thai",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101498056865488911372/photos\"\u003eThai Long Muay Thai\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAg6eX_UgZUWMw2KC0R8GrUUTcQ4DJ2s8rw-bSZ9q1QCYDZoqEVpFbZbUjY4sgydk3_9zI0mom65X3-YNJAN-65R0JTIeTAa4BkGvDuepcF5CymDJdbW6BXHSzBcCcZwsFEhACrSRhNPOBH5pcCmx0WTWwGhSxz2JMiwHRXqBK8g725PfVQ6bRFg",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJne8S-XwZyUwR9HbrPQY_w4Q",
+         "plus_code" : {
+            "compound_code" : "G9JH+WP Montréal, Québec, Canada",
+            "global_code" : "87Q8G9JH+WP"
+         },
+         "rating" : 4.8,
+         "reference" : "CmRSAAAA5n2i4uGER1bFbNDTFuy4GpKMdhCcwREXOUF0-sQ6_rs-nhQbhpTyyFW2C_RzPepIdzcFXgaaTpBWVbNAubipb1U6H9kLwuJBm9JOZK71H_3tGbLlGj3McjhnDiQAUaA1EhAOhZfxcXgnkE8prpS3biEqGhTyvg2g_SjTPWfq9ypf_h5S_H_icg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "2nd, 215 Rue Jean-Talon-Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5302103,
+               "lng" : -73.5986702
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5318594802915,
+                  "lng" : -73.5970376697085
+               },
+               "southwest" : {
+                  "lat" : 45.5291615197085,
+                  "lng" : -73.59973563029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0ad2b28266c87047a1bd8e52b855ca2af256a91e",
+         "name" : "Énergie Cardio",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 398,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104082641869083418844/photos\"\u003eÉnergie Cardio\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAn6Io1Zy1PhzdjWIWrpGvmWkKW5N3TqUsqwuJ1UBCvK7faHCE0PMfiQ0Qfsvh92pE-8GDTTa2lwwBjrEg38WqikWBeHmNc30_RoVsK8hkkkvgZPfqCgUt9FDe6dlKcitAEhBSKkzKk9qmqhapcFGDobATGhT1EzHhSNWQCbUJ4-qlL51VYk-H6A",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJub22wWQZyUwREUM_HFaXehY",
+         "plus_code" : {
+            "compound_code" : "GCJ2+3G Montréal, Québec, Canada",
+            "global_code" : "87Q8GCJ2+3G"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAAWSzH0_7MrezgnsOVEeWeYUeSJWImd_WQrZF2GbwxLAiS6PCMnAJpFzXzNbH-Zgfy2M3Qgko_ym0lh6_2YqkksfMN9Lz3K93mJbz4S190Fat8OCPpy1TJO3wMts6AXWGMEhABmEVMcHW8LI7BNoWUmZRqGhT8-YGKyrGNjz6nK7dXDXirVHM9_Q",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "le 5800 St Denis, Rue Saint-Denis #606, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4982255,
+               "lng" : -73.65730739999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4995044802915,
+                  "lng" : -73.65584701970849
+               },
+               "southwest" : {
+                  "lat" : 45.4968065197085,
+                  "lng" : -73.6585449802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "5bc647f06fe6c6c82417a4e93b861f5cd76094b1",
+         "name" : "Tristar Gym",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117705893688072480381/photos\"\u003eAlejandro Augier\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALV3bUlmYHOqS_r02550T2UKN-fmCcUX4EEiCPwqGIZDs7uYZEz0ayXBUxGFvAcgeq4aLsSOS4TYAElq-hy2K9bxqS-UDzCfpvhMIZoHZdyThu_Br7GbDcfzCVql8zWEnEhAUrsSQT9tGWS6Dby9Fd7JdGhQzTtmEGOU488sRS8dCS70DM5AjOw",
+               "width" : 5184
+            }
+         ],
+         "place_id" : "ChIJg7PXSNIZyUwR-Tp-_-72PfI",
+         "plus_code" : {
+            "compound_code" : "F8XV+73 Montréal, Québec, Canada",
+            "global_code" : "87Q8F8XV+73"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAPJ0JgGfKloj_z6zpw056ApUeSkW5hAARissLf962txORvo1yG9KJYRmdWgu6kc31EZzAjHX2omt5hEacjzXaLPFdWL6GUPegGGryw7pl1VdYp--e0mnVWzvs3-3uLDTaEhDS7z68OoPJqTwXueo-0ivnGhRF1ojNzPmwCLzdGkF7-igH7TI5Jw",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5275 Rue Ferrier, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5273613,
+               "lng" : -73.58935819999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5286783802915,
+                  "lng" : -73.58793346970849
+               },
+               "southwest" : {
+                  "lat" : 45.5259804197085,
+                  "lng" : -73.5906314302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "e79f7ccd2f007909607b9a8944bf21c2ab2b8ae8",
+         "name" : "Bikram Montréal Yoga",
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102591920577692288246/photos\"\u003eJulien Paquier-Galliard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA1ZsxWNPQG462kOkATIMrSogtR_cT7As85c_ATaJwz8ZqMPt_QfDrP5xvOsQmR7fUV0WswtxLDOzXr_QlJtjbO2cB0pqJ9bQEdU6KK7fx8eeHOR3v60aAkcvasTaLLtk6EhCrgKmxjnYbYRRlbWxUMoPxGhRotlwL0G5NqbTgx588QNPGipTeBQ",
+               "width" : 3120
+            }
+         ],
+         "place_id" : "ChIJXSBAlNcbyUwRYOZlwLbYwAM",
+         "plus_code" : {
+            "compound_code" : "GCG6+W7 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG6+W7"
+         },
+         "rating" : 3.8,
+         "reference" : "CmRRAAAAZAaGL1TpxoaUnaeau7Pdzwds74HwBfzmHbUQgpn37Z2-lvEoIAA8laOId3DivEIr643x5-W-KK-rQOVOhCx3tYIizWpelvP8C5k5i0Qcd6f41UqNE-A7Sv_EJbs4Pht5EhAPpD3ZIQ7wjIM6Q4kk8_9VGhT8y9LG6l4wDmEtz6bwee3HoFN5mw",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "435 Avenue Laurier Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.53571019999999,
+               "lng" : -73.6202141
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53703428029149,
+                  "lng" : -73.61888846970849
+               },
+               "southwest" : {
+                  "lat" : 45.53433631970849,
+                  "lng" : -73.6215864302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "edb853b687203294b49eb380e8adfeb300b527f9",
+         "name" : "Kardiologik",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 930,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111682329926218020471/photos\"\u003eLe Vadrouilleur Urbain\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAslrubNJZdjHAE7LSMZWXXs-E1ki9FmrpA7aw3IFMtvh6Vp48MAdk_YzQ3kpKmOPFXctJ191WkLq57-8KbPPw7U9Gay9kvxLHFKWRU8fiko2cej9eXgiGY_AnJgXMdzkBEhCGaHPtbkLh5FaX-GBBOOPRGhTxgWcBG_tlY9-vmm6UkOEFNHQcTw",
+               "width" : 523
+            }
+         ],
+         "place_id" : "ChIJd2N7fBEZyUwRYs89YvVSYuI",
+         "plus_code" : {
+            "compound_code" : "G9PH+7W Montréal, Québec, Canada",
+            "global_code" : "87Q8G9PH+7W"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRSAAAADXiUvztcZUTJt9xX0oRFMQCUhUxLAnmWB3yA0xAF3G51yOh4RyRpaw2cWF9AUPAqNjwO29g0K3EgaMi7L9YpACwRcryKVAhXMb55NpNlEqh5KockNTXfq14dNsF_LtnkEhDO7c_hXPPWiwIQAfBxj-BrGhRNnb2kps39uNohs2OYqrV3VgsgJA",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "7345 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5112277,
+               "lng" : -73.6214131
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5124876802915,
+                  "lng" : -73.62023001970849
+               },
+               "southwest" : {
+                  "lat" : 45.5097897197085,
+                  "lng" : -73.62292798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4fbbe51341936bc49c16953b9116edcd5b3a14bc",
+         "name" : "Midtown Le Sporting Club Sanctuaire",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 500,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103147115297345704826/photos\"\u003eMidtown Le Sporting Club Sanctuaire\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAE61Z1YUNiZ8XM7ZWLgpYjX1KwF_GMRzxAgx-EXp1Ru4MPa6zNvmeGo5RhsA3gYLRwHyQC1nGxd1lpaIIMAQYiDhMwgC9fA6wS5v5fS1CbGFK-jbv6JwqG9e_r4BiwtiOEhAsnzWRakUPMM8llsaF1q5AGhTmq05pXRAKBBXht1Zbvm9I0Pardw",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJgy6E0JYZyUwRnubpaMzTppI",
+         "plus_code" : {
+            "compound_code" : "G96H+FC Montréal, Québec, Canada",
+            "global_code" : "87Q8G96H+FC"
+         },
+         "rating" : 3.7,
+         "reference" : "CmRSAAAAT1-IwuiODES7aMtECm2TIgzR7vmJDMvMji4LE26B1KOue4c2DTBSH2fyAduQjeF6mZabPDJ-DXMYFXyYv9mP7NAS3itsDH4xbZeGLRzcY4o_viPxHhiLiSeG1J-MxJyXEhAe-heBasKYPYc1utuWWDpdGhRwGNlTqy7ERnPoPFmoasI7OcNzIw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "gym",
+            "spa",
+            "health",
+            "school",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "6105 Avenue du Boisé, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.52744,
+               "lng" : -73.597763
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52874973029149,
+                  "lng" : -73.5963287197085
+               },
+               "southwest" : {
+                  "lat" : 45.52605176970849,
+                  "lng" : -73.5990266802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a838bfd9b5b1e0ce93f318627ae28d9fff57784a",
+         "name" : "CrossFit Plateau",
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104158431115114691653/photos\"\u003eCrossFit Plateau\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlXKf_lpJUdW5IYMiSXcq_olcPhgAGvww94e8xocTt9KfVERsng9xtFdfARpIzjfeEMKMLbJp945Z_O5t-P-ppeWGo_0omKzQbmbx-boJwrsfxrdl0jC5To_uGrpcHd04EhAJPpOHydBaLD_SDlEnlscvGhQuGsb4U31C5YcHdigPndd0FHtTgw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJq3cJj3wZyUwRNyUUvoVYAIw",
+         "plus_code" : {
+            "compound_code" : "GCG2+XV Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG2+XV"
+         },
+         "rating" : 4.8,
+         "reference" : "CmRSAAAADKQtwcFvDw2-tL268DCtyhcY_0jjByBQ17wVhdnxPJsOyDRAQxKHiwAUshZI-kB8meopUbyqcp1b2NcQ-g4GJjRLrM6gc5BxCHyc67qWpvwFOiAHbh93hR9iEVXV4f1HEhDlF12rn5EXvFRV8M_HrXdmGhTECMkgErTssg5FrjbhXaWvtzKYrg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "165 Rue Saint Viateur Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.53181099999999,
+               "lng" : -73.6153501
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53320633029149,
+                  "lng" : -73.61410906970849
+               },
+               "southwest" : {
+                  "lat" : 45.53050836970849,
+                  "lng" : -73.6168070302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "4154369ae4321b382ccfdb630d16538f8f9c6731",
+         "name" : "Optimum Centre",
+         "place_id" : "ChIJe5s5Uw0ZyUwR6u2rBLOTSl4",
+         "plus_code" : {
+            "compound_code" : "G9JM+PV Montréal, Québec, Canada",
+            "global_code" : "87Q8G9JM+PV"
+         },
+         "reference" : "CmRRAAAAdL-93seeliWGo4zlDwL4UmrHEYl29lxJeZQnnot96OvxIwKiRbdBUeTp8X44ubyxi2eksvyOW88T0yJA5ClAJoamBFyuVhIusBJyv4ELEQ7uhMjRXoj1vG5SRD9r8JotEhA-ZimXa1LAzH9M9Z_bGZibGhQsr0ssYvtZ_EXQJ2cICM70vOKbNg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "80 Avenue Beaumont, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5250996,
+               "lng" : -73.59664309999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52633953029149,
+                  "lng" : -73.59539611970848
+               },
+               "southwest" : {
+                  "lat" : 45.5236415697085,
+                  "lng" : -73.5980940802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "ce51f0d46283bac748fd15667e2644838eb0a793",
+         "name" : "Art of Living",
+         "photos" : [
+            {
+               "height" : 3706,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101902465398535915235/photos\"\u003eRalph Matta\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAJyh8lqvllVOl2P-st3aWNAxJrehUNZfbrIh55ESWTl2PGhs6053naQ_wroDG6iN9vOz6sfeCkRNgDX88FXPTQQeR3ODd7OgIZEByFGfBkgzIT2_P2wAKwSjFJjuEdpTGEhDIUPVTLJK6pxO4sj_4dC0QGhTKoBe0p8nYOprU_44ytbx8Q9G1pQ",
+               "width" : 6636
+            }
+         ],
+         "place_id" : "ChIJQ3w6L3wZyUwRktpD7m4wcvU",
+         "plus_code" : {
+            "compound_code" : "GCG3+28 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG3+28"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAATX-_BABoYUJ64PchGaU4ejINNfdjbIrwqQQ_so-23a1mdWZnkHQOX941jmGSHvzWG5dRDUfBPfkQorH8ABMD-kz4sti2030i276NtaN-DxNS4AFDZodTbfUbaffsUumoEhBN_RDdgUOKMzhi4z8YfCCmGhRxLA0pX7g9AShk9mGMl3gMpqhkLg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5369 Boulevard Saint-Laurent #240, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.553599,
+               "lng" : -73.638288
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5549691302915,
+                  "lng" : -73.63701421970849
+               },
+               "southwest" : {
+                  "lat" : 45.5522711697085,
+                  "lng" : -73.6397121802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "42c0efa4192f6e5b967cd22719b9b4b2c24cc680",
+         "name" : "Sports Montréal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 498,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118126970670561292045/photos\"\u003eSports Montréal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAtjH2LKUBs47e3ykrs1zt4LPtL1CcDMZu8PDIFraclz4dBgOsvhhjQ7AVVLLC-Ay7D5EL36opohU-ZCELoAyiAgsHfd1ztLcm5uC1Q8OD0BGZS5D-5o14Z-AMeyUx9KOAEhCjLp9bGCFFDzghwKz5sJK0GhQ-v0ar-pEEwJ9Dhq0-_KgMuAMNzQ",
+               "width" : 1348
+            }
+         ],
+         "place_id" : "ChIJz_mrRdoYyUwRv55-HyDDHp8",
+         "plus_code" : {
+            "compound_code" : "H936+CM Montréal, Québec, Canada",
+            "global_code" : "87Q8H936+CM"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRSAAAA5j6RKk-g-b6BgCUclCMOFjtzJwaRQRccqFZ8Rv_0pdRfSNYK1kf-IJTVFLblkkFVPKItGAt0eaLMQkMpYca6LXNOCHsQSI-uf78y6otJfM5F1sjgYquWSKgWUXjQm9e_EhCTrB8lc08J3ApSa55PowvlGhQOoNGL-r4KtZYW_qc_OaOhqdgnLA",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "1000 Avenue Émile-Journault, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5187077,
+               "lng" : -73.59319499999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5199796302915,
+                  "lng" : -73.59191816970849
+               },
+               "southwest" : {
+                  "lat" : 45.5172816697085,
+                  "lng" : -73.5946161302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "af6f361b61b0998c8be5e7b2ccdf56f5defe7e16",
+         "name" : "Yoga de L'Éveil",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1536,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102591920577692288246/photos\"\u003eJulien Paquier-Galliard\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAHgtuwesroe8LJxfLnx9e9UYE8xcYnrw8bjsgTVHodJbXB4QhCSsu7rykf2x0B5Ke1N404_uGWlnDBHRlIZIAKCLIOycE7stUo1HvE7ePp4ctZdwsCSL4xR6TbGuPC_lOEhBhuWDbA41koDDhX_FW7SegGhQlcAyQnLhZpUEaZUhnMZ5fuIK1hw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJRd9w1yoayUwRuanTE9oaWZU",
+         "plus_code" : {
+            "compound_code" : "GC94+FP Montréal, Québec, Canada",
+            "global_code" : "87Q8GC94+FP"
+         },
+         "reference" : "CmRSAAAA6myLuAfQ84k6RNvqcmBavPTkNj237XjuV8mqipMpW_ZgtFvnvPiiftmLDf5Fz3BSAP9jbnJ7IJCRcWam3Cmj9mRg0G427HPre3_NC74zz_xdajtdvKEvrUi9y6OtceiMEhC3Xl5__5VKnNFFAYRDYzDKGhSuEp-mWOmeWtCTtGgpPtMEORECCQ",
+         "scope" : "GOOGLE",
+         "types" : [ "spa", "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "4847 Avenue du Parc, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5364481,
+               "lng" : -73.6224426
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5377745802915,
+                  "lng" : -73.62110751970849
+               },
+               "southwest" : {
+                  "lat" : 45.5350766197085,
+                  "lng" : -73.62380548029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "2bf1ad34c868a435a51fc9fec6fd442ab17a6baf",
+         "name" : "Fit for Life Gym",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 270,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110947072075701490682/photos\"\u003eFit for Life Gym\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA_EGL1q4NHdeSVB3h1HhzPOBNEPHiUHGX-UMJTnV6l03-j_eiEmo70mzBrhIE_FaGojgyA-YVEm2iZWCk38N1LFIsItIFIEy7KSYrMSrVZoub--CI1FyhUBGjmdHgTfZ2EhD2Msuw4MnckM7hxfgjPKVXGhQ0ufKWf8GDDDFkXcWp-4hm928e5Q",
+               "width" : 480
+            }
+         ],
+         "place_id" : "ChIJ26QdHBEZyUwRIRnzMjLnGzg",
+         "plus_code" : {
+            "compound_code" : "G9PH+H2 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9PH+H2"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRRAAAAOqQOE7sqUaseAy1FdE34nS8KDpETA7Zs-u7i8-OwikvfOCtyhyu9b947PgRfbCJRr3sWEWbMFIOAEFloou6wzyIy9zKWfSqSWvS4-SPo5-2YcZlVbpMG4Thxp1y8oSsWEhABxJCz6v26VVaWI91971XqGhQcmHgeiT3Xu0ld8q3WpDl6XdxKPg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "7503 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.527447,
+               "lng" : -73.58865299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5287475802915,
+                  "lng" : -73.5873495197085
+               },
+               "southwest" : {
+                  "lat" : 45.5260496197085,
+                  "lng" : -73.5900474802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7241a8cb4c221ecab341094c0a1898bcb1c2137c",
+         "name" : "Studio Kinepilates",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1200,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101353984259703983937/photos\"\u003eStudio Kinepilates\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAF4NZinXrDrVkyKmhhkheQTcg1lOn7bDfpOIiB1ReHWbuSF84MKx3d1HMUdz7akRttNFwHuowh9ejQbDrSiwVMXPtbAvp5F5cjxWvE7Ay_DpWKfOBC-odiOF1ZqvtSmBNEhCbfSOBDeD3JRckhiA2slOSGhTVDZ1bfYNmbmtprvXToZhp_n_5XA",
+               "width" : 1807
+            }
+         ],
+         "place_id" : "ChIJdVpxkdcbyUwRNTBJvEuwbQQ",
+         "plus_code" : {
+            "compound_code" : "GCG6+XG Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG6+XG"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAA_Dq41Ru4BBaRtnw2wYp97xUGZhWXqYaKqAoUHnAQwauLOv6jbME4HZKvWUEDV1gjqzk-BJti6dT2SlDuwpS0IU0PIsXyLMzllsA1pz3xUP9B6mmgDE-MLftxptppT6t8EhB-8_WRNuMu84m_OOBqhvaHGhR-pge_geRxdFo9pxsXv9zd7qUfXw",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5075 Rue Rivard, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5215585,
+               "lng" : -73.58978239999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5229454302915,
+                  "lng" : -73.58839846970849
+               },
+               "southwest" : {
+                  "lat" : 45.5202474697085,
+                  "lng" : -73.5910964302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "a333c35b96e138bb175b7216ed96d570140d2473",
+         "name" : "Equilibrium Centre De Yoga",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 307,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105666413823612769695/photos\"\u003eEquilibrium Yoga\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAwsl609QFSCUq7-uaRYxssXV6ML-dD8gHfqSmsC-73xe7Qf_1poU4LUarBxvz2LeYhxDiSqvPVZRYqYeskvFRluRf2_qssfJntRGo46XH0-YH1iyDEwN-Ja6yAwerTwfYEhCfsBrAieu4yk8A-VpfAX8eGhQiezE4XaYdRjTphRh3aQYAOtfOVw",
+               "width" : 640
+            }
+         ],
+         "place_id" : "ChIJXaWoXdQbyUwRYJCxglQJt00",
+         "plus_code" : {
+            "compound_code" : "GCC6+J3 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCC6+J3"
+         },
+         "rating" : 4.9,
+         "reference" : "CmRRAAAA1ExzK22ipt1lznHR2Qf05ZzDoUCrcj4uGv2_2ud4DAMksf8frZLd7WsTW7jATNPRkDuRleHWm3u-BNSxpSofDsICwA9ACMttKuCutbwtc8rJJwWT1Ta0kHYllrH9y9YpEhBSa4Z5uuQ-Vog00PMDLdZ0GhQd0SZvsLiF4uKX4VyKFN63Ylyg3g",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "4812 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5171466,
+               "lng" : -73.6445142
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5184551802915,
+                  "lng" : -73.6431895197085
+               },
+               "southwest" : {
+                  "lat" : 45.5157572197085,
+                  "lng" : -73.64588748029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "bd4fa7f9bb78f0238984b6013227200e2373c869",
+         "name" : "Studio 1",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 480,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111259644950253502928/photos\"\u003eManjot Singh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAd7nRc2HvgLCelmaD5LGPqE9aTtYqr2UXF6vTP3mN8NURiSwjpu_caDMTZHtaUpcltnmE7BPaHMWJEBfmr2vmj-Q972Of7I_HrkHsIT0xXSq2l48zVqacZKk2uOGZ0AgYEhALovAVd6rNODRHo9Rbmje6GhQU7XAQBwi28BkRm5W5G6V7tf7cvw",
+               "width" : 775
+            }
+         ],
+         "place_id" : "ChIJda1P_60ZyUwRelBGvHorJos",
+         "plus_code" : {
+            "compound_code" : "G984+V5 Mont-Royal, Québec, Canada",
+            "global_code" : "87Q8G984+V5"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAwsunTgC2EEQosHyNqqvGvCgxc9ock0u8URtjgRVBzT3fFair1EXzb77WYywkdFlga8-vBUrrieUe4pz1wAk9IR_IXt3Sc1cL2RxmMb3_nOKqOebNWAJgM_H9WPUKMnCFEhCA_Lyp5nllrQkQbALnelfwGhR4Lyv0Jjj9dM0Hrl3t7I_baJZj_A",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "1385 Chemin Canora, Mont-Royal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.523613,
+               "lng" : -73.594289
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52499898029151,
+                  "lng" : -73.5929064197085
+               },
+               "southwest" : {
+                  "lat" : 45.52230101970851,
+                  "lng" : -73.5956043802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "39491bae3481ae61f65ec56cd4c16c6ea4b6ace7",
+         "name" : "Sivananda Yoga Montreal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3110,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115755875617420609788/photos\"\u003eSivananda Yoga Montreal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAocPJSWYkNYwPftD-o5salbNAF_84a-2NZbnM981eJIne9LIoid2Pv-EEurz7tQTvDq11Juj-cJ5ZW0FpyIvZCMe3ewFv5fiPySJ5SLG3jQGfmtDNcdOiSPRbJW5zpUlXEhBwzpw7RxkAesLQVc4E40pxGhTbD5-NR57tHE0kpba_3Uuq4XpxdA",
+               "width" : 4200
+            }
+         ],
+         "place_id" : "ChIJ66mtGn4ZyUwRVAAHnHyGHEs",
+         "plus_code" : {
+            "compound_code" : "GCF4+C7 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCF4+C7"
+         },
+         "rating" : 4.8,
+         "reference" : "CmRRAAAAZ2C3yZgTFqh8dnimzTbiZBNnjZoFhEiB1-actCOgN3BoCSRQqLOf8Ok7aUVA25d1Ha-yA3Ye7Lg6KczOi5URnGav8pZGraSDHcw1f5DrPDtovSJk3ZP0fJ6MDHEjGlBGEhAbHYa92kP-_8khaa6Yw3MmGhSK8RgQaj47gC2Sl5_0swpDN02Zqg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5178 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4982728,
+               "lng" : -73.6609789
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4998136802915,
+                  "lng" : -73.6593821197085
+               },
+               "southwest" : {
+                  "lat" : 45.4971157197085,
+                  "lng" : -73.6620800802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f19e74d3edea6af3b922805a6c7476bfc648879d",
+         "name" : "Siscoe Gym",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116769538142543344216/photos\"\u003eRi T\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAodDd-eOX7HrsRfSJPZJc1Z-Q4KXBTxb7ATZ1uLVt1dWp7PI7pZz68czVlJjngNHxuSVtoGuCZ010apFKdj_0tf1copa4FO3wuU1wv9oAFrqNpUrFuTVr9dBAMh5JaFgjEhBbKAGR1anwux6TpF3MljYSGhSdWU5RfVYLvlFalnMQyhrBDHRcoQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJQYSSkcUZyUwRO8sXSxHuUi8",
+         "plus_code" : {
+            "compound_code" : "F8XQ+8J Montréal, Québec, Canada",
+            "global_code" : "87Q8F8XQ+8J"
+         },
+         "rating" : 4.6,
+         "reference" : "CmRRAAAAhe-e99k4xpzXmg-DD_SwiBfsZrkW1K7woR_ssrAY5TiUAeZDNCeg1KEHjup3CroeKWQfusQMo2iOIzvkiVm_z1U9ojjXn_qTwAK1fe6oRy8IWdbqB-cAcWAcxJTBArXNEhCyoY0CrFJ5c-_jeI90rnUxGhQIvCiWsoszt8ugxTpNrGTEm_suHQ",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "spa", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "8170 Boulevard Décarie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5450125,
+               "lng" : -73.6134667
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5463979302915,
+                  "lng" : -73.6120848697085
+               },
+               "southwest" : {
+                  "lat" : 45.54369996970851,
+                  "lng" : -73.61478283029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "56964df1134b29fd03c7ddc52be3a8104d1c6097",
+         "name" : "Yoga Centre-cité",
+         "place_id" : "ChIJDRkG90EZyUwRnZUj5BZUfmA",
+         "plus_code" : {
+            "compound_code" : "G9WP+2J Montréal, Québec, Canada",
+            "global_code" : "87Q8G9WP+2J"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAUnd-XArdBx88mnIyB8sta0B438xAOHoXUuPu3t0p4tgsNbeOq5n0GuVb62FUP85n8bVaGHs95ZxzVm0soYPQLbjwcT-KsVqNPsGOG5mrmh6_K4i5LIW_NLseziiO-uZFEhAF7Xr7aL-wWZyCFzOE0MVIGhR3KE3D4CumBf2BCBESXpooVI35Wg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "7368 Rue de Normanville, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5004314,
+               "lng" : -73.63225299999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5018074802915,
+                  "lng" : -73.63099286970848
+               },
+               "southwest" : {
+                  "lat" : 45.4991095197085,
+                  "lng" : -73.6336908302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "f16d091560dd51ceabaccf83e355675948690d44",
+         "name" : "Énergie Cardio pour Elle",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2502,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103164086692021185840/photos\"\u003eÉnergie Cardio pour Elle\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAQkJR8j3vDMBlgtXvuG38WERZqRe-ZmEdByVy-1U5YtiOq6nkSh7YumZCuhzPQvw81vC4fkyaW9IZCLLfK4UWcorHmUBihNKVx5dtUcb-nRhn0Jdv4HoAECIpiND3nSG-EhDFfptPkT_bGLK3Bf5OmDGiGhT7S8mvW5uILZ1OoWqK_oRlcQtMbw",
+               "width" : 4743
+            }
+         ],
+         "place_id" : "ChIJ3zOd9ekZyUwR95ATSAwueqI",
+         "plus_code" : {
+            "compound_code" : "G929+53 Montréal, Québec, Canada",
+            "global_code" : "87Q8G929+53"
+         },
+         "rating" : 3.9,
+         "reference" : "CmRSAAAARCIEWgDWUDrZFssZ7z74Z5Z9QPVA6vVOltEet8UGT_ysk-hto2S6hYnlJRPoZLB9Xv_Rn9NKSkTjePQr1W_kthpAm_YII7FEdsg_R9iii8FaSSTJuC5SkIFQBx-yRQHWEhCSyLIFcV0OBLeQYxjS2kvuGhSwRMzYQ92RA8h1XEtNvIIxfkEfDg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "3720 Avenue Van Horne, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4909266,
+               "lng" : -73.6419121
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4923164302915,
+                  "lng" : -73.64052546970849
+               },
+               "southwest" : {
+                  "lat" : 45.4896184697085,
+                  "lng" : -73.6432234302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "45413948d798cef3c3653d39f1baf7cd25ddd717",
+         "name" : "Bracha Fit",
+         "place_id" : "ChIJk6X8Rt4ZyUwRKm6n4GBFfnU",
+         "plus_code" : {
+            "compound_code" : "F9R5+96 Montréal, Québec, Canada",
+            "global_code" : "87Q8F9R5+96"
+         },
+         "reference" : "CmRRAAAA5MYtiect2puuuOF78m8G_MoZrbXj2le2fXxykFsS8bzhza2q4jzpvTi2VcJGChS1mk_hzfNFrgCHdJk9qgUPmn19B9-lFRj0QW0VkBeQaF1KJYYr-iZ2G4irGH3cXDTzEhBdk_grMi-uXHR6M8TEWaQLGhSD_ZmvYQ4rqJYw6TZjhO-EdDvjhg",
+         "scope" : "GOOGLE",
+         "types" : [ "gym", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "6224 Avenue Mountain Sights, Montréal"
+      }
+   ],
+   "status" : "OK"
+}

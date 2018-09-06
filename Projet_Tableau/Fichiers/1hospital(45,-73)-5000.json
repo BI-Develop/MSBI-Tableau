@@ -1,0 +1,747 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD5wEAABbuw8MWrssWhPoSDUTR2LU75tFVzinaSLuUBgDsl7ezFgah08o7eZN8BaI4aqJ0xZr9df5mlQTzZT0p51K34SKVcfX1cH0xSWy__CnoYufXh1RYkWKJji3FW-SonLrmjh-SFSs8aejmgDNgwZsf-2ArgK3kwzwsKwoS1WRdC95QPrlapmio9v12SRm6KGKOXaCkxdrTBzlioAdcxfE962eLMQqfShUDDvcwEo0AE4RhMGDGtwYkvXrqvdUvWaJTTlW8eDYrXYnk8rx8K6c8awFx5OQhisUDiUO4hCgHyhdJAg1-9ZtBvIYViSIZwqRNNfLhAxylOijDT3nSo00yM40n2HJyVSrwnmqsozrwXAhKqWbvB7ql3QHZOxTpBZkRL1fMUJav6yqGgz5eJbTVe7IU2zoXqgTHcPOpjZcb34tGj1TL4WHXIdXBszrhK56QgSlBiH1MzwCbpzqaQCGdOCoY5OfiKqsz1mAmEGGFcEtjQVv0iRqy4Pr8rkIseHA10j1tHUHPB4w8R7RlL2w4NQy-oYl3_3JtUT2PqREsyER010ahMfjvsgWHVKaonM-xDYpPLri1E_RmdKfYnptX7u5cmDhxw46DxP8nA4CSq-Hk63o-29TckenUxvvhC-RMbpVfgfRVerGkSVE5K9MK0PQSEOtw6WV0AvFCRBirxARJrqAaFKWA72YshrPa1nqbch_bw2X3867B",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5103938,
+               "lng" : -73.6217183
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5119895802915,
+                  "lng" : -73.62041281970848
+               },
+               "southwest" : {
+                  "lat" : 45.5092916197085,
+                  "lng" : -73.6231107802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "ab762fdf26e42a5007a40cd39b8c6943fb0dbbc0",
+         "name" : "Clinique médicale Plexo",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJXwYlJ0YayUwRLmBiepTgDfk",
+         "plus_code" : {
+            "compound_code" : "G96H+58 Montréal, Québec, Canada",
+            "global_code" : "87Q8G96H+58"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAACmCfxCELEIrTBqebZqOvTxKgpM2fZ0OigiB1tI-3RQl_npMXLEksfOgFGbQYjidZHiq1s-pb-1HPoxJRLQ9kA9L_ckvxroyfDGe3hVJA7J5hFvteferHSCKEvCUxkv_2EhCFhdnolIFimVvoVOmk1_nTGhR-D31tHPJhqYUqc7ViquiN4X8FQQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "6100 Avenue du Boisé #203, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49477960000001,
+               "lng" : -73.62395769999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4961045302915,
+                  "lng" : -73.62188919999998
+               },
+               "southwest" : {
+                  "lat" : 45.4934065697085,
+                  "lng" : -73.62633519999999
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "3f9e056db4a3a6f7d3a68d35a457ad9ff40e696c",
+         "name" : "Centre Hospitalier de St. Mary",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102075592196463328582/photos\"\u003ePat Hickey\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxTbpoekcVcxffHMrvmfJCxPHzmRfqs-qNJTSVJsoAjELWvi6SWJuE_okc292pDj0-lVLZpUINWIH0tsRM9mzjFwfrDR7LeZj1piQAPcRLBuhY1dcm7ONageB-sH9_zpWEhBZj_Wb4du8ZFKtZKa12Ku5GhSfOnzGL1Gd736D24dxBCaQ1ZHugw",
+               "width" : 2880
+            }
+         ],
+         "place_id" : "ChIJKS_KXeUZyUwRiiunklqnxeo",
+         "plus_code" : {
+            "compound_code" : "F9VG+WC Montréal, Québec, Canada",
+            "global_code" : "87Q8F9VG+WC"
+         },
+         "rating" : 3.4,
+         "reference" : "CmRSAAAAPScrJ45lSAl4NoapPNZ4b5E5jOk4DC46_lCJ4Mzljyf81rZmOB7kF7COYedoeuNkNOvkiRtRDq5IGSamy9VUexpr5iqllkwMQjA01JQ62iyDCDXCiFqQWJpZEhvFyzDgEhDFnbnQw1GAMLQNxSct5libGhS7fWhIbxvbP8nY106Nl504RD0EgQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "3830 Lacombe Avenue, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5457252,
+               "lng" : -73.6093085
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5470345302915,
+                  "lng" : -73.6078739197085
+               },
+               "southwest" : {
+                  "lat" : 45.5443365697085,
+                  "lng" : -73.6105718802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "e954ca092dcc10635e35f50e7e0768da0e258e27",
+         "name" : "Hôpital Jean-Talon",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 562,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110470012582820868890/photos\"\u003eHoang-Khai T\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8DEY_9ayndpRnQkpHBsNFQyLCY736BYVuKag80L40PeurnbkPMo-zqjNSvJO73ujz1HC55IhIJAy1ozXvL6Ru1RKw-58sARhwOi7xLuYW0-AX6wnpwpMCb7dhbrtL31SEhAJLQwfT9vDGJ2CRzi3zebVGhRE3qFSvFLUCr4CCMIQ5Ba1tFtNNA",
+               "width" : 1000
+            }
+         ],
+         "place_id" : "ChIJo1ugzDgZyUwRxZV9255ITu8",
+         "plus_code" : {
+            "compound_code" : "G9WR+77 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9WR+77"
+         },
+         "rating" : 2.2,
+         "reference" : "CmRSAAAAZcdB8FBYvevYWSDreO41ufS-qh8dYMxHM6JWCFo_4a_WbLH0TYmKQLrzAoeerVowSAdAOn8Ggf5mpLWdIXw5B28sqGkENVMkuWCJYr_O0hFenNIV8fIE_IizjMu1MxvcEhCuGuTyMJJK1isy5Ih4tF3kGhQIa8tjwvcTRJbt5AhjikLdtHbTsA",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "1385 Rue Jean-Talon Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.526018,
+               "lng" : -73.59968769999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52742793029149,
+                  "lng" : -73.59828011970849
+               },
+               "southwest" : {
+                  "lat" : 45.5247299697085,
+                  "lng" : -73.6009780802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "58ca1c6bbca5f49753ac947ea47fce3e9d3dd205",
+         "name" : "Biospa Eden",
+         "place_id" : "ChIJGVw_TXoZyUwRXwamdrrVrxY",
+         "plus_code" : {
+            "compound_code" : "GCG2+C4 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCG2+C4"
+         },
+         "rating" : 2,
+         "reference" : "CmRRAAAAmnWNq2YHyInFkLgBOYocvqW758koyoKxvPuQIM7Ab-DpelfKvTaJyRkBljIiVj4SS6Yuh7mQHS0QNNutgtHEcAueSiu_CZk8cBft56_rAFTPh-vsVUcoC_2MMw2jDPNyEhBDnSauGzdM3jtyb_moOXL2GhTsxv82A7UinqGEzU2w8Bd30fUlZQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5594 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5237823,
+               "lng" : -73.6125072
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5252169802915,
+                  "lng" : -73.61107901970848
+               },
+               "southwest" : {
+                  "lat" : 45.5225190197085,
+                  "lng" : -73.6137769802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "797a6f0992b3ba8e00df05788f8adfcba37b4426",
+         "name" : "Centre de chirurgie et de médecine esthétique Dre Elise Bernier",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 282,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113128649257570952561/photos\"\u003eCentre de chirurgie et de médecine esthétique Dre Elise Bernier\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAlVJ8FaCdQbeSbBipacpDTZ85TbBnO-9tvmzBj6jdWItAvi-Ce2O9UdyuKMo4UXqzhbLT5UFfudM0QYB_pAiK2S3XM3IQDZBTPJaZ9AcU1L1gDG_KlSOmbil1RYBjQ4QGEhAYKkNI6bicsQFshwV4_JifGhSIqjPuEGryV0hmacUPFvjXH7-Z2Q",
+               "width" : 425
+            }
+         ],
+         "place_id" : "ChIJE4mBZXYZyUwRxiaNCfWfNaU",
+         "plus_code" : {
+            "compound_code" : "G9FP+GX Montréal, Québec, Canada",
+            "global_code" : "87Q8G9FP+GX"
+         },
+         "rating" : 3.8,
+         "reference" : "CmRSAAAAhTb8DttMcnpUSNzZOA5FmCtQUzC8vEawh0Pzg9ig98pXLdGmVczOHN6WkeCj4kI0XZlak9GJzm0jlACI4zHwL3WzKc_7O2S153wNIilCIccwrXKcyE8sYWO8SgSbfppPEhADBNMp7GrKRzJubYDUY24NGhT7i1sxcrfYNimt2ZYBWLr0g39Q6g",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "doctor", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "828 Avenue Querbes, Outremont"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4908897,
+               "lng" : -73.62752739999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4921365302915,
+                  "lng" : -73.62625551970849
+               },
+               "southwest" : {
+                  "lat" : 45.4894385697085,
+                  "lng" : -73.6289534802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "7a3fee37d88e2b250ad67efd0ebb62f3839aec14",
+         "name" : "Institut Universitaire De Geriatrie De Montreal - Pavillon Alfred-Desrochers",
+         "place_id" : "ChIJ6S_lo-QZyUwRQ6EGuNn3pVY",
+         "plus_code" : {
+            "compound_code" : "F9RC+9X Montréal, Québec, Canada",
+            "global_code" : "87Q8F9RC+9X"
+         },
+         "rating" : 2,
+         "reference" : "CmRRAAAAfXMtaFEX5WyVx_4WhCDK5meEZ8RFKZ0T70DK69i_VtkK7stufLQ874PIuTCeI86S-oRPm-HUrpLCMm6lxfjLXEl8wO8wopKZOeecpoaxgW7xGBge9QkkC_83CqomIvM9EhB4DSLIf0olUuMlHDAqlRrAGhSfGi0ZkLvWaTlj2JuJ2b750-iG_g",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "4692 Avenue Lacombe, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4983375,
+               "lng" : -73.6272106
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4997549802915,
+                  "lng" : -73.62579886970849
+               },
+               "southwest" : {
+                  "lat" : 45.4970570197085,
+                  "lng" : -73.62849683029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "c9d76164ee6937e333bd6cb771c9f1ef293189b1",
+         "name" : "Centre de santé et de services sociaux dela Montagne (CSSS)",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107236239292865724797/photos\"\u003eAmara Sahoneh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmwqMX6gJOL6N0UGw9UBY1b5Btn-4ptb-nqVkC44yHrL2DLKObYaIRmXfEvHXWUkFSj7ZwPa1wXvIzTzPr6M7EzkGLs6XVi4yaT7JIKDu4eekAb0yVdmXq1TLbapSZempEhBmqaKOkMMdl3XvidW3KFp7GhQmnlF704BrISKPPmpYTxubudrHFQ",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJDc2jxO4ZyUwR_Ni7BMjTswc",
+         "plus_code" : {
+            "compound_code" : "F9XF+84 Montréal, Québec, Canada",
+            "global_code" : "87Q8F9XF+84"
+         },
+         "rating" : 2.6,
+         "reference" : "CmRRAAAAoLbM8m1ppWmLkWDgRUmssGwrVbHhJA_z-atTvs_RaGkN6x2-uKAnUWJM8TGQ5t9RLtt94cph9cZy6PJLPGV9eju-D7lb-xFFhcH9AXarS5cgA10wV2wnD5eYRgT2AFClEhC0MIEMW3jFMlayxb6Tv9aMGhS7qeq1mKTMLMQnc9jw4WgSvXYSaA",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "5700 Chemin de la Côte-des-Neiges, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.510514,
+               "lng" : -73.621718
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5120505802915,
+                  "lng" : -73.62040231970849
+               },
+               "southwest" : {
+                  "lat" : 45.5093526197085,
+                  "lng" : -73.6231002802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "14ab75280937ea7b5d3cdac0b67706c3aa13cd52",
+         "name" : "ICS Montréal - Institut de Chirurgie Spécialisée de Montréal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 334,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102670675842753334813/photos\"\u003eIcs Montréal - Institute de Chirurgie Spécialisé de Montréal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAIkf2twyeyeHe_AEGYsfPjbHTvVq7ONxVd1mmHilLL1VyARTGsrGLF_BSo4hnT6TxifrjWyyLIgp-SMHFsbhFDwjoXic_s79ogByYTFNomCXSkAUTHTq8yAgUPSh287uBEhA1iVGGqKvE0KehjHj2WuVMGhQgiTA81uiz81Lj9Q-y8kFwwobmpg",
+               "width" : 920
+            }
+         ],
+         "place_id" : "ChIJBZil3pYZyUwRTXb-YFzW0OI",
+         "plus_code" : {
+            "compound_code" : "G96H+68 Montréal, Québec, Canada",
+            "global_code" : "87Q8G96H+68"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAn1bmAgNyTdr2utTiEKSQEFukjy7bswB1KoIGrDp8WTbi0RdBXCPOeYYIhNt5VCu9uUbGFdxxTcKgxK33sLnBFPGeO3M9h77lZWnMvkP7l5LNPvbS0OA0eyW2J2i8FkgDEhB6fDLQaVL8SkEvO3570i_LGhRqZ3z30hjBROEyOrs3fKwp3xyMUA",
+         "scope" : "GOOGLE",
+         "types" : [ "doctor", "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "6100 Avenue du Boisé #112, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5173133,
+               "lng" : -73.68082969999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.51866228029149,
+                  "lng" : -73.67948071970848
+               },
+               "southwest" : {
+                  "lat" : 45.5159643197085,
+                  "lng" : -73.6821786802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "09c31445ad1e31479766017ca428b30246fe63dd",
+         "name" : "CLSC de Saint-Laurent",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115144840924953723810/photos\"\u003eYan Duchesne\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAArVwJhYzdCBMDnbii0kxJDqk447Qxfb2oPDh_EiRCOu7l32daYMbCxQ2SA_pjrV75T2pFmU7a0E909EPEMAoEqZL5oq7mPdkCv3rPzPikrbiez5evFIJvMxosuYXp0G5mEhAiPTKuEx7GhVgEGDhx9TMhGhTlmCWdSRodfnRfygzvqhF1x6TT5Q",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJXemsLmoYyUwRY95ybZ5XwSk",
+         "plus_code" : {
+            "compound_code" : "G889+WM Montréal, Québec, Canada",
+            "global_code" : "87Q8G889+WM"
+         },
+         "rating" : 3.6,
+         "reference" : "CmRRAAAAMcxeivLWmMd7Md-wWg1CfipOT4qhSx-OHZxsrKT5mfrUksA0OfGZd221qpBN5KZl4tfkY4XNz2w0xkw9EzIg1s0OfIoKjjZYt-6HnF_veof8GzayEoabz4NdlcyOyXLpEhAANYF2ooARVftbVofKl2KnGhRBDCv3qqBhUOM_j0xJngJnJxY0pw",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "1055 Avenue Sainte Croix, Saint-Laurent"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5401587,
+               "lng" : -73.630347
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5415396802915,
+                  "lng" : -73.62910821970848
+               },
+               "southwest" : {
+                  "lat" : 45.5388417197085,
+                  "lng" : -73.63180618029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "9fa8986836eebe1034032501b7ec9ba06f861b11",
+         "name" : "Christiane Shano, M.A., sexologue, psychothérapeute",
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116662224766884710799/photos\"\u003eChristiane Shano, M.A., sexologue, psychothérapeute\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAYjpc6nXWbBFpdtKbxEd9vsGLQ9vrhXxWqPVSF-WS8bc5LiEgH31VBazK0gfCsINIuwUGLx1B-iAYwCxwEs1qf0AavJl4MPybAwiksLo6GtHfQd9NSVAcEKyaJG-5KJIVEhDjiI3K_oxAkeXkYNyyZDgXGhQDdwkNeAduOU6FsLwmWXYDjoa5Ww",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJmwQLSxkZyUwRl5WM9znrHgM",
+         "plus_code" : {
+            "compound_code" : "G9R9+3V Montréal, Québec, Canada",
+            "global_code" : "87Q8G9R9+3V"
+         },
+         "reference" : "CmRRAAAAilbiZ-WqvP6zeC8nmRKTYOi-SkRXyPKfMKVS5Vn1qZUj5chLbeHYNPKGiw5znUHYvCq7W2KHXXW38LlZKfXEkype6ELcOL6d7pj--QrzO6CcyELaUITYXxcaqwdtD1rzEhDNpcpHZOw-DX4wlBIbAbwwGhRL6hJ7imNHcUcixf8lLvkO0OB7IA",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "150 Rue Jarry Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.51000750000001,
+               "lng" : -73.6817652
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5114207802915,
+                  "lng" : -73.68034396970849
+               },
+               "southwest" : {
+                  "lat" : 45.5087228197085,
+                  "lng" : -73.68304193029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "6f8e32c4921baa76fd9045329b428d7db3820294",
+         "name" : "Esthetique Julie Brunet",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJV0PkKT4YyUwRabZI1aC4nxg",
+         "plus_code" : {
+            "compound_code" : "G869+27 Montréal, Québec, Canada",
+            "global_code" : "87Q8G869+27"
+         },
+         "rating" : 5,
+         "reference" : "CmRRAAAAOUofMuCz7ZuBqt4slcqHW5vcNUWTFJrI9oD_5H_6gzrwg4QHo6xlLC-3Yurd_b4mnjyrziISNXpwfEP0GnDWSZLAEAcGcwtZziV-2yx0ac8HFkSeqMs3-1nmgiyl8W5CEhAnbq89nZFhSA59mDYmY21XGhTiGquFIZCUgzEFCrmDV06cPmb_Og",
+         "scope" : "GOOGLE",
+         "types" : [ "beauty_salon", "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "830 Rue Crevier, Saint-Laurent"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5166535,
+               "lng" : -73.6402306
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5181709302915,
+                  "lng" : -73.63898051970848
+               },
+               "southwest" : {
+                  "lat" : 45.5154729697085,
+                  "lng" : -73.6416784802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "a536f7426f0bec1ed5394850405f4b5bc06ca75b",
+         "name" : "Procure",
+         "photos" : [
+            {
+               "height" : 690,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115274842698860425609/photos\"\u003eProcure\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAATNEushWjA6i-dgitIQGG4q-7mg3GvQKFVf7boI1GWfJXsZ4hbah_IqDOJ4VGo62aAwxXZrRil0r0ZhA2a6XzA_nF-pX_CHcSvgtPo6vZ9wiwSq0RYEjtnClAQoBiIvU8EhDzWQlt_T9spRPJapbOZEO0GhQW8KpEQREHvFJXDYgrI9hC4CNBFA",
+               "width" : 1035
+            }
+         ],
+         "place_id" : "ChIJXxKsxa8ZyUwRh7KAk3pFI54",
+         "plus_code" : {
+            "compound_code" : "G985+MW Mont-Royal, Québec, Canada",
+            "global_code" : "87Q8G985+MW"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAAFAUCu4hdzaLpuT_3V_aTDYWZlC49m2FjHVkuf3frhO0UBYVRn-3jNWl8-0FcrI0a47j6UYyRNZtbPG61jEMucrbE8bek8EfefmdvaNjINinhSha8AgO51zwclDOPOUP0EhBAEI3Lvc3dC3m9HD6xaa-oGhTVIDddrenslp1CYKuiIE2LX6KT1A",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "1320 Boulevard Graham, Mont-Royal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.499325,
+               "lng" : -73.661929
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.50075178029149,
+                  "lng" : -73.6604738697085
+               },
+               "southwest" : {
+                  "lat" : 45.4980538197085,
+                  "lng" : -73.6631718302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "e9eba798e65dd87ba73313279909f63982f250e8",
+         "name" : "Cardiogenix Specialists Inc",
+         "photos" : [
+            {
+               "height" : 782,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110425968185299889501/photos\"\u003eCardiogenix Specialists Inc\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAV7LmgtvpTqwpty-KMqHt-96y5HpZIvVsMtws6GDBfSnm_jTehPhpc7UtNTJZRjrJpZ9zl1sc5DTIzn3A_liP_zUdrf7b-BpFCKcGh0C2bPEXIShpSKe_eROtc-JjUWkQEhAIzzLzRszEkx4Qt4kj_krgGhQ0TDQ4HxQrU81VLgdoRN6ImaF-YA",
+               "width" : 781
+            }
+         ],
+         "place_id" : "ChIJfYs3SS0YyUwR-MuFwienjic",
+         "plus_code" : {
+            "compound_code" : "F8XQ+P6 Montréal, Québec, Canada",
+            "global_code" : "87Q8F8XQ+P6"
+         },
+         "reference" : "CmRRAAAAOh26mYTdr2bhys4oSGNLXRY1ADjIGtkBG0Ha3aUk7YTP-XyexfB6tWOmTQZYQbwjhXkuwUAmOS6hCuGy7bHIvHpHYIonK_tPa8Q7N94WsrKhyQvAiTnhy5pMFzVFOVCmEhD_BI-AWFAklgJYU6cm7BM7GhQfiCUSih-K_3vwRK3gqUUWyO-lKw",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "8250 Boulevard Décarie #100, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5489541,
+               "lng" : -73.6655798
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.55020538029149,
+                  "lng" : -73.66429141970849
+               },
+               "southwest" : {
+                  "lat" : 45.5475074197085,
+                  "lng" : -73.66698938029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "7b7fff857323549815cb8685a86012b32a72fbce",
+         "name" : "Baillargeon Marie-Hélène",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106177680687890186469/photos\"\u003eSolution Virtuelle Inc.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAoedTRCE8IJ4ZSYlxksQOvhSwg3xrb7KjcN-9vPRE0D9zdrcQeh3aD5UeJkxCKQABVLiK2WNC_AvSu0rce5NgkN46bBS9yQPhR8P5-GsSbzfezJOW64MiSr9aLun5utLCEhAil7CPB1OvyFQddG04-MM_GhSoYNb8VPgowVeqsb0PpnO7Uu3OEA",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJtWx5B5YYyUwRhNrCIk8zjPU",
+         "plus_code" : {
+            "compound_code" : "G8XM+HQ Montréal, Québec, Canada",
+            "global_code" : "87Q8G8XM+HQ"
+         },
+         "rating" : 5,
+         "reference" : "CmRSAAAArBvVYqJ8zk61PEbg7RVxRFijwercbUqZAeruioAyBgUCBPIXUaj9gMZt-wGHq5Inp3X7R9f7wFeiXUc-UZ8SfljHNkPJb7tnLlAWy_lvjdOFQ8R5FPmZz9l3x-h8emWbEhD6j_OSeZB0UNKBD6zf3KkHGhQB4w8yrpQZyIG20MrmS1Umnn4O9Q",
+         "scope" : "GOOGLE",
+         "types" : [ "doctor", "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "10351 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5328915,
+               "lng" : -73.6539203
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53407643029149,
+                  "lng" : -73.65266981970849
+               },
+               "southwest" : {
+                  "lat" : 45.5313784697085,
+                  "lng" : -73.65536778029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "9619f2ae2660c50c0312812b7c9080c1003d9258",
+         "name" : "PsychTests AIM inc",
+         "place_id" : "ChIJtTQK8fkYyUwRxPfg3412JXI",
+         "plus_code" : {
+            "compound_code" : "G8MW+5C Montréal, Québec, Canada",
+            "global_code" : "87Q8G8MW+5C"
+         },
+         "rating" : 3,
+         "reference" : "CmRRAAAAuMwb8P-JuHhhkEBf8slh-69PCTU_jM4ey_JMW3JC7AgSWG0w8YldFNVQIWfwxKDaSFWiG29IR3sMRXWsgz0fHDeYPnXPVC4z2E4-lymUtOAMdB2Qv1D_O_Zc50B88yFdEhDZFQD4_QqeIELAy4mePVFFGhTETVHRwxOH1rAz5LsL9oi2eBfLuQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "9001 Boulevard de l'Acadie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49952270000001,
+               "lng" : -73.6300231
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.50100108029149,
+                  "lng" : -73.62855261970849
+               },
+               "southwest" : {
+                  "lat" : 45.4983031197085,
+                  "lng" : -73.63125058029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "69e4f789c5246f88af063684c3298f57dbd7b741",
+         "name" : "Services Physiothérapie Anna Inc",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJmeT0eekZyUwRPkfeC7LtXcc",
+         "plus_code" : {
+            "compound_code" : "F9X9+RX Montréal, Québec, Canada",
+            "global_code" : "87Q8F9X9+RX"
+         },
+         "reference" : "CmRSAAAAVTsPa086ygA2HIoMgey3WMj--YcL8vRIeK-ragZa3IWXL3eQ-6Dv4CTD6WWUozRBSrE3NFssC-WaRYPwI9UUiPuielQ5OvI69eX4c9CIFZXnhpQUmrc_5EbznLiLmQpOEhB7NkE4ud263vz71EQSXTdFGhRq4fFuBI8rY1QGjZduyPiZr4_S3Q",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "health", "point_of_interest", "establishment" ],
+         "vicinity" : "5858 Chemin de la Côte-des-Neiges #602, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5393173,
+               "lng" : -73.61413659999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.54063748029149,
+                  "lng" : -73.61266311970849
+               },
+               "southwest" : {
+                  "lat" : 45.53793951970849,
+                  "lng" : -73.61536108029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "8f103793404ac3cd0f2e958b373a983436cd81dd",
+         "name" : "Association Du Diabète Italo-Canadienne Du Québec",
+         "place_id" : "ChIJ61hx_hQZyUwRXnGDI2L3wYk",
+         "plus_code" : {
+            "compound_code" : "G9QP+P8 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9QP+P8"
+         },
+         "reference" : "CmRSAAAAn3ElFnSZkrgw-3L_tdaAnmQLBDBtpzpUSbjKpKKYCFZv-d8KwFhyRIBZgrg9yH0CWVo5K_yrba90YNXIJ3DRGlPVEd0aq02RBm4lZGwqOUYY7t-D39gYOSMlCife-c8lEhAuPQJjHJayMldOBz7kPhGJGhQ-1LVnFDTV5DMK5Y6xHTQLUkQ3BQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "505 Rue Jean-Talon Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5435667,
+               "lng" : -73.6288418
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5448888302915,
+                  "lng" : -73.6274053697085
+               },
+               "southwest" : {
+                  "lat" : 45.5421908697085,
+                  "lng" : -73.6301033302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "d0fffd1eece137d309e3341cab0a6d577fb4e7f7",
+         "name" : "Clinique Médicale de Nutrition",
+         "place_id" : "ChIJz7rwVB8ZyUwRhlIIPtQFlhQ",
+         "plus_code" : {
+            "compound_code" : "G9VC+CF Montréal, Québec, Canada",
+            "global_code" : "87Q8G9VC+CF"
+         },
+         "reference" : "CmRRAAAAuWH0B29Q8FRXAjJf7n2YAyZxd90uC4S9Us_2AKaOgSsagedEhO6vitLSxzksPaIYzE5xuaj3kSWrV7rDk7chsbrU3OmTbrdhkxgvPYKjMBm-YhyKkntXrbslWjN5gm7hEhDrTsU9tAdj87xYxj69mS_4GhRtlOHVOzdTutUdFCnBK1TxPXD-jw",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "529 Rue Jarry Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5412279,
+               "lng" : -73.63874749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5425368302915,
+                  "lng" : -73.6374219197085
+               },
+               "southwest" : {
+                  "lat" : 45.5398388697085,
+                  "lng" : -73.64011988029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "2e3ef741ac392430709d0072704b91daf1885d11",
+         "name" : "Candy Carrier",
+         "place_id" : "ChIJwW3Pk-EYyUwRbOqVpcRt45U",
+         "plus_code" : {
+            "compound_code" : "G9R6+FG Montréal, Québec, Canada",
+            "global_code" : "87Q8G9R6+FG"
+         },
+         "reference" : "CmRSAAAAx3i____ZnSUegXEBVuQ8UGTph1TmegTM5m5BlgzR_w71zExWrw8PQabzQvJ-rrD-kNHC_3xf0EZ-Gt4gdbTN8nLwDbLFArwchiXqryFjhx3MmS_ayAvKo3A6IK8weiR7EhD8OUI9L1gZkZ7qLEEcWhoMGhTCVSBwyHdEyRIBHNzKHdJlW-eAFA",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "8585 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5039019,
+               "lng" : -73.63977899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5053107302915,
+                  "lng" : -73.63837696970849
+               },
+               "southwest" : {
+                  "lat" : 45.5026127697085,
+                  "lng" : -73.64107493029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/doctor-71.png",
+         "id" : "04231a505fc4fa74fae2de7e2ff4bbd5d85b8649",
+         "name" : "Société Canadienne de Psychanalyse",
+         "place_id" : "ChIJHe2z3sYZyUwRt6hScZpVYm4",
+         "plus_code" : {
+            "compound_code" : "G936+H3 Montréal, Québec, Canada",
+            "global_code" : "87Q8G936+H3"
+         },
+         "reference" : "CmRRAAAA_doaWPKPQxcSHQslSb3EtFqt4Usw4pPy0l_qqmXRju6M7BA8pvAw2RLGWE2IkeFpE5-qf8FlKqnrLxROYWpgptfL5rZosbJv8L16lzUIn_NgF686yyWZQE7m3L5Sbz7pEhC2T8sQHQAM080BRtknlMxrGhQGA-GHv8VedrobevrU2FflmzjdAQ",
+         "scope" : "GOOGLE",
+         "types" : [ "hospital", "point_of_interest", "establishment" ],
+         "vicinity" : "7000 Chemin de la Côte-des-Neiges, Montréal"
+      }
+   ],
+   "status" : "OK"
+}

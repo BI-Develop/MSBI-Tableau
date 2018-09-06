@@ -1,0 +1,857 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD5AEAAIz6_VSqrn6logDwtFkT_z1sEuWPZtm1ucoS76G7Bw6Fv2HUaI89xTRaXo9fRCL0CsIf9_Z3Di46vTRzXFI-tgmz1YeVGiiWeE2u-pn_ws7_IXq098ckgq3RaelcUcHJAItg-KjgCxgQps5TaTSgKU_KsajJdsBJUNWp8riMJPnuhw2V9uk2NU6DnFhWXnm0EXYhWf86HE7ADGnc56MOmEvo5fptgLh7XvUZ0QYJGpSP9jtPvNuhNNosqMpqaSExqIW1OPR-DllXhdMdbyD9V5scThJ-C-wLahq69eLmWsFgRPq3gtbBlIUJNyLnb2gFJt25aokfIlKL_iHxXvao0zFXG5qIFYERwFnJsNmfaSIFhDSBNAz4VFpAicUyxvWGV04R6W6Z_flsSPL-0rFR8PQDT5cYJLOVP0eoxPcfTethGVtE7kyQ-OSIak4_ITv91F7yzCeL6ZpAolFQFHkr1dHBvRme-Zu0EzXfX0oeeQn1R8U8MP2LSWdhf1_sEx7FcQhTk_1NOfzTn7MxJnhRfHDO7R7WFJoL4sY2HlDZumuYwSeHXvQmpH5kAe6vuwEhn1udQo4oZsvjR4M-IQFOzFUCGpLcI83mHUuWffGUqkum_ATq1-QHCKVoUoCk6heRiVF_o03IlDkPbbo7TBSmq3YSEDxb03UccXrQ0Dv0V3A4nPcaFK2omDRS54UvLltgDVWXskgarGo7",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5016889,
+               "lng" : -73.567256
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.7058381,
+                  "lng" : -73.47426
+               },
+               "southwest" : {
+                  "lat" : 45.410246,
+                  "lng" : -73.986345
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "64f76606728b9536f3b6f03703a296affd47ca6c",
+         "name" : "Montréal",
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105208411127921867872/photos\"\u003eSpa Joi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA36MJVDOqfrYdYDsvZUKCK-rjI7DEXcZl3t0P8pSCCw2VZltgmggrxYFqWaX3QguwE489jW0RsrckOjETkOj6wIdCK-8dnUE4o67IqYK_Trqss0LU6-oztmKb-stKbcXlEhAEj0wqMBClZwwE1Icr6KSJGhSI6kW_8rv-hgeZeDvy3g1hLCaE_Q",
+               "width" : 3872
+            }
+         ],
+         "place_id" : "ChIJDbdkHFQayUwR7-8fITgxTmU",
+         "reference" : "CmRbAAAAfvYk4MzOrhKsAs7cI3zip1pCCB57tqJERM01al1QutQriP_2y7b69_172XV6En5wKmKcP_z_GaP5eCLlV0gVxgEEH9yOTAso3phOzqMr2J-5qC6PZbp7IHXWyWbVKnsPEhBSAAyC9DR15G2WSeL-bhhsGhSPYXfcfgvoLxwguDCuKMd3kda9sA",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4909551,
+               "lng" : -73.6446897
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4922552802915,
+                  "lng" : -73.64338496970849
+               },
+               "southwest" : {
+                  "lat" : 45.4895573197085,
+                  "lng" : -73.64608293029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "d57cee553fa7c4cd542e8d083f566b2fd18dba80",
+         "name" : "Quality Hotel Midtown",
+         "photos" : [
+            {
+               "height" : 533,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100602768567312384620/photos\"\u003eQuality Hotel Midtown\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAFqiBqVDnaDQLC7upvnwp-frigOxc0AyrpILPFrPtpVmGGp-edPPQ2mItNG5fouMLQGf6JzzD23rsZsLEmwWJGdHzuFHjeeC0SjDnb4wMVj3Fs0nbIiyF4ZtKGsUA_nYuEhBrtP9XxFSTednQQl0USk2YGhRQF2e-I0rTykQlwE5JokqYHGgUyw",
+               "width" : 800
+            }
+         ],
+         "place_id" : "ChIJTaGGw94ZyUwRJc0JNWxbBCs",
+         "plus_code" : {
+            "compound_code" : "F9R4+94 Montréal, Québec, Canada",
+            "global_code" : "87Q8F9R4+94"
+         },
+         "rating" : 3.2,
+         "reference" : "CmRRAAAAqTusBoCwjlasjlj9KIj2V49HhMdRtFnFDhHARD0QLC5wlJSicYBfHInsDFajULU2gFcXlXPiypE5xVS6iChk-j0ZwWcaAajxHRTPS1KMLGlEh7uZKTmwnQhw1WlBu9s4EhDBM40R3JMyokupG4gdkPE8GhQ4h7W4T5nM3-CJ-I4w50SEG26zbQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6445 Boulevard Décarie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49641870000001,
+               "lng" : -73.6553749
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49769173029151,
+                  "lng" : -73.6541178697085
+               },
+               "southwest" : {
+                  "lat" : 45.49499376970851,
+                  "lng" : -73.65681583029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "351f278ba66674340165bc414817a07ee077787e",
+         "name" : "Hôtel Ruby Foo's",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118201766760990189482/photos\"\u003ePaul Roy\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANpbcsVYtP9GQ1A4bKo7nZi5sC2kmo0JP_qWsAuB-m4bqPNpyzHs9ycDEdONJ6Wif3VqC_6WLofXFgXXwkPG3q_ZxsYeC2AHAZQyFQEACl0UfB32mgSJ6rXZKTJgmeV3bEhAeMw2rfuwoeIfEx7EtJkFyGhQ_Wznrfhatuz0JKvaN7BtjvdV79w",
+               "width" : 2880
+            }
+         ],
+         "place_id" : "ChIJTSN0e9EZyUwRoo0D_b4pIQM",
+         "plus_code" : {
+            "compound_code" : "F8WV+HV Montréal, Québec, Canada",
+            "global_code" : "87Q8F8WV+HV"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA1jA-nJg9J3yF9vVrIuAw43u1NB7_XIJS1xyHD0npEwqVA8g-vXSX7JL1_wTJWXK8gCiKmGuaR8OwhMz3X8GBPmMps98T0_4gPdhP4JwjFEM0OCGDtIwFOt0Rh1ZN5YydEhC7pZ8O9oDQ3oKDCgfRXBN5GhRQFo-MMJBEYhPLb83UrDB9p14bQA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "7655 Boulevard Décarie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.49586009999999,
+               "lng" : -73.62081979999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49714393029149,
+                  "lng" : -73.61953201970849
+               },
+               "southwest" : {
+                  "lat" : 45.4944459697085,
+                  "lng" : -73.62222998029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "320414e4badb6a234f9aacf4f4e12d4f7d64cfa6",
+         "name" : "Hotel Terrasse Royale",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1282,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114620871717162067995/photos\"\u003eHotel Terrasse Royale\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhSOjjuxQCH6Hwzklx0P2F8r63QDtTrcueg33lAGCOCGdQsXFuMvP0PkkHkWGNIAaxtPjnglr6Py0iGTBOjGGim95BcJ7WdnX7lFt8ERJ2Bup4oTYac2FhDAA0CPPkkhaEhAdTZdRC9pl69FI6uTdXDaIGhSYFX2OqSM1XPz_VBvYTOWn6zogEg",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJHRTtRPAZyUwRlOeNnfFbbko",
+         "plus_code" : {
+            "compound_code" : "F9WH+8M Montréal, Québec, Canada",
+            "global_code" : "87Q8F9WH+8M"
+         },
+         "rating" : 4,
+         "reference" : "CmRRAAAAGnl-SCMW4HehAJzTZ_4GwJ17JUO4AhH5DYG2Rox2QhUZ8DO8g3ULzU1xXTtsEsk4PNVhdsWV1W2JWe_c4WOVF2CeDH8UNFNRt47y0iy-OFQcXnKq5JJ592q48JMSRWoVEhDnrPcX0plXA88ymQueSNhGGhRZLIQVZt5q3xIXiWMCH9UIF_xeTw",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "5225 Chemin de la Côte-des-Neiges, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50664209999999,
+               "lng" : -73.61518339999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5080919302915,
+                  "lng" : -73.61405336970849
+               },
+               "southwest" : {
+                  "lat" : 45.5053939697085,
+                  "lng" : -73.61675133029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "4a28832f43bb949eb497bd9860452f25555cba06",
+         "name" : "ZUM Hôtel",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100469505150102720448/photos\"\u003eJordan Rea\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAP0buS2Freqlb8NKVt80gU03KhK9tg-RfOFw4lVgUI1krWxEZZ4vc1LolOZYoOW3VdYczjjUNzNN_Sp5gUZ9LcXg8gZGQc5qRhdXwPfX1FXIbxC6j-D2BEiv3M6QLj_YiEhD1t5j5uEOWneir0mUSFjy0GhToUlqnmsmB5SvzOoCkCr4wTm58Rg",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJn0l2kI0ZyUwRlp3q5yhpaSQ",
+         "plus_code" : {
+            "compound_code" : "G94M+MW Montréal, Québec, Canada",
+            "global_code" : "87Q8G94M+MW"
+         },
+         "rating" : 2.8,
+         "reference" : "CmRRAAAAqIZtmxkQjySAmpBBK3NfDuS5NVS9aAviVSs-zhoAH4mts33R-e_bBMy1fGVJHiyflExwFWW1sTFreyJOQ1jAWDGdXRT1Dhjp5BfwbD_HiT0L1WrTP0gTmAoDY0vpD32hEhBvHri20MFvWcGgL3sxAXkCGhSDKn-tlhL3BPAXa-1h4LdwH8H9FQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "2450 Boulevard Edouard-Montpetit, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5170371,
+               "lng" : -73.5903454
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5184497302915,
+                  "lng" : -73.5889379197085
+               },
+               "southwest" : {
+                  "lat" : 45.5157517697085,
+                  "lng" : -73.59163588029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "1fb2b07901879559a18427a3834400d2c507daf1",
+         "name" : "Hôtel Park Avenue",
+         "photos" : [
+            {
+               "height" : 5312,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100523647685651949828/photos\"\u003eLa Fraise\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASZMA0LMj8vAoDzockWxBj8VvO0Y_zCA0kugAE8aoHQrYs-SrJa3aCRdMtJBmKo2JHqyntXwxd-mfM8b1ned7bro0MKLscU-upyU4Mfn_EoH3qJ6rSesoBwGwzAWL0WfgEhDN7I20mNGLMrJrkVGn81hfGhS7ZIPzBBR82_0cGPU2QPY5thKP3w",
+               "width" : 2988
+            }
+         ],
+         "place_id" : "ChIJgSKRnCwayUwRFpSlxXzJJb8",
+         "plus_code" : {
+            "compound_code" : "GC85+RV Montréal, Québec, Canada",
+            "global_code" : "87Q8GC85+RV"
+         },
+         "rating" : 2.3,
+         "reference" : "CmRSAAAAhe8yfHFiXao_hhhz0BNODCEzxgZePZA4roln6_2_3VlhxZWFqovAu2mNPjJMlQoy9Zbk1WFk9_OkwnXlD6_8CDo6V4YmfEgSlPIJxLs7MiwF-lkcf-A6dALhCz-pU-O3EhBzIZGE898dsnFHSN2GZfmuGhQvqm7kZ3sHc0SaBmNDoUmvxzxn2g",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "4544 Avenue du Parc, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.516392,
+               "lng" : -73.656691
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.51758073029149,
+                  "lng" : -73.6554403697085
+               },
+               "southwest" : {
+                  "lat" : 45.51488276970849,
+                  "lng" : -73.65813833029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "946bac4098a2377377782b93056f28706fdcccf3",
+         "name" : "Sunset Suites Furnished Apartments",
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108504948452971489414/photos\"\u003eSunset Suites Furnished Apartments\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAxZjb7QQa6V32hSE7U0KRbJhngjiHMO0a-G3bPPqgCecg-mq1kXsmAgSlvExKbfLJk04D2rc6YRwVjhi28gYypEgkij6SkVwNkw__gvmEXj1QSOZQmIFfnMm04JrsRxnPEhAhcbpFDKKuwMlEZFVMhPfVGhQ-DMuGTGhQeAzKmaZMF-dpF2MXMA",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJCzahNkwYyUwRkHwukhNxhzc",
+         "plus_code" : {
+            "compound_code" : "G88V+H8 Mont-Royal, Québec, Canada",
+            "global_code" : "87Q8G88V+H8"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRRAAAAeY5Oh31MGVQ-qjCRokjYLMV2Itk8sEWvKBKaTmYCzmRSVfEwLCxRoPhwVhav-N_m0dbEodmMHYwWTUccnEJXZBawwIGtwkjRamfjkLwochdrfSDkkzIzEXzXJ7Vlle9HEhBSOJiFgDAZtxlxkvgxqSLqGhQLyFbhXjzhWj5WH1UpavqnCB0S8Q",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "2445 Chemin Sunset, Mont-Royal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5324128,
+               "lng" : -73.6489977
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5337797802915,
+                  "lng" : -73.6477374697085
+               },
+               "southwest" : {
+                  "lat" : 45.5310818197085,
+                  "lng" : -73.65043543029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/movies-71.png",
+         "id" : "494ccbf3b44c2320f2f12e79cd368169512da76d",
+         "name" : "Cinémas Guzzo",
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111258791576151258594/photos\"\u003eFlorin Celeapca\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-xkgtBZu_WknqvmI8Mrx34I_krZzkDMPVHZ6WqVo554caUCTQ0XLqRTlFpnOzFrLtY3_p3EZ97nGN-d-HWzVjFDdHLHBOWUm9uexVLG8620sWH7Mi9s2tyV0T5Mqf2IEEhB1sQnI8fs1Ll6R5ApavEaBGhSAliSHXN4uvW-u-ERQScqMWJ0JJA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJHd7UmvwYyUwRAqFSDnnDE7s",
+         "plus_code" : {
+            "compound_code" : "G9J2+XC Montréal, Québec, Canada",
+            "global_code" : "87Q8G9J2+XC"
+         },
+         "rating" : 3.7,
+         "reference" : "CmRSAAAAjR4cmupWJXJDzaTdrU-4r2CNqzuOYSKmeDe4UJkSoy7ECX882kXBGVa7gfWkpTRd3Tbec4kXqf3614omhpjppjO4eImydQNrsANbZqM-BFSIeU1Cf1D2Vp0cfow_Xyv_EhDaDtP_eXUoOljkPRuvr-ydGhQrKwV93jzYWsq0TFe-WH7FwSfPxQ",
+         "scope" : "GOOGLE",
+         "types" : [ "movie_theater", "point_of_interest", "establishment" ],
+         "vicinity" : "901 Boulevard Crémazie Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5067531,
+               "lng" : -73.6627639
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5085222302915,
+                  "lng" : -73.66126466970849
+               },
+               "southwest" : {
+                  "lat" : 45.5058242697085,
+                  "lng" : -73.66396263029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "47962b136bfeeb9f54d974e7a5c08c16013bfe2b",
+         "name" : "The UPS Store",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2322,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109895037473711536718/photos\"\u003eNicolas P.\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAXu22ZpDemeSyTj8YiOQhune120XeY2LpmESVFGrrYEDQOH2MgUCXb-eJgEE8UlYtN5co7l3K2ntBD7rCPGcHrBWxY-UiJ2UzjT9RxTskeEN4Gcml1oM2sBZJqoU46lOAEhC3XV9LCQ9ewdf9ILMT0gsXGhQ9SHTlJF2IAea1qa4uLQop7jT2Qg",
+               "width" : 4128
+            }
+         ],
+         "place_id" : "ChIJPRyUSjQYyUwROoTc4t6aBBU",
+         "plus_code" : {
+            "compound_code" : "G84P+PV Mont-Royal, Québec, Canada",
+            "global_code" : "87Q8G84P+PV"
+         },
+         "rating" : 2.2,
+         "reference" : "CmRRAAAAkEvlHNA6aaPvVNBwKyJ4QzPnEVXIdWzUmTH-o1AlhACev9oBHhbeZQGQ6jl6TC_1czk2bbVtdUh-gaaxbFi19Laigwfzo6a3RmbZ5oaij09RfzamwQYasceSw7M3SxswEhCT8Zcfl-J5TcKtZltVg9-fGhSixQmwQROXBZE5V4xOUhRftlSIuQ",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "2400 Chemin Lucerne, Mont-Royal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5319868,
+               "lng" : -73.65081619999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53316883029149,
+                  "lng" : -73.64955286970849
+               },
+               "southwest" : {
+                  "lat" : 45.53047086970849,
+                  "lng" : -73.65225083029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "ee9bf37d4c7cd8e02c6e92d6bb1fc5bed92e8f0f",
+         "name" : "Best Buy",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111735499388529698585/photos\"\u003ejuan rebolledo\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmTAAUHLqZS3IWiQPZFErfXuHbJOY6UsJVsZZ3WnWInrBW2HVepv_zAm87ORFi9GlI29lLg32-xhskrRO3WPuI-YZNR8fIMK5D_sMdbsb7nzikOuq5cV7-D2562mQVSi_EhDKBl8UcpYnA8UTvjK4-joVGhRpBX5zQQA6r66ZnMeOcBQ2ja5B8A",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJl3UEafkYyUwRoLYEjVO2gBQ",
+         "plus_code" : {
+            "compound_code" : "G8JX+QM Montréal, Québec, Canada",
+            "global_code" : "87Q8G8JX+QM"
+         },
+         "price_level" : 2,
+         "rating" : 2.9,
+         "reference" : "CmRRAAAA8oBNLs2AplPyp6tnN534tnnBCbn2oqRsDS4mJXIfdaWwGLe5WzKrtJ4JocDQth8_dJUTbfjN_ZGm0w276CgC1Dv4LIgdQ5eGsQ8ibXVZcaXAqqL9itnw-NKV4IAdmukbEhDWrk-npE7JsVPqy9IdZ6jnGhRZ_Q_jjwkaHgW1JjZHS9dbKI4GFA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "electronics_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "8871 Boulevard de l'Acadie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.52830589999999,
+               "lng" : -73.60905529999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5294991302915,
+                  "lng" : -73.6080112697085
+               },
+               "southwest" : {
+                  "lat" : 45.5268011697085,
+                  "lng" : -73.6107092302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "515c8f4e52ea8e908e100946e83b2f572bcb86db",
+         "name" : "The Home Depot",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3006,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110862802692218089410/photos\"\u003eÉric Paris\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdWHeM-FVYF029Rof3SZbIDR0BCJ2uSA3XCtlQYmnDbeajwBgBd7sbE6YtqBF6pVlxCNEq0GgiEv-syiDCYzaxj3JYGcAly4L1zLEJ8kCretAGItYdu1sjEfVQIWhYOvpEhC7gGtKaxqMuan4_nQVhNhiGhRZbh4MtuwqzMfSit8EXT4ngSurlQ",
+               "width" : 5344
+            }
+         ],
+         "place_id" : "ChIJ_z6503MZyUwRGShjw6GEH5s",
+         "plus_code" : {
+            "compound_code" : "G9HR+89 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9HR+89"
+         },
+         "price_level" : 1,
+         "rating" : 3.5,
+         "reference" : "CmRSAAAAKrYKmAJOa8qC1E63-WqNV990Ck0rypU_CilxeArfW4uZ_PxhTo8Jt9uEWxia1y6V9kMp5L6oT7cQtRsAVvd33Za5iFYw9iv8Vzchw1agAtAAKSmHIN4WeP1zC5hwQk4WEhCcFoexxA_8j6FuxH6uxXVmGhScE5QwslmTXewTQyfBfPkKK__IkA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "hardware_store",
+            "furniture_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "100 Rue Beaubien Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5199569,
+               "lng" : -73.6085557
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5213058802915,
+                  "lng" : -73.60720671970849
+               },
+               "southwest" : {
+                  "lat" : 45.5186079197085,
+                  "lng" : -73.60990468029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "131ef4f8de472f7c94e5c4e6f5009e0564d7da0e",
+         "name" : "Théâtre Outremont",
+         "photos" : [
+            {
+               "height" : 4224,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113733399560772974032/photos\"\u003eLeo Li\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAvtP-id6L-BsHnSwRhXb-7Pm0MW-B_nBlftygLE2THuMmil-77BNr1HOttsXINbF8UcTaiTdQpmptbviSFSofY-yHylzNpBfgtDw8om4-SO9MxMtYB5OS_wXulZPxR1ATEhCYrj6fHNIzouj5fubEjAm0GhRMCo_MXrjDFQF59uriWQ0HnhTbbA",
+               "width" : 3168
+            }
+         ],
+         "place_id" : "ChIJP0zKNJ0ZyUwRp2MELvd8J7k",
+         "plus_code" : {
+            "compound_code" : "G99R+XH Montréal, Québec, Canada",
+            "global_code" : "87Q8G99R+XH"
+         },
+         "rating" : 4,
+         "reference" : "CmRSAAAAOcSopQh0eW7Rxup1JwHJQg1looOU3U3AV5rdKTCUWpUISeoAhqqRGdzg5KvoP4Tls_WEfd7AMJSBd0zfeSBYmSZep2PmRLA704jjlTI7G8D12Hwz7tygrltcSyuDpQ1JEhAuktbX0F6Wz6stjw0YSv6cGhQYXcGs9Q-SZ86y1kNv-pCHZ-lZkA",
+         "scope" : "GOOGLE",
+         "types" : [ "local_government_office", "point_of_interest", "establishment" ],
+         "vicinity" : "1248 avenue Bernard Ouest, Outremont"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5314214,
+               "lng" : -73.6527579
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5330226802915,
+                  "lng" : -73.65125416970849
+               },
+               "southwest" : {
+                  "lat" : 45.5303247197085,
+                  "lng" : -73.6539521302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "455cc4eeedd8bb0ebd8ff902b4f9705d5f144ffd",
+         "name" : "Canadian Tire - Marche Central, QC",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106336599789071650566/photos\"\u003ePatrice Racine\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAANFbJirnygWg7lGsPYa3Mc592__dfGmQFYJLPdv7ADae5SynO61aldpqa8nnGpsm1F39G_cXeF72tqHEAgbbgYEo_HL2ykbzgc2M9835Cu5Sjf-hkeieDmt1IBPNjAe-VEhDBjPa8B7ggf9f3qaffKBsuGhTWIOo5NWIqHVifScnqbDAX3Schww",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJBSSdGvkYyUwRfVlUYJXes6g",
+         "plus_code" : {
+            "compound_code" : "G8JW+HV Montréal, Québec, Canada",
+            "global_code" : "87Q8G8JW+HV"
+         },
+         "rating" : 3.5,
+         "reference" : "CmRSAAAAKBv4MFzEu4bfQI7Dsy319_4iL_lrLGU829yQvU-nZMbKN92QJ-ccZM34ZDmU5AEJYVz9nuQjnkHWnu2MIQbzkm2FIhrF97N92DSy5jxIbI52zIx-LzO2s0QSm_umuwCLEhC7p6KgvOgPXRUD9IP6Eyk0GhRkMIt6ULUh9TpX7YQeItBmuZ5SyA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "department_store",
+            "home_goods_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "9050 Boulevard de l'Acadie, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5208428,
+               "lng" : -73.70366509999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5219297302915,
+                  "lng" : -73.7026531197085
+               },
+               "southwest" : {
+                  "lat" : 45.5192317697085,
+                  "lng" : -73.70535108029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "999a650676b9077e27d660fa6dc7ad59d8e83fe7",
+         "name" : "Motel Pierre",
+         "photos" : [
+            {
+               "height" : 2976,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102348839533759380589/photos\"\u003eMuhammad Ahmed\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA14rMQHVMb3r_NKhNEAuJI26d2V7ftkILOnvNrSjlfHZr5LZmsSjZy4Z-3JAZHvmY2i-erD7eBuL26rJVgE-jOVssOMxTULbPnls3nUwVmbrF3Nf_VvyPVWUKvKn7eoQqEhBrjGYJYJBOr2Na2VWNQuSqGhS-JfPMOqJAF1YKlB5yBsfuEtB4og",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJKYSXdZ4iyUwRWzE1ZUVS1OA",
+         "plus_code" : {
+            "compound_code" : "G7CW+8G Montréal, Québec, Canada",
+            "global_code" : "87Q8G7CW+8G"
+         },
+         "rating" : 2.7,
+         "reference" : "CmRSAAAAThGVP1HzBG-vy1kfOq5ZAKf7U7v8OD2OJRADUUDVSaEEfU2N0rG2RFaCL_1OFelNzJUrMFKLc9LIE7XLDgqVVwir-3BGGfXsZEeVUSmgg6bLO9T_KsHJpPdrFigbxo8REhA_VijHHrbEppKAas1d6Vw2GhR2LhMfrI1bwbVdVRSmvePdFnV9pQ",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "2375 Boulevard Marcel-Laurin, Saint-Laurent"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5442074,
+               "lng" : -73.64896809999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5453933802915,
+                  "lng" : -73.64771546970849
+               },
+               "southwest" : {
+                  "lat" : 45.5426954197085,
+                  "lng" : -73.65041343029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "c899896235b32bb99398d71a4296564b44179d1b",
+         "name" : "Ciot",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100175845214684496072/photos\"\u003eCiot\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAaO1khUaKB5AzDAYusaInKp8arddLZGZCCK1mhZEHgDJl2_NkC1X1ZT1wQYyKgvZWVWhmucWXXIGO2IYVvytzVsQmFB2xQRCSXWiB0KGTdqBrTMEg5LLnxwHKEUmvrd-KEhAlfb6CwUx87bx3y9hxJO8tGhSMT3MK3vzBu9yizKtRqEneAkMFgQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJA_BNgugYyUwR9H4AALzkimk",
+         "plus_code" : {
+            "compound_code" : "G9V2+MC Montréal, Québec, Canada",
+            "global_code" : "87Q8G9V2+MC"
+         },
+         "rating" : 3.5,
+         "reference" : "CmRRAAAAfQIyV4OIin03aiDpCGEftyl4BZFyx_peX_BYlvrv3ejAHm3m__5uP7oOAAaYFEX9ShUgyXisPefUzmacrR30Akol_Bew3d-XAaMOuEupNeotHJjGSGfwgQ6CFwoIv0lXEhCb-hS4K32guptLNeMkdBtQGhT7wOpXgday4vzZ2OOgOCsijcmspA",
+         "scope" : "GOOGLE",
+         "types" : [ "home_goods_store", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "9151 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5364695,
+               "lng" : -73.60328699999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5377283802915,
+                  "lng" : -73.60202061970848
+               },
+               "southwest" : {
+                  "lat" : 45.5350304197085,
+                  "lng" : -73.60471858029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "c316a922aee7c3f06ef46152eb4d321b05897411",
+         "name" : "JACO UOMO MATINIQUE TUXEDO",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114590816079389591540/photos\"\u003eJACO UOMO MATINIQUE TUXEDO\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAldAT3_u4aQz0E-VmoPi1TtBSv9nV652MAcTogt4TKTjk32A4_sVsJwjJ15D9auDzbkLyLV4O8WY1mEVVPXv1gcMxlAZu1FsQ9U_dwigvQmIPctFS8zpYgICzhUPN7KweEhAyWiIXyjwZqeZ6LIR6YpMlGhR1H9dM1qpl-fu8OVSOFQdBumjJfw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJfaSvI2kZyUwRYVAsvJPjGzM",
+         "plus_code" : {
+            "compound_code" : "G9PW+HM Montréal, Québec, Canada",
+            "global_code" : "87Q8G9PW+HM"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRRAAAAGeSzNkFCAbkIFEAdHi6kaLyvGllhD7AXCwUSiBrJzfn2SHFbvBJB-zTHQljAbfnQnPGYBNuXvnkvlOvCgUbAtcgLUBGATP_d6QmhBCf9EMfxFzoIoWrYE5-NKRW2kYW2EhAayL-qr85CsCiFWJ7Q4bIzGhRXUF8pzljelEexfu_OPOI1YkLCwQ",
+         "scope" : "GOOGLE",
+         "types" : [ "clothing_store", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "Près Du Métro Beaubien, 6509 Saint Hubert Street, Montreal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5347015,
+               "lng" : -73.6061031
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53605048029149,
+                  "lng" : -73.60475411970849
+               },
+               "southwest" : {
+                  "lat" : 45.53335251970849,
+                  "lng" : -73.60745208029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "60db525248cb060868b85356ea54b2bfc74c11a1",
+         "name" : "Gîte le 9 et demi St-Denis",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 426,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109830634723787625571/photos\"\u003eGîte le 9 et demi St-Denis\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAloezDtOhoWdFbGiReOAaBIpxH7V-Mw1jah_G1-ExbGsTM5qSiorUA6I5aRSZiKsd7_omlf6p9lgf0VqHb2mdldsm-loNWXLGENoStz2Xi4RkMg9pFlIWmDocdXXZYfpIEhAPy79pePbLr778z6hg4i8CGhSszy0JzMg5uCYxUq1n90g6MBp-IA",
+               "width" : 426
+            }
+         ],
+         "place_id" : "ChIJn6_1lW4ZyUwR7k6UzyFXPPQ",
+         "plus_code" : {
+            "compound_code" : "G9MV+VH Montréal, Québec, Canada",
+            "global_code" : "87Q8G9MV+VH"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRSAAAABaqvwDkbCSIzKfFbwGQYoAubVRU3MQRapaoXMlj2tSGv8xOzEPwaNBsPImG0Hor8EndBWSDUfqs-jv42bFRJ-iHkFQanSPdN4Tgq49TFv0KbTSLEuGjKVQIPPc7tQbYWEhCp6kRoqrnlm7FNyPF9v9RvGhS_3VMJfQ0jCaLNVOTxh7ADpmbtdA",
+         "scope" : "GOOGLE",
+         "types" : [ "lodging", "point_of_interest", "establishment" ],
+         "vicinity" : "6529 Rue St Denis, Montreal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5019922,
+               "lng" : -73.66075239999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5033519802915,
+                  "lng" : -73.65934106970849
+               },
+               "southwest" : {
+                  "lat" : 45.5006540197085,
+                  "lng" : -73.6620390302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/generic_business-71.png",
+         "id" : "0ede692c4aa0b23bc8d7a790082442f4ef1cbf74",
+         "name" : "CBM Inc",
+         "place_id" : "ChIJP7GT2jIYyUwRkHUs6e3ehSY",
+         "plus_code" : {
+            "compound_code" : "G82Q+QM Montréal, Québec, Canada",
+            "global_code" : "87Q8G82Q+QM"
+         },
+         "reference" : "CmRRAAAAKDa1GGTyr3V5lnsINLFIbZl6sKTTEKof7g7Kct6FPs9FM9upD3O7I4rdFuBrsyHOgLoVqBEQWRdqSkvnEmEVpaxEyTzNQmsBdHQklwqJdYiY3LfYs1PHI3_6_6hOXrIcEhBzFXKjW9JnQpKci-jt-0uTGhRUM944sUsJbhnLIHiDwcgOv3K4zg",
+         "scope" : "GOOGLE",
+         "types" : [ "point_of_interest", "establishment" ],
+         "vicinity" : "8370 Rue Labarre, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.520746,
+               "lng" : -73.608383
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5220654302915,
+                  "lng" : -73.60696346970849
+               },
+               "southwest" : {
+                  "lat" : 45.5193674697085,
+                  "lng" : -73.6096614302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/bank_dollar-71.png",
+         "id" : "32a245e907ee54ec46eb3c3996548837b9676e29",
+         "name" : "CIBC Succursale & GAB",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2992,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112921555425890649533/photos\"\u003eSimon Potvin\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA2uvhbUTyoqUmKsveSnvZNA0oYoGNqK7HFGdLh1QugFteaKaROLFo00Zv3HXZvjJPBND3tCZxlYUG0VNpxFdxmH3byY4akeM3B350Os5_mwIBzUrqwgV-VQ095we-TgYrEhCNq85MYPXtwLjZpvg9ldC1GhSuYZUUyAfvhEwWWVpARzS_189VmQ",
+               "width" : 4000
+            }
+         ],
+         "place_id" : "ChIJ6Vv7re8YyUwR1Uoh4enwyW8",
+         "plus_code" : {
+            "compound_code" : "G9CR+7J Montréal, Québec, Canada",
+            "global_code" : "87Q8G9CR+7J"
+         },
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAEPPnZ33KYBW5yyU33hzCs-sfS9VQM56AbHlV11p1QEmpjbQiFpKvKMcuw6H_3BbFVX1_sTZRPM6m6YnlMZ6OvjcKpw_1J7aWt7f2Zjl7PlfjebrlPgekvjTKAW5PBGL3EhDaj0vvu-XPm7D_6kAEEwqoGhTeqzEkATQBVhwaMGUpnSEiv-V5Cw",
+         "scope" : "GOOGLE",
+         "types" : [ "bank", "finance", "point_of_interest", "establishment" ],
+         "vicinity" : "1195 Rue Bernard Ouest, Outremont"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.6066487,
+               "lng" : -73.71240899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.701127,
+                  "lng" : -73.52300099999999
+               },
+               "southwest" : {
+                  "lat" : 45.510759,
+                  "lng" : -73.896017
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+         "id" : "f9711208cefe9c75a1539ffd71bb37bce6e44d7c",
+         "name" : "Laval",
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115259967231540711320/photos\"\u003eEric Dupuis\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAV0D47HGy-h1QDFzx5kt5d1tVsWk1DkYRW-lbVqVgj-oTOeOUkk97Dk-0F8s5ReD8Yh5hwoq0lcCe6ZTOpnIrmOWt35n8dv4d-e9uQLKiuxVuRoWK9CMKtTUeCDZqFxwgEhBtZ80ttKeIDG-vLhGCTALAGhRo9VEObGrQFRDmpN7Q-3jY3IEyaw",
+               "width" : 3456
+            }
+         ],
+         "place_id" : "ChIJa9rftAchyUwRGcQz42-ytC4",
+         "reference" : "CmRbAAAAdTCHdnIUR18vN96DcJym3k5CuJO0a2XsHGkzQcyoh4e80D_HZ_xJX5bO9iBub-3skqhOQ7mryAnvLPPetC9tztaZxkJFsoxIbtPUl3fBOQBRgsoYboWlnXqhbTsH5f7cEhBGuDxJCz8cv63-mZGiu6TFGhSFhKdQI2MLL5epvyazmE35YShw4g",
+         "scope" : "GOOGLE",
+         "types" : [ "locality", "political" ],
+         "vicinity" : "Laval"
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,952 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CvQD4wEAANhiSc1KXLHGSTMc2tD9DdBJPHd0nS27WAkpzx6aZKUcsZbo8v93CyHZ1v9plqI079HyV-nYyeehuS2ahZItfAsfR2uP9vsbKpQKNPu7MRiF7SwyeavaHnQGoVhBAsEaxcYcQnXOxDLupNEYHu0dpeLF9fTSPDstshxJqhqlQt_0hvB0nQp0S1fQlP_ft_KoX3VyS8hBgZPNcK1uKiDn_GJCBoPXOdg1CrRoFZS9pJZiEYEfNz8SdJJvqpuVdEuIYFDswCH68HG5SgTEZn2M1bS2PwS1CM6lW1SpcS1UiPZIdbpDeQMAR28oEGO5IsVJYw2h0gKbyqAiQ-uhV-Ze7hcrgfTYQZiBcdtnPV11WnNhWPbI20lOjBeKp8aEDWmSSX8x0t27WOdlLZAXZ911bpcEkQJj2hYktLMsTeX2F3cOgnQIF-8rESLQfD7TJB2iuAezsbasiQ-BENuXh3WNnpGua0wa_jScrxdT2WyPg9Vzh5ZersrGDAehXTiNtOhUTIcFVOfodUeRVURDRQpaPXIb0wKV_OneNi8QTiHWH7newHOvpXDOMwgtxa-ZppzCU8XjDoCMqa9Z8IhhWZn27U8C3FNu63ovq5lse-KsPueX-kmwNhBfBx7rnPHbTKSra0uk8wE6FQTCxzgDDl4z5L4SEBZRwPSpN_WryyTDJrP79QwaFEADmLrniYSdEXhSOlegvuL4NTPk",
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50316369999999,
+               "lng" : -73.554934
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.50448958029149,
+                  "lng" : -73.5536304197085
+               },
+               "southwest" : {
+                  "lat" : 45.50179161970849,
+                  "lng" : -73.5563283802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "a0ea10f3db82154513948ef0e1a522dfd4e681fc",
+         "name" : "Le Petit Hotel",
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117343577008643982724/photos\"\u003eTerri Ohler\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAADUxwZD0oFum8MCIZ73d71UoCxQN2s8hYpEjpuiPNmEYKIHiZs4HY8H4khpQchlYAW0fauvYsk1BQ9981FSQQ8aBeq4b8x0L92pUs_i4fpJrnJRHhlshGknyU4ewI5YVvEhB9qE7c--hbQkKiVCJxma31GhSHRYzrVlLEGe0zGopsgc-iQYx2pQ",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJKdFYMVgayUwRETqDbgf-buI",
+         "plus_code" : {
+            "compound_code" : "GC3W+72 Montréal, Québec, Canada",
+            "global_code" : "87Q8GC3W+72"
+         },
+         "rating" : 4.7,
+         "reference" : "CmRSAAAAgJnh3VvmBdHldAabVfTC8HE1Cxid3DofC4vcD2QaduR7x3Dre8rNNfo4iH9qKqlheJ_NpXuuBa6keA6ODpVFDHR4cyoI023cE8Q0IU4O_fdQ1xAHZa7skewmIZ6nqzc0EhB7QtqpS2qYHilR82_p8FHYGhQgF9uMGhvneWcGU3cspNl_Cjh30g",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "lodging", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "168 Rue Saint-Paul Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.50144299999999,
+               "lng" : -73.578231
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5028420302915,
+                  "lng" : -73.5768312197085
+               },
+               "southwest" : {
+                  "lat" : 45.5001440697085,
+                  "lng" : -73.57952918029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/lodging-71.png",
+         "id" : "49f0401e68ca2082925e466d831b1d93b262bad2",
+         "name" : "Ambrose Hôtel & Café",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 653,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113444659943488460967/photos\"\u003eAmbrose Hôtel &amp; Café\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAc1_o2JFpihrzR3cK06Cl26nNKjzy6gB4Bq5qjmFo9-ZdAbrdnqAgKne69sB0Tb-q6mlLbxdUVp5NLa_ukqMCpQwTnEwO5DzMn1xlTdnSt2yx-uq5Hl5Cy5-pXFkCftFSEhCg76n4mt9fBdho0rmzG-Q0GhS7kulmHwil5ddaAe9oLYMRQHR0PA",
+               "width" : 652
+            }
+         ],
+         "place_id" : "ChIJl0NEwkAayUwRTTmiOcXZzlo",
+         "plus_code" : {
+            "compound_code" : "GC2C+HP Montréal, Québec, Canada",
+            "global_code" : "87Q8GC2C+HP"
+         },
+         "rating" : 4.2,
+         "reference" : "CmRRAAAA-BezH0Z05q8SJrq9EQLxfryUYCsvl0ja9rr3gPGxRbf-35-SYFfJBwDfFpKIrKrvjvIONmJ1VLN02jKhHAg1ipPddYd24L0yMtb9Z0Z4x0SMiVr2QTrLDWfNYGiTfrN_EhAqHdcjqmkPbrBPU0acdxv2GhRcA-jr0BGJxTs390VimDO9vexnvA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "store",
+            "lodging",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "3422 Rue Stanley, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5016583,
+               "lng" : -73.575682
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5028874802915,
+                  "lng" : -73.57440901970851
+               },
+               "southwest" : {
+                  "lat" : 45.50018951970851,
+                  "lng" : -73.57710698029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "1d08b797f8b3b28d8676081b1a3081bd8ed7caf2",
+         "name" : "Universel Déjeuners et Grillades",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102365447182066264350/photos\"\u003eJease Parre\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAMJJIgc3gS55_wws-osJUQL4YQVPxDLBH3Oux7R58de-dXpdijeDGZXf5NCH_AJcRZFu8w8Rjj1GO8Tcd20Zdf4dgttgnwqXebeDlGadtCJ6KmfGRvt3JyrqJ6cIvin93EhAllV9b9lGrgIz40QT36epmGhSSH2Rp4enHX2LDKZPZcUU0CGES2g",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ4Rl_L0EayUwREWrbitMz5wg",
+         "plus_code" : {
+            "compound_code" : "GC2F+MP Montréal, Québec, Canada",
+            "global_code" : "87Q8GC2F+MP"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRRAAAA9l_LkSFi241bGX7J3vPIzCjQUjeQrdRbHPQGwB2_31uHgAlwsU0gIKtdk4s0J5sFrivgQ2Q7_H19pEBesn0P1CThJ5XS8kXTEt82aek9pUjHubSF3BdqhTurwo59tFitEhASXYeYSxrz3Y8bCli21qsTGhQmhJOkhDBJ-HJU2goMnWlolrHVkQ",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "2055 Rue Peel, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5194196,
+               "lng" : -73.59861600000001
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52082748029149,
+                  "lng" : -73.59721326970849
+               },
+               "southwest" : {
+                  "lat" : 45.5181295197085,
+                  "lng" : -73.5999112302915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "cb27a42b36f905b74b91ed9d6e252e1f7475aafa",
+         "name" : "La Croissanterie Figaro",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1364,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109911680285392917120/photos\"\u003eLa Croissanterie Figaro\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAZzfc_aujST6W_EYIBz-hCVlj7g8G98ERqaMQFz5huMvo71ypNabuBZc8YgXCx8LrM6SfB98w8yOiNi99HMFqzyPpOtusO6cdOzhljVMoDiJ4l0THFwjPPwSUO76GTJjaEhB9Ng_35ig8tJYzhaP5A3wiGhRIInmcG_7zHPn67NTZEQIYXsFfCA",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJP5zXL4AZyUwRdK-XEC0X_9k",
+         "plus_code" : {
+            "compound_code" : "GC92+QH Montréal, Québec, Canada",
+            "global_code" : "87Q8GC92+QH"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAH0zXa0ftr_6NOvP1y5UUW-_EFlqKI_qWjPrRRYvtr1WDhriG8fmWwG39z9ybr_AbP8dcJeDZvXqO4n59AcwKh0VW1TN4QaT7fOSl7-2i1-xHWjhbL58cQdkWgLMT9dhWEhCZQO164wV1vR9FyHzb41nvGhSq765-H9CcPGP1MTJXc6NeUo82oA",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "5200 Rue Hutchison, Outremont"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5006345,
+               "lng" : -73.57452929999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.50203953029149,
+                  "lng" : -73.5731271697085
+               },
+               "southwest" : {
+                  "lat" : 45.4993415697085,
+                  "lng" : -73.57582513029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "71f57d913511fb752eb391a9f74c0ed3c480d885",
+         "name" : "Café Vasco Da Gama",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1366,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108616996333410509278/photos\"\u003eCafé Vasco Da Gama\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAybqOFXX88jgOv5lzbsBqSDshFjKTsCOo-puKDcZc_JwJsDeNgTty0RHWX8IUKDsr-pSKxX3o3mC1Of0QQzjtRtx-eaSiVHfTbvJqRCJzNBeP2i2bFdkanGHlmfvgtxXfEhD80xp0WBG74FFzU42qSjX-GhQs2Y8AWUVoHP-x_x3XgKWCoKjlvQ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ1ww8aEEayUwRzR5Y9p3iQ0g",
+         "plus_code" : {
+            "compound_code" : "GC2G+75 Montréal, Québec, Canada",
+            "global_code" : "87Q8GC2G+75"
+         },
+         "rating" : 4.2,
+         "reference" : "CmRRAAAA8jlU12zrxwxzdQO4qxK2enRONxy16G60MhQ1NORwmjT3KbIafWbsO9YYcAb7wGJeRHmeDG-K2UoYw8PCF_v3fQIgkkF-waJzMWz69a4LdC03cYVgQpIVfpdzHZFdCfGcEhDqzLHKRwy_NUA1cqrmt0OPGhTL28pf2tbaB4pff_q5dzGhWgIHZw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1472 Rue Peel, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5214377,
+               "lng" : -73.59700029999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52274933029149,
+                  "lng" : -73.59556491970849
+               },
+               "southwest" : {
+                  "lat" : 45.5200513697085,
+                  "lng" : -73.59826288029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "665921c2fbc6c2914fc446529bc2ea51e793dd71",
+         "name" : "Arts Café",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3036,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100190209362141328715/photos\"\u003eAli Inay\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAS7GUiJaIPVWZxCBdKfmQHLXcPqivZoP-aa4dmwfNo-k1M-u6DXXWFmSjmxhugbeHN-a8NGosqdDsI-y6UmqizSasxS7N7o57nCEAv-bwqMcIfnDESg0erhJiRi_wN6YREhAtU7dPuf5jl47VammKoZolGhSjm3iXO1-GbNqxJ1lIXI8pDvqDJg",
+               "width" : 4048
+            }
+         ],
+         "place_id" : "ChIJ2aSTuX8ZyUwRRLiuuSZTxZk",
+         "plus_code" : {
+            "compound_code" : "GCC3+H5 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCC3+H5"
+         },
+         "rating" : 4.3,
+         "reference" : "CmRSAAAAwshH4RjtM7rf_cL-c0pRj0gwlFOMWhIXYwJCa5hCdNbY6YBneibwRsadDLyCO-HZT0DqsRRpvN2D4kGhBPEDqsonnrEd20VqkFj-3am5Ctin8h2PyDDC3Ze_Kpxd6sAcEhCH8WhpIWNT712WV6smQDXcGhT_xF2gIY39r3bmUXhmZetU8FmHdA",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "201 Avenue Fairmount Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5378887,
+               "lng" : -73.6066221
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5392376802915,
+                  "lng" : -73.6052731197085
+               },
+               "southwest" : {
+                  "lat" : 45.5365397197085,
+                  "lng" : -73.60797108029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "dc237617944403da8ce0cff170350b8c33a35cf1",
+         "name" : "Le Roi du Smoked Meat - Deli - Bar - Poutine - Steaks",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116836897159265653803/photos\"\u003eLe Roi du Smoked Meat - Deli - Bar - Poutine - Steaks\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAMAcfzOIZYQ_XZT6i2eiYZPJlWiIlsjQ-xV_d0FLgixtxNDdycrx_hRq_qKw-x4_izl6NHbdQJhNSkHr2erM2yRhEePGv4Qrr4sa90S9NeAxsR9uPnncE22UKrOq-UQlSEhBqytGhzIt35nT-1ryNo-c6GhQwc_pS7VmzUvUbPZhYrkTakoI34w",
+               "width" : 1837
+            }
+         ],
+         "place_id" : "ChIJOb9LymsZyUwRPoYsaKIf3CQ",
+         "plus_code" : {
+            "compound_code" : "G9QV+59 Montréal, Québec, Canada",
+            "global_code" : "87Q8G9QV+59"
+         },
+         "rating" : 3.9,
+         "reference" : "CmRRAAAA6Rj4WEZdNkcN5zSlvgTmW-nLvv9kRwKbQEJWpGpum0At05bnlI7IgAFCCZerCTJd8LFxHGkrJuhjkUSYJTx_t_dLVWu4V1OFaXMzCDsmXrOSVh_UDEHhT7kfBk0js9aXEhAvMv0Aoa-IZlNPmrloWH0vGhRJcH-iqJB95JnsUz1Qmof_gzhJVw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bar",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "6705 Rue St-Hubert, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.503073,
+               "lng" : -73.56322279999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5044620302915,
+                  "lng" : -73.56183396970847
+               },
+               "southwest" : {
+                  "lat" : 45.5017640697085,
+                  "lng" : -73.56453193029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "49f0dc92f976770ec9732ba24419f88b4eff207e",
+         "name" : "Café Daylight Factory",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108712465843785698311/photos\"\u003eDina Santina\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAF4Lek49XoC2KlhPx1WFV10VQ2BrpVSclhv_NPShj7TSOxDENCNRiH8hLK3pXia2-K9NMKqk6V1dcEo5O-o-VwVB0t4owKO4-dNTQmvPqycj9BSnXL2m8fTNnmqAMSbxlEhDeDT2jZykwPZynovRCLgT7GhQ0DFgQerx3vPUJvlBE7oCZm4C3Xw",
+               "width" : 2448
+            }
+         ],
+         "place_id" : "ChIJkWRo5FoayUwRyFoJSugdZAo",
+         "plus_code" : {
+            "compound_code" : "GC3P+6P Montréal, Québec, Canada",
+            "global_code" : "87Q8GC3P+6P"
+         },
+         "rating" : 3.6,
+         "reference" : "CmRRAAAATwW2Q96kj-Mg4xrxCioQGYSX26Pc5xNFKszJPloKenCAJGXl6d1i6lGwcdL3-rr_IvuEAQE5M8XSteNihhQioM_Y_qfLiWLOLRPwRyWAkk2-TTB6ByjHHFT3a3-eXF7nEhBkxsl0mltV5-m6xT4_YiQNGhREPj70xkDJB8hctrwDABgyPWnEQQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "1030 Rue Saint-Alexandre, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.508768,
+               "lng" : -73.57255739999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5101878802915,
+                  "lng" : -73.57114126970848
+               },
+               "southwest" : {
+                  "lat" : 45.5074899197085,
+                  "lng" : -73.57383923029148
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "6662fb3c0ae486f3bdb3bd5d0abca5f2cf047ae0",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 950,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105576139175736990397/photos\"\u003eTim Hortons\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAp2wet6IsTKB9SsVePo3yMbJLsdeKQMACW4chl87EG0ubUHQLEM8wcpqCj-F9ebI0EZDKQV5ak24-7sQQbhwU7hUJqXA0_0kKpZ9QfKZ1kYzNEOWw_pC_oUgnXokqzU2_EhBAZ8Uzu5Uc9rwTTlblqSF6GhS331w3iq4uIW5p5ot6SvCfvL8QzA",
+               "width" : 950
+            }
+         ],
+         "place_id" : "ChIJvQT2S-YWyUwRLylFPrISQAg",
+         "plus_code" : {
+            "compound_code" : "GC5G+GX Montréal, Québec, Canada",
+            "global_code" : "87Q8GC5G+GX"
+         },
+         "price_level" : 1,
+         "rating" : 3.6,
+         "reference" : "CmRRAAAAKXoqDbP0mibvrOcRVUjKVVFFccmTC1ekhOh8A6ztqE0tw_LjlLtFtF0nm_qjtPHD168e5QsJ_OzCO6FyObydsmgVHUuYWd57k0tcl4BfHwG1IRZv9R-_8DbljdHAeirMEhBz0JVfj-CfGOcaVlyQAwUAGhQZ4CKD3HjJlzpAbe6MxaTdTs643w",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "3444 Avenue du Parc, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4914595,
+               "lng" : -73.58229419999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49280848029149,
+                  "lng" : -73.5809452197085
+               },
+               "southwest" : {
+                  "lat" : 45.49011051970849,
+                  "lng" : -73.5836431802915
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "4d128fbfb75cb022fdb6b6384cd0f48a6bfc0a4b",
+         "name" : "CACAO 70 Eatery",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103540444668884118799/photos\"\u003eRaphael Yeung\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAQEVgIEK-zwh5Q3e65PLsA50QmTKSJZdeNzsSaUg_Zh5L96X0VqSMg8fypyKT7ajtSzUAeyyIqVWpJdUhvLBtv56TcSLF7XvzCWwSy-b4z4RTGXpjwmv9pdVTUZSss6k_EhBdgYz0v2OoU_dnnB1pae0GGhRoq6q4CqcbZHySXP6_H9uIw9FHsw",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ7UlbVmwayUwRAMmiRC5zrdc",
+         "plus_code" : {
+            "compound_code" : "FCR9+H3 Montréal, Québec, Canada",
+            "global_code" : "87Q8FCR9+H3"
+         },
+         "rating" : 4.1,
+         "reference" : "CmRSAAAAjqVM4l6-w8FAYvrjHniwjoXzOs0PUucg1-mFmvfjtBoUH-7roC3nmtGNghrrqgXQJKg769dc9Wb5q5H3t3lo5gHWfmbKOxFPA-zTG2RlzZKinKr_SheJ9IEsYUHwpRk7EhBYPPIMLgEAv3hivjxQ3te-GhRXSDFiiZjOcPJhbGXW3L39EqQ29g",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "2087 Rue Sainte-Catherine, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.52349599999999,
+               "lng" : -73.594995
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.52477233029149,
+                  "lng" : -73.59362591970849
+               },
+               "southwest" : {
+                  "lat" : 45.52207436970849,
+                  "lng" : -73.59632388029149
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "d47faac136712355bce4f9c2bede510b6426834b",
+         "name" : "Fabergé Restaurant",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104863910422580124273/photos\"\u003eFabergé Restaurant\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAjeSpn41vgYwh4xBKwd_fUktgDaGeKlC42b3BN5s_fxdD-1Z9Lywzfk9ttmT53ejAyH64BSWHM_YSEL3JJBvkgCDgMJKYtTertnOhaUZo6ZEQgglLffqs5UOunUBHmXKvEhAFT0x8H4FBt03MbU6W_3zEGhQwk_bnVxZayxh0G-yu7ZmHxuE3VQ",
+               "width" : 4018
+            }
+         ],
+         "place_id" : "ChIJvzkEEn4ZyUwRxXtecfiXvys",
+         "plus_code" : {
+            "compound_code" : "GCF4+92 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCF4+92"
+         },
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAJL6U8oQusqp-kV-ca457owYLBk9ivEXkhMDJmH5MuyX3H3h90GfPYtUCWNSns8ym3LvgXkose9E6tCuUCL6eXiQdo1C_XBxkq_9FCJSPuD9fHDvRiBcHPkWZCgsYbas_EhCRjn5A6SxcrSecGKj9lhWcGhQg-mmhBPFGxe88jkIYBP_aDQEi3w",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "25 Avenue Fairmount Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.489271,
+               "lng" : -73.58597899999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.49061998029149,
+                  "lng" : -73.58463001970848
+               },
+               "southwest" : {
+                  "lat" : 45.48792201970849,
+                  "lng" : -73.58732798029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "fb304e59abc4d0f56bf7c1ffd7195570fb1b5a6a",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 960,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111582298335092044400/photos\"\u003eTim Hortons\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAI0pudNTZYlRuCeal5wt8dJXlmqZKrpYXJCLsOmmC7ksVFIZ1HlP9FdlhU8G6gQ_uO8tlQ1zCF-IIx0P0usTAFVG61N5O8YheHx-vfoBEzaT3od2Le6swETV_VW-JLguKEhCgT9J2mbZ2myKljbbGJtjSGhTg87JlY0cYF5SiilWLgO4yApFzCQ",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJoxc_YW0ayUwR6-plIMIqWXo",
+         "plus_code" : {
+            "compound_code" : "FCQ7+PJ Westmount, Québec, Canada",
+            "global_code" : "87Q8FCQ7+PJ"
+         },
+         "price_level" : 1,
+         "rating" : 2.4,
+         "reference" : "CmRRAAAAIuxoPMhKFkCCdGLWVe-xsgOGkwoLa3OVhM9IH4IfIYw-B_W00ku76Xl9MIIphVaUt4e-WecXfYSvrcZRbOZV5-LgFVLmP0Znoaw4TzNzdsu--tQltAlOuNuJH93ZVWXhEhAqlWestlDDK8Ut1mfsNPYoGhQu3aV4zp1pLPCnkVhEdhHuuL0u6g",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "1500 Rue Atwater, Local 509, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4856769,
+               "lng" : -73.6278592
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4869583802915,
+                  "lng" : -73.62635536970851
+               },
+               "southwest" : {
+                  "lat" : 45.48426041970851,
+                  "lng" : -73.62905333029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "69850c747c61277fd8868d4712d7120e721789cb",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 950,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105293280323029527998/photos\"\u003eTim Hortons\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAALww7__5QN-cRgPbL91oE9OiKr5yZyRq5aehNX1LVBMTxXT2yitFnefsnlfvhEiWjRUBrDGCnKavnPp3KpwdB2IqvurP4FyO_SNLyif2oyQu4SHjhNFv8PUAe0D8hwfLJEhAO0Ee-4lN3Tt7w73EuNIFMGhQpIsFFnDffVSzkVRebMRQ0tary2A",
+               "width" : 950
+            }
+         ],
+         "place_id" : "ChIJZ8P-31cXyUwRN31lrPDhGVo",
+         "plus_code" : {
+            "compound_code" : "F9PC+7V Montréal, Québec, Canada",
+            "global_code" : "87Q8F9PC+7V"
+         },
+         "price_level" : 1,
+         "rating" : 2.8,
+         "reference" : "CmRRAAAAqxIE6JdbLx3qbzEZF2l2E37LnKjbiRnjwr_ZaFsInNBZLeXTPPI_0tq9LxLELCmAIiDswh1k0itpoTv42S_-xVHw2_KLO8yqhQ0Pih_89FFeQQJOmAsYK_2nlmm6k8ZGEhC7LPPkW0KHWvWYbevpme-fGhT_wJhU6lsRD2ylBQPL0tqpV2RnkQ",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "5095 Chemin Queen Mary, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.519998,
+               "lng" : -73.58689249999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5212854802915,
+                  "lng" : -73.5854122697085
+               },
+               "southwest" : {
+                  "lat" : 45.5185875197085,
+                  "lng" : -73.58811023029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "2bcafa70670cfb5a8da73723b4860fc707fa95e5",
+         "name" : "Tim Horton's",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117850571784781416710/photos\"\u003eLuis Ramirez\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAApockmQeVFZtKX5_gqcWE2hMpRyhudmqpnlXwDdArxMJHqKRFEjtx0WXQ7EN8dibdpioCCsY0NxsONqlpwHAIWd-rgscexEBLRcI8PrkTjb4n0hVe4KlDU8Alfgoz-h0pEhA6fhUoxEIjJqwSXsZwK74TGhTX94ifKV8t2VW9c5cijPFc29fsUQ",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJsYwQEdMbyUwRYbhoMWqFsvI",
+         "plus_code" : {
+            "compound_code" : "GC97+X6 Montréal, Québec, Canada",
+            "global_code" : "87Q8GC97+X6"
+         },
+         "price_level" : 1,
+         "rating" : 3.8,
+         "reference" : "CmRSAAAA2QtPsooVO4a0teLa_NnD_aMOnlXt5qZJGxGqHAK5ZyElqUhZjkzjKTA4wbhVOjo2DiOKZZYC-pTNIM7SFzG4LAMmmhTh3WqNkABsdy5XOtsrkCKqElYe21AqSKyC53r8EhBXixtE7rfbe2NjbA8hV3JjGhRkPF8j18l9LTAB8abddYFYbheh6g",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "15 Avenue du Mont-Royal Ouest, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.531242,
+               "lng" : -73.610986
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.53262913029149,
+                  "lng" : -73.6096018197085
+               },
+               "southwest" : {
+                  "lat" : 45.5299311697085,
+                  "lng" : -73.61229978029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "aec8d5d9beb2de57c76ab60121c7c278cfd18387",
+         "name" : "Coop Le Cagibi",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 777,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103354131071574173073/photos\"\u003eCoop Le Cagibi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAs8xmpdr4mOEIU3iW3qJIMlwcQgqIgtY6fMypQd6TQ8e12sEtvKClF91J9iroiXG0hnoZEQgcSXZygthhICzdpBwWrJObgCawPHzhljrlqu2CF_3zsl-fdIhN8fUyy7e1EhDzYCRtlUgLF-u5-BfYow8PGhRRT2TqFXOZASG7cRuu9AvntXXycQ",
+               "width" : 1036
+            }
+         ],
+         "place_id" : "ChIJ0zCNCXwZyUwRvwD7Fo1IDqY",
+         "plus_code" : {
+            "compound_code" : "G9JQ+FJ Montréal, Québec, Canada",
+            "global_code" : "87Q8G9JQ+FJ"
+         },
+         "price_level" : 1,
+         "rating" : 4.2,
+         "reference" : "CmRSAAAA_OtpzQ1Vkl_pWEhIm-EFcU_W1grQ5vkLUdhbtgjSAVcxNCSbGRrMgOjD4pOu9r_Xw1KRPa68NJk4G6P-AR12Zlj0YBbjUO7xMWMJtWILzxYj_CJkDeXb3o8jLMQBoCGpEhC4N8k7tst8B3s985zjVjOiGhQIB-ASSIzu7IvAC9ji3NsLcsHLiw",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "6596 Boulevard Saint-Laurent, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5189165,
+               "lng" : -73.55555219999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5203007302915,
+                  "lng" : -73.55428161970849
+               },
+               "southwest" : {
+                  "lat" : 45.5176027697085,
+                  "lng" : -73.55697958029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "ff181f8ded7da5e88de16dd0d3286b1e4e87d2f2",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104359696968118224848/photos\"\u003eJerry Janoff\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAVwjFZYW7-oNNqblGrYZlIvw9ZY-pCaQ0GU2CODgjAiNKaji4gxzbp7BdjTIytKAOLgFe5U6iY-e_EbE2IFNcoqCuK67bfkeThtHDg8cyqYgjTgjm8LAciXr9x5EV9kxNEhAhI08i9NxeHH7rqZvqDX8aGhRZNhHnxuENO-JFiMUWVcS7SQDIhA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJIR70A64byUwRnl80yKEgL2E",
+         "plus_code" : {
+            "compound_code" : "GC9V+HQ Montréal, Québec, Canada",
+            "global_code" : "87Q8GC9V+HQ"
+         },
+         "price_level" : 1,
+         "rating" : 3.5,
+         "reference" : "CmRRAAAAjx-9qVl8O97eTHy-36hv--zv4aGz2Rpk7oYEbcl6J2Q9_zCtg0q4Pb1mIrUvMXe21AW2tTVZ2lwsrt6-3i8XztKhv7ToQzdQ87y9-z5TevxXoDRILChykUfeVm1OX5ehEhDq8pyHDNRxtvwmKyfaTJpyGhSc0Caxfz06iCsq_VHW3lofIIJbdQ",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "1252 Rue Sainte-Catherine Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.4960488,
+               "lng" : -73.577944
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4974714302915,
+                  "lng" : -73.57651456970849
+               },
+               "southwest" : {
+                  "lat" : 45.4947734697085,
+                  "lng" : -73.57921253029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "6872c2e5efd3c1bb08b2961bccf2b7cb3ad1f432",
+         "name" : "Café Myriade",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 800,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112112059113749561679/photos\"\u003eJacques Bellavance\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAADH6F_RW7Ve1-NqqpXGFNrVpKi5kgfxoWl1_Aq_gjf997wJaU1xZG515gRcPIZ3ddvfdfdQ5cJlNLQ-2clHcXWFHeeNJg2-6cJcVw4m5AEjcGQ3lwebQb98UwFGzSebGbEhDMTgiBq3zUXkVtc2WuLsYoGhSHE_67GgXLv_LRaqk2XL9LsotMag",
+               "width" : 1200
+            }
+         ],
+         "place_id" : "ChIJd29QR2oayUwRRgaPwH8Ok9c",
+         "plus_code" : {
+            "compound_code" : "FCWC+CR Montréal, Québec, Canada",
+            "global_code" : "87Q8FCWC+CR"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRSAAAALddqzcAQ6chr0oU5ZLNaMYGT-tEBdcMukzhntpGAXQ7usSBNph81lFl4SbCN5GOrW9o8thcTN7GwPIoxFN3mfNFhNNcpFG7_Kf1udm_2hpq6xI5zwKLdY_mvNrmmoLrSEhCtVybk8dYd7FK0IE6GD-BsGhRk6rbNqLrnt-oxoL_q36WCKdAAzg",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "store", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "1432 Rue Mackay, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5291792,
+               "lng" : -73.5877502
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5305059802915,
+                  "lng" : -73.5863477197085
+               },
+               "southwest" : {
+                  "lat" : 45.5278080197085,
+                  "lng" : -73.58904568029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "92a430245869f37e0e653b1235f2ebe630728e3a",
+         "name" : "Fous Desserts",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104875201872304093608/photos\"\u003e[ David ]\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAmJHGJKQnqTBwntjfNoFPSGhUbzLEa7upmqa7SyVAv2okLYwBsH9Ky5TFDhT4ITpANcBWORYTdXTBZ-8Pz4OOAjMZRjHYrsvVg9IUyHqvTPav93vUBhr6DJZ-lX5C7XMeEhDb44MLPaWT8z_h6KBo_HXaGhSOJsl8qhXvlfaVIlyGVJeQOFg9Lw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJhV4sONgbyUwRPByhgNvXOCE",
+         "plus_code" : {
+            "compound_code" : "GCH6+MV Montréal, Québec, Canada",
+            "global_code" : "87Q8GCH6+MV"
+         },
+         "rating" : 4.5,
+         "reference" : "CmRRAAAA_Pwx0DbOJ-fYXfuyzTLBaI0QCTXT5CoD6XXkoauwZjZd8dfuApTDbvzGZ9uvWI1SmgqKPpio8tOv6kKqC_Ego85PLzw4smfCpeK5wZIPo95Yi4uoK1sadjrSZ7B7xy0TEhBp3SOWYTRAPGtxgSNQmdQJGhQh7hl9U6eTWa1TVp5yVEoUpSGSyw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "bakery",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "809 Avenue Laurier Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.5283931,
+               "lng" : -73.5790233
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.5297310802915,
+                  "lng" : -73.5776069197085
+               },
+               "southwest" : {
+                  "lat" : 45.5270331197085,
+                  "lng" : -73.58030488029151
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png",
+         "id" : "8bc408628a008c27015c0554258276ff6a7f8b29",
+         "name" : "St-Viateur Bagel & Café Mont-Royal",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104075696510996624769/photos\"\u003eAvinash Chopde\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAudoWFEJYhO96_xRtxx1oGzvZWLNdlw4dDEEJYbfl9yxNqZS2eQkIULNGtnUY5NQvS7w2_NLcpJSZ1ZM71GbYmrvGsKA8L4O5aU1XQB2DZDd6_tpzSMkGfpXrXW0ebI8vEhC4xMUl8Bmsc6mM68BroPPZGhQvtoS1nhYGc1vwho15yg9zcEZSPw",
+               "width" : 4592
+            }
+         ],
+         "place_id" : "ChIJD2XI6dobyUwRotvN2EwVtTA",
+         "plus_code" : {
+            "compound_code" : "GCHC+99 Montréal, Québec, Canada",
+            "global_code" : "87Q8GCHC+99"
+         },
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAcQOXzH4TIrIyrXelKlkH4JkrLImkj_nZxKlDOnCrbmCU5pjCK33MiAjVkiSLZNOsnt88XJ3N41EjWtajhjBFu6VJ2KrPK2ATZcMckZaeiMUVRt2uNi7e4Rty_TIxovKWEhBZ06v1qwhXBHAXiuDOlSxVGhRRmTnUNjKmrLh2AAGHVs9nJiDEeg",
+         "scope" : "GOOGLE",
+         "types" : [
+            "restaurant",
+            "cafe",
+            "bakery",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "vicinity" : "1127 Avenue du Mont-Royal Est, Montréal"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 45.46241740000001,
+               "lng" : -73.564268
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 45.4638824302915,
+                  "lng" : -73.5629090697085
+               },
+               "southwest" : {
+                  "lat" : 45.46118446970851,
+                  "lng" : -73.56560703029152
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/cafe-71.png",
+         "id" : "7b9f50751ba2c5d2ac39ba91aa72d5e5b3e9329c",
+         "name" : "Tim Hortons",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106741449449841376036/photos\"\u003eValérie Mantha\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAKOl3qX8xar3Kak1VRUwyLZKelv4mn7KhbmqRSOV5hyHljBz_3etsAnRqO2AxR2DFZOmhF0W8BSM8QLv16ySj_awsLbmBrbHnR9wisrfb6Caiqai6Q5VynyzZKKFFY7fbEhAHVHKwOd-3CAUVv4uJ_rOHGhS7q8d3ywAgIMSJNhl1UfIOs7uO8w",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJjwNH7GUQyUwRj4p1W00L3Z0",
+         "plus_code" : {
+            "compound_code" : "FC6P+X7 Montréal, Québec, Canada",
+            "global_code" : "87Q8FC6P+X7"
+         },
+         "price_level" : 1,
+         "rating" : 3.5,
+         "reference" : "CmRSAAAA-Pzn4a4WBfwk0JGikV5wnKmyrlXwLL6C20nfBnrCITqr3JscNXQiA1P5wUWJk9QGeQhEEr2R2MzQDM_oJF_emYxJr15v6_sApUC3z843L9ySyvfOFs9chbhgN8jj2hkYEhD3ZTPW3Qv6fIJkgEYyB1HZGhRAfUNy2V9YE5s6-Ys6LVKIAW-9WA",
+         "scope" : "GOOGLE",
+         "types" : [ "cafe", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "30 Rue de l'Église, Verdun"
+      }
+   ],
+   "status" : "OK"
+}
